@@ -1,0 +1,119 @@
+{
+  "id": "grok__claude_vs_GPT__ab",
+  "metadata": {
+    "judge_key": "grok",
+    "judge_label": "Grok 4.6 high",
+    "judge_model": "x-ai/grok-4.6",
+    "reasoning_effort": "high",
+    "design_a": "claude",
+    "design_a_label": "Claude (Fable)",
+    "design_b": "GPT",
+    "design_b_label": "ChatGPT 5.6 Sol High (Codex)",
+    "position_swap": false,
+    "slide_count": 15,
+    "created_at": "2026-09-07T18:15:51.440812+00:00",
+    "elapsed_seconds": 135.86,
+    "usage": {
+      "prompt_tokens": 76412,
+      "completion_tokens": 6820,
+      "total_tokens": 83232,
+      "cost": 0.193552,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 128,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.193552,
+        "upstream_inference_prompt_cost": 0.152632,
+        "upstream_inference_completions_cost": 0.04092
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 5839,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "openrouter_id": "gen-1788804816-Vb7G7PZws1jqHkrWwU0G"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "winner": "Design A",
+      "reasoning": "A stays strictly on the lime/steel/near-black system with a dramatic rising ARR curve and huge condensed metrics, while B introduces off-palette chart dots and a flatter, less hierarchical layout."
+    },
+    {
+      "slide": 2,
+      "winner": "Design A",
+      "reasoning": "A uses clay as the dominant field and builds a hand-drawn route journey with editorial callouts, whereas B inverts the palette to blush-dominant and reduces the story to three generic numbered stations."
+    },
+    {
+      "slide": 3,
+      "winner": "Design A",
+      "reasoning": "A delivers a precise left-to-right before/after diagram, sharp rules, and a truly prominent $780k, while B\u2019s boxed flowchart and heavy footer bar are cleaner but less enterprise-precise and less transformational."
+    },
+    {
+      "slide": 4,
+      "winner": "Design A",
+      "reasoning": "A\u2019s evergreen serif system and orbital allocation wheel match the institutional brief; B\u2019s conventional donut and KPI-style stack feel more startup than restrained fund design."
+    },
+    {
+      "slide": 5,
+      "winner": "Design A",
+      "reasoning": "A makes brushed silver the dominant field and uses an exploded technical render with disciplined spacing, while B abandons silver dominance for a near-black cinematic crop."
+    },
+    {
+      "slide": 6,
+      "winner": "Design A",
+      "reasoning": "A presents one coherent performance curve with variance markers and a sharply called-out activation gap; B\u2019s downward regional line conflates unrelated metrics and weakens hierarchy."
+    },
+    {
+      "slide": 7,
+      "winner": "Design A",
+      "reasoning": "A builds a custom converging transit-map diagram in the civic cream/brick/sky system, while B is four parallel bars plus a circle and introduces an off-palette ochre line."
+    },
+    {
+      "slide": 8,
+      "winner": "Design A",
+      "reasoning": "A\u2019s chevron swimlane with diamond gates, week scale, and ownership is a true horizontal roadmap; B collapses into four overlapping cards with dashed gates that collide with the phase blocks."
+    },
+    {
+      "slide": 9,
+      "winner": "Design A",
+      "reasoning": "A visualizes a clear 4C loop with marker-like berry annotations and a worked opener, while B\u2019s disconnected circles and empty practice-rule rule fail as a facilitation diagram."
+    },
+    {
+      "slide": 10,
+      "winner": "Design A",
+      "reasoning": "A\u2019s waffle 68% and annotated three-app journey are memorable and editorial; B\u2019s donut and three generic circles are on-palette but weaker as data storytelling and hierarchy."
+    },
+    {
+      "slide": 11,
+      "winner": "Design A",
+      "reasoning": "A\u2019s oversized fading title, elegant visible/hidden UI diagram, and auditorium silhouettes feel theatrical and on-cobalt; B\u2019s photo overlay and two stacked boxes are less diagrammatic and busier."
+    },
+    {
+      "slide": 12,
+      "winner": "Design A",
+      "reasoning": "A\u2019s orange/powder-blue split confidently mixes oversized health numbers, customer voice, and three priorities with balanced margins; B is on-brand but flatter and less composed."
+    },
+    {
+      "slide": 13,
+      "winner": "Design A",
+      "reasoning": "A centers a true geographic corridor map in the sage/moss/ochre/river-blue field-journal system; B\u2019s aerial photo with schematic ticks is striking but not a mapped corridor and is geographically generic."
+    },
+    {
+      "slide": 14,
+      "winner": "Design A",
+      "reasoning": "A\u2019s enormous, accurately labeled letterform on a baseline grid is genuinely instructional; B\u2019s leader lines miss the anatomy and the comparison panel is less Bauhaus-clear."
+    },
+    {
+      "slide": 15,
+      "winner": "Design A",
+      "reasoning": "A holds the plum/peach/aqua/lilac system with a distinctive culinary graphic and complete, well-spaced partner data; B\u2019s photo is strong but the overlay and off-palette white bar weaken brand and hierarchy."
+    }
+  ],
+  "raw_text": "{\n  \"slides\": [\n    {\n      \"slide\": 1,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A stays strictly on the lime/steel/near-black system with a dramatic rising ARR curve and huge condensed metrics, while B introduces off-palette chart dots and a flatter, less hierarchical layout.\"\n    },\n    {\n      \"slide\": 2,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A uses clay as the dominant field and builds a hand-drawn route journey with editorial callouts, whereas B inverts the palette to blush-dominant and reduces the story to three generic numbered stations.\"\n    },\n    {\n      \"slide\": 3,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A delivers a precise left-to-right before/after diagram, sharp rules, and a truly prominent $780k, while B\u2019s boxed flowchart and heavy footer bar are cleaner but less enterprise-precise and less transformational.\"\n    },\n    {\n      \"slide\": 4,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A\u2019s evergreen serif system and orbital allocation wheel match the institutional brief; B\u2019s conventional donut and KPI-style stack feel more startup than restrained fund design.\"\n    },\n    {\n      \"slide\": 5,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A makes brushed silver the dominant field and uses an exploded technical render with disciplined spacing, while B abandons silver dominance for a near-black cinematic crop.\"\n    },\n    {\n      \"slide\": 6,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A presents one coherent performance curve with variance markers and a sharply called-out activation gap; B\u2019s downward regional line conflates unrelated metrics and weakens hierarchy.\"\n    },\n    {\n      \"slide\": 7,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A builds a custom converging transit-map diagram in the civic cream/brick/sky system, while B is four parallel bars plus a circle and introduces an off-palette ochre line.\"\n    },\n    {\n      \"slide\": 8,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A\u2019s chevron swimlane with diamond gates, week scale, and ownership is a true horizontal roadmap; B collapses into four overlapping cards with dashed gates that collide with the phase blocks.\"\n    },\n    {\n      \"slide\": 9,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A visualizes a clear 4C loop with marker-like berry annotations and a worked opener, while B\u2019s disconnected circles and empty practice-rule rule fail as a facilitation diagram.\"\n    },\n    {\n      \"slide\": 10,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A\u2019s waffle 68% and annotated three-app journey are memorable and editorial; B\u2019s donut and three generic circles are on-palette but weaker as data storytelling and hierarchy.\"\n    },\n    {\n      \"slide\": 11,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A\u2019s oversized fading title, elegant visible/hidden UI diagram, and auditorium silhouettes feel theatrical and on-cobalt; B\u2019s photo overlay and two stacked boxes are less diagrammatic and busier.\"\n    },\n    {\n      \"slide\": 12,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A\u2019s orange/powder-blue split confidently mixes oversized health numbers, customer voice, and three priorities with balanced margins; B is on-brand but flatter and less composed.\"\n    },\n    {\n      \"slide\": 13,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A centers a true geographic corridor map in the sage/moss/ochre/river-blue field-journal system; B\u2019s aerial photo with schematic ticks is striking but not a mapped corridor and is geographically generic.\"\n    },\n    {\n      \"slide\": 14,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A\u2019s enormous, accurately labeled letterform on a baseline grid is genuinely instructional; B\u2019s leader lines miss the anatomy and the comparison panel is less Bauhaus-clear.\"\n    },\n    {\n      \"slide\": 15,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A holds the plum/peach/aqua/lilac system with a distinctive culinary graphic and complete, well-spaced partner data; B\u2019s photo is strong but the overlay and off-palette white bar weaken brand and hierarchy.\"\n    }\n  ]\n}"
+}

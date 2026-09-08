@@ -1,0 +1,119 @@
+{
+  "id": "opus__claude_vs_GPT__ab",
+  "metadata": {
+    "judge_key": "opus",
+    "judge_label": "Opus 5 max",
+    "judge_model": "anthropic/claude-opus-5",
+    "reasoning_effort": "max",
+    "design_a": "claude",
+    "design_a_label": "Claude (Fable)",
+    "design_b": "GPT",
+    "design_b_label": "ChatGPT 5.6 Sol High (Codex)",
+    "position_swap": false,
+    "slide_count": 15,
+    "created_at": "2026-09-07T18:26:11.922641+00:00",
+    "elapsed_seconds": 65.83,
+    "usage": {
+      "prompt_tokens": 95109,
+      "completion_tokens": 3710,
+      "total_tokens": 98819,
+      "cost": 0.568295,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.568295,
+        "upstream_inference_prompt_cost": 0.475545,
+        "upstream_inference_completions_cost": 0.09275
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1892,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "openrouter_id": "gen-1788805507-eakfxUCPocoazOdMdrHM"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "winner": "Design A",
+      "reasoning": "Design A delivers the brief's near-black/lime system with condensed hero numerals, a dramatic labeled ARR curve and disciplined margins, while Design B leaves large dead zones, uses generic type, and introduces off-palette red/cyan marker rings."
+    },
+    {
+      "slide": 2,
+      "winner": "Design A",
+      "reasoning": "Design A honors clay-dominant editorial warmth with a genuine hand-drawn journey, taped callout and buddy tag, whereas Design B defaults to a flat three-node timeline on blush (wrong dominant), with centered orphan lists and a large empty mid-band."
+    },
+    {
+      "slide": 3,
+      "winner": "Design A",
+      "reasoning": "Design A's crisp azure/vermilion rules, tangled-to-graph before/after and single dominant $780k read instantly, while Design B's chevron blob, unlabeled circles and leader lines colliding with the 'One Identity Graph' text look structurally unresolved."
+    },
+    {
+      "slide": 4,
+      "winner": "Design A",
+      "reasoning": "Design A's orbital allocation ring, restrained serif and gold/coral accents match the institutional brief precisely, while Design B's plain donut adds off-palette sage and white wedges with an under-used lower-left area."
+    },
+    {
+      "slide": 5,
+      "winner": "Design A",
+      "reasoning": "Design A keeps brushed silver dominant with an exploded technical render, precise callouts and keynote-scale wordmark; Design B substitutes generic dark stock photography with a pasted-on label and a graphite panel that abandons the specified silver dominance."
+    },
+    {
+      "slide": 6,
+      "winner": "Design A",
+      "reasoning": "Design A builds one coherent monospaced chart system with variance markers and a clearly emphasized activation gap, while Design B's single descending line conflates regions with activation and its 'ACTIVATION' and 'TARGET 75%' labels physically collide."
+    },
+    {
+      "slide": 7,
+      "winner": "Design A",
+      "reasoning": "Design A constructs a true transit-map strategy diagram with interchange and north-star spur in the exact civic palette; Design B reduces the pillars to four bars, adds an off-palette ochre line and floats an awkward black 'North Star' disc in loose space."
+    },
+    {
+      "slide": 8,
+      "winner": "Design A",
+      "reasoning": "Design A's chevron swimlanes, diamond gates, week ruler and ownership annotations form a dynamic roadmap; Design B falls back on four large rectangles with dashed gate lines and a generic footer bar, the very card grid the brief warns against."
+    },
+    {
+      "slide": 9,
+      "winner": "Design A",
+      "reasoning": "Design A's bold 4C loop, marker-style annotations and mapped worked example are genuinely instructional, while Design B crams captions inside circles until text nearly touches the edges and leaves a large blank lower third under an orphaned 'Practice rule' label."
+    },
+    {
+      "slide": 10,
+      "winner": "Design A",
+      "reasoning": "Design A's 100-square waffle, expressive 68%/54% typography and diagrammed three-app journey with confidence-break annotation are far richer than Design B's plain donut and three labeled circles, which also lose the respondent attribution and implication emphasis."
+    },
+    {
+      "slide": 11,
+      "winner": "Design A",
+      "reasoning": "Design A achieves the auditorium keynote moment with oversized dissolving type, cyan visible/hidden UI diagram and silhouetted crowd; Design B uses a literal stock audience photo, a banner-style title bar and boxed lists that read as a template slide."
+    },
+    {
+      "slide": 12,
+      "winner": "Design A",
+      "reasoning": "Design A's orange/powder-blue split with oversized editorial numerals, customer quote and numbered priorities is one confident composition, while Design B's serif headline, inconsistent number scales and half-empty blue box leave the layout slack and hierarchy flat."
+    },
+    {
+      "slide": 13,
+      "winner": "Design A",
+      "reasoning": "Design A makes a detailed corridor map the emotional centerpiece with a field-ledger card, scale bar and legend; Design B's mismatched tropical stock photo with scattered orange bars reads as arbitrary overlay and its email/footnote sit in low-contrast dead zones."
+    },
+    {
+      "slide": 14,
+      "winner": "Design A",
+      "reasoning": "Design A's enormous annotated 'a' with yellow counter, baseline/x-height rules and three same-baseline comparison specimens is properly instructional; Design B's leader lines stop short of the letterform, pointing at empty space, and the letter is too small to teach from."
+    },
+    {
+      "slide": 15,
+      "winner": "Design A",
+      "reasoning": "Design A pairs a striking citrus macro collage with a sharply structured audience bar, dotted moment leaders and one clear investment figure, while Design B relies on generic buffet stock photography, a legend-only audience bar, and a contact line nearly lost against the image edge."
+    }
+  ],
+  "raw_text": "```json\n{\n  \"slides\": [\n    {\n      \"slide\": 1,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A delivers the brief's near-black/lime system with condensed hero numerals, a dramatic labeled ARR curve and disciplined margins, while Design B leaves large dead zones, uses generic type, and introduces off-palette red/cyan marker rings.\"\n    },\n    {\n      \"slide\": 2,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A honors clay-dominant editorial warmth with a genuine hand-drawn journey, taped callout and buddy tag, whereas Design B defaults to a flat three-node timeline on blush (wrong dominant), with centered orphan lists and a large empty mid-band.\"\n    },\n    {\n      \"slide\": 3,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A's crisp azure/vermilion rules, tangled-to-graph before/after and single dominant $780k read instantly, while Design B's chevron blob, unlabeled circles and leader lines colliding with the 'One Identity Graph' text look structurally unresolved.\"\n    },\n    {\n      \"slide\": 4,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A's orbital allocation ring, restrained serif and gold/coral accents match the institutional brief precisely, while Design B's plain donut adds off-palette sage and white wedges with an under-used lower-left area.\"\n    },\n    {\n      \"slide\": 5,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A keeps brushed silver dominant with an exploded technical render, precise callouts and keynote-scale wordmark; Design B substitutes generic dark stock photography with a pasted-on label and a graphite panel that abandons the specified silver dominance.\"\n    },\n    {\n      \"slide\": 6,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A builds one coherent monospaced chart system with variance markers and a clearly emphasized activation gap, while Design B's single descending line conflates regions with activation and its 'ACTIVATION' and 'TARGET 75%' labels physically collide.\"\n    },\n    {\n      \"slide\": 7,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A constructs a true transit-map strategy diagram with interchange and north-star spur in the exact civic palette; Design B reduces the pillars to four bars, adds an off-palette ochre line and floats an awkward black 'North Star' disc in loose space.\"\n    },\n    {\n      \"slide\": 8,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A's chevron swimlanes, diamond gates, week ruler and ownership annotations form a dynamic roadmap; Design B falls back on four large rectangles with dashed gate lines and a generic footer bar, the very card grid the brief warns against.\"\n    },\n    {\n      \"slide\": 9,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A's bold 4C loop, marker-style annotations and mapped worked example are genuinely instructional, while Design B crams captions inside circles until text nearly touches the edges and leaves a large blank lower third under an orphaned 'Practice rule' label.\"\n    },\n    {\n      \"slide\": 10,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A's 100-square waffle, expressive 68%/54% typography and diagrammed three-app journey with confidence-break annotation are far richer than Design B's plain donut and three labeled circles, which also lose the respondent attribution and implication emphasis.\"\n    },\n    {\n      \"slide\": 11,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A achieves the auditorium keynote moment with oversized dissolving type, cyan visible/hidden UI diagram and silhouetted crowd; Design B uses a literal stock audience photo, a banner-style title bar and boxed lists that read as a template slide.\"\n    },\n    {\n      \"slide\": 12,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A's orange/powder-blue split with oversized editorial numerals, customer quote and numbered priorities is one confident composition, while Design B's serif headline, inconsistent number scales and half-empty blue box leave the layout slack and hierarchy flat.\"\n    },\n    {\n      \"slide\": 13,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A makes a detailed corridor map the emotional centerpiece with a field-ledger card, scale bar and legend; Design B's mismatched tropical stock photo with scattered orange bars reads as arbitrary overlay and its email/footnote sit in low-contrast dead zones.\"\n    },\n    {\n      \"slide\": 14,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A's enormous annotated 'a' with yellow counter, baseline/x-height rules and three same-baseline comparison specimens is properly instructional; Design B's leader lines stop short of the letterform, pointing at empty space, and the letter is too small to teach from.\"\n    },\n    {\n      \"slide\": 15,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A pairs a striking citrus macro collage with a sharply structured audience bar, dotted moment leaders and one clear investment figure, while Design B relies on generic buffet stock photography, a legend-only audience bar, and a contact line nearly lost against the image edge.\"\n    }\n  ]\n}\n```"
+}

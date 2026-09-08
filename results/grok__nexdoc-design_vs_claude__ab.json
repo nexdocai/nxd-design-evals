@@ -1,0 +1,119 @@
+{
+  "id": "grok__nexdoc-design_vs_claude__ab",
+  "metadata": {
+    "judge_key": "grok",
+    "judge_label": "Grok 4.6 high",
+    "judge_model": "x-ai/grok-4.6",
+    "reasoning_effort": "high",
+    "design_a": "nexdoc-design",
+    "design_a_label": "NexDoc Design",
+    "design_b": "claude",
+    "design_b_label": "Claude (Fable)",
+    "position_swap": false,
+    "slide_count": 15,
+    "created_at": "2026-09-07T18:13:27.673779+00:00",
+    "elapsed_seconds": 184.59,
+    "usage": {
+      "prompt_tokens": 76412,
+      "completion_tokens": 9845,
+      "total_tokens": 86257,
+      "cost": 0.211894,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.211894,
+        "upstream_inference_prompt_cost": 0.152824,
+        "upstream_inference_completions_cost": 0.05907
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 9043,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "openrouter_id": "gen-1788804623-IDL8SFffZ1YRSDJzFKVX"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "winner": "Design B",
+      "reasoning": "Stronger hierarchy with a larger hero ARR numeral locked to a more cinematic rising chart, while both stay on-palette and collision-free."
+    },
+    {
+      "slide": 2,
+      "winner": "Design B",
+      "reasoning": "Uses clay as the true dominant field and a hand-drawn route with clearer title-to-path hierarchy, whereas A sits on blush and feels flatter."
+    },
+    {
+      "slide": 3,
+      "winner": "Design B",
+      "reasoning": "Clearer left-to-right transformation and a more prominent $780k, with tighter enterprise spacing and no structural issues."
+    },
+    {
+      "slide": 4,
+      "winner": "Design B",
+      "reasoning": "More restrained serif tone and a cleaner orbital allocation, with returns placed in the primary reading flow rather than a footer strip."
+    },
+    {
+      "slide": 5,
+      "winner": "Design B",
+      "reasoning": "Premium keynote hierarchy\u2014oversized wordmark, exploded product, and a dominant price\u2014beats A\u2019s brochure-like callout frame."
+    },
+    {
+      "slide": 6,
+      "winner": "Design B",
+      "reasoning": "Calmer, more coherent scorecard spacing with a properly scaled curve and a sharply contrasted activation gap; A\u2019s chart and footer are louder but less balanced."
+    },
+    {
+      "slide": 7,
+      "winner": "Design B",
+      "reasoning": "Custom converging transit map creates a single focal interchange and stronger headline contrast, while A\u2019s four parallel lines flatten hierarchy."
+    },
+    {
+      "slide": 8,
+      "winner": "Design B",
+      "reasoning": "Cleaner swimlanes and gate labels with no wrapping collisions; A crowds diamond callouts into adjacent bars."
+    },
+    {
+      "slide": 9,
+      "winner": "Design B",
+      "reasoning": "Bolder loop, more generous type, and marker-like annotations give clearer workshop hierarchy without collisions."
+    },
+    {
+      "slide": 10,
+      "winner": "Design B",
+      "reasoning": "More memorable 68% grid plus a readable three-app journey, with editorial spacing that A\u2019s stacked app boxes lack."
+    },
+    {
+      "slide": 11,
+      "winner": "Design B",
+      "reasoning": "Theatrical oversized type and an auditorium silhouette deliver the required keynote hierarchy; A\u2019s split photo weakens the typographic system."
+    },
+    {
+      "slide": 12,
+      "winner": "Design B",
+      "reasoning": "Better palette use of powder blue and truly oversized stacked numbers, with more even margins than A\u2019s boxed 1.8M."
+    },
+    {
+      "slide": 13,
+      "winner": "Design B",
+      "reasoning": "Geographic corridor as the centerpiece with a paper ledger that fits the field-journal palette; A\u2019s split photo-plus-schematic is weaker structurally and hierarchically."
+    },
+    {
+      "slide": 14,
+      "winner": "Design B",
+      "reasoning": "Enormous annotated letter on a baseline grid is more instructional and Bauhaus-compliant, with comparisons aligned on one line."
+    },
+    {
+      "slide": 15,
+      "winner": "Design B",
+      "reasoning": "Clean editorial composition and intact labels; A breaks partnership chips into colliding fragments such as \u201cFOUNDER KIT CHEN.\u201d"
+    }
+  ],
+  "raw_text": "{\n  \"slides\": [\n    {\n      \"slide\": 1,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Stronger hierarchy with a larger hero ARR numeral locked to a more cinematic rising chart, while both stay on-palette and collision-free.\"\n    },\n    {\n      \"slide\": 2,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Uses clay as the true dominant field and a hand-drawn route with clearer title-to-path hierarchy, whereas A sits on blush and feels flatter.\"\n    },\n    {\n      \"slide\": 3,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Clearer left-to-right transformation and a more prominent $780k, with tighter enterprise spacing and no structural issues.\"\n    },\n    {\n      \"slide\": 4,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"More restrained serif tone and a cleaner orbital allocation, with returns placed in the primary reading flow rather than a footer strip.\"\n    },\n    {\n      \"slide\": 5,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Premium keynote hierarchy\u2014oversized wordmark, exploded product, and a dominant price\u2014beats A\u2019s brochure-like callout frame.\"\n    },\n    {\n      \"slide\": 6,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Calmer, more coherent scorecard spacing with a properly scaled curve and a sharply contrasted activation gap; A\u2019s chart and footer are louder but less balanced.\"\n    },\n    {\n      \"slide\": 7,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Custom converging transit map creates a single focal interchange and stronger headline contrast, while A\u2019s four parallel lines flatten hierarchy.\"\n    },\n    {\n      \"slide\": 8,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Cleaner swimlanes and gate labels with no wrapping collisions; A crowds diamond callouts into adjacent bars.\"\n    },\n    {\n      \"slide\": 9,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Bolder loop, more generous type, and marker-like annotations give clearer workshop hierarchy without collisions.\"\n    },\n    {\n      \"slide\": 10,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"More memorable 68% grid plus a readable three-app journey, with editorial spacing that A\u2019s stacked app boxes lack.\"\n    },\n    {\n      \"slide\": 11,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Theatrical oversized type and an auditorium silhouette deliver the required keynote hierarchy; A\u2019s split photo weakens the typographic system.\"\n    },\n    {\n      \"slide\": 12,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Better palette use of powder blue and truly oversized stacked numbers, with more even margins than A\u2019s boxed 1.8M.\"\n    },\n    {\n      \"slide\": 13,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Geographic corridor as the centerpiece with a paper ledger that fits the field-journal palette; A\u2019s split photo-plus-schematic is weaker structurally and hierarchically.\"\n    },\n    {\n      \"slide\": 14,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Enormous annotated letter on a baseline grid is more instructional and Bauhaus-compliant, with comparisons aligned on one line.\"\n    },\n    {\n      \"slide\": 15,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Clean editorial composition and intact labels; A breaks partnership chips into colliding fragments such as \u201cFOUNDER KIT CHEN.\u201d\"\n    }\n  ]\n}"
+}

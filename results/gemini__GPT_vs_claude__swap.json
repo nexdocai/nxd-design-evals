@@ -1,0 +1,119 @@
+{
+  "id": "gemini__GPT_vs_claude__swap",
+  "metadata": {
+    "judge_key": "gemini",
+    "judge_label": "Gemini 3.8 Flash",
+    "judge_model": "google/gemini-3.8-flash",
+    "reasoning_effort": "high",
+    "design_a": "GPT",
+    "design_a_label": "ChatGPT 5.6 Sol High (Codex)",
+    "design_b": "claude",
+    "design_b_label": "Claude (Fable)",
+    "position_swap": true,
+    "slide_count": 15,
+    "created_at": "2026-09-07T18:18:11.943571+00:00",
+    "elapsed_seconds": 45.49,
+    "usage": {
+      "prompt_tokens": 37234,
+      "completion_tokens": 4017,
+      "total_tokens": 41251,
+      "cost": 0.04298925,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.04298925,
+        "upstream_inference_prompt_cost": 0.0279255,
+        "upstream_inference_completions_cost": 0.01506375
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 3264,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "openrouter_id": "gen-1788805047-YlKTRljFpmz761vUAT0G"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "winner": "Design B",
+      "reasoning": "Design B adheres strictly to the condensed technical aesthetic and palette while delivering a dramatic rising curve without color violations."
+    },
+    {
+      "slide": 2,
+      "winner": "Design B",
+      "reasoning": "Design B successfully executes the warm editorial studio style with a charming illustrated journey rather than a generic linear timeline."
+    },
+    {
+      "slide": 3,
+      "winner": "Design B",
+      "reasoning": "Design B provides a clear before-and-after systems diagram with strong typographic hierarchy and a prominent ROI highlight."
+    },
+    {
+      "slide": 4,
+      "winner": "Design B",
+      "reasoning": "Design B fully realizes the requested orbital portfolio allocation model alongside sophisticated institutional serif typography."
+    },
+    {
+      "slide": 5,
+      "winner": "Design B",
+      "reasoning": "Design B complies with the brushed silver palette requirement and features a refined exploded technical render fit for a keynote reveal."
+    },
+    {
+      "slide": 6,
+      "winner": "Design B",
+      "reasoning": "Design B avoids the severe text collision present in Design A and provides a coherent, data-dense scorecard system."
+    },
+    {
+      "slide": 7,
+      "winner": "Design B",
+      "reasoning": "Design B implements authentic transit-map wayfinding logic to map strategic pillars, far surpassing Design A's simple horizontal bars."
+    },
+    {
+      "slide": 8,
+      "winner": "Design B",
+      "reasoning": "Design B builds a true horizontal roadmap with integrated gates and ownership rather than isolated vertical cards."
+    },
+    {
+      "slide": 9,
+      "winner": "Design B",
+      "reasoning": "Design B delivers a clear circular workshop loop paired with effective marker-like annotations and worked examples."
+    },
+    {
+      "slide": 10,
+      "winner": "Design B",
+      "reasoning": "Design B utilizes an impactful 100-cell unit chart and a clear multi-app journey narrative instead of a basic donut chart."
+    },
+    {
+      "slide": 11,
+      "winner": "Design B",
+      "reasoning": "Design B establishes an authentic theatrical keynote presence with oversized typography and custom UI diagrams."
+    },
+    {
+      "slide": 12,
+      "winner": "Design B",
+      "reasoning": "Design B balances the safety orange palette with a well-structured editorial grid and strong typographic scale."
+    },
+    {
+      "slide": 13,
+      "winner": "Design B",
+      "reasoning": "Design B achieves the intended field-journal character with a detailed corridor map rather than abstract lines over a photo."
+    },
+    {
+      "slide": 14,
+      "winner": "Design B",
+      "reasoning": "Design B features an enormous, genuinely instructional letterform set against a disciplined Bauhaus-inspired baseline grid."
+    },
+    {
+      "slide": 15,
+      "winner": "Design B",
+      "reasoning": "Design B crafts an energetic, tailored culinary-futures composition that avoids the generic stock photography seen in Design A."
+    }
+  ],
+  "raw_text": "{\n  \"slides\": [\n    {\n      \"slide\": 1,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B adheres strictly to the condensed technical aesthetic and palette while delivering a dramatic rising curve without color violations.\"\n    },\n    {\n      \"slide\": 2,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B successfully executes the warm editorial studio style with a charming illustrated journey rather than a generic linear timeline.\"\n    },\n    {\n      \"slide\": 3,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B provides a clear before-and-after systems diagram with strong typographic hierarchy and a prominent ROI highlight.\"\n    },\n    {\n      \"slide\": 4,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B fully realizes the requested orbital portfolio allocation model alongside sophisticated institutional serif typography.\"\n    },\n    {\n      \"slide\": 5,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B complies with the brushed silver palette requirement and features a refined exploded technical render fit for a keynote reveal.\"\n    },\n    {\n      \"slide\": 6,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B avoids the severe text collision present in Design A and provides a coherent, data-dense scorecard system.\"\n    },\n    {\n      \"slide\": 7,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B implements authentic transit-map wayfinding logic to map strategic pillars, far surpassing Design A's simple horizontal bars.\"\n    },\n    {\n      \"slide\": 8,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B builds a true horizontal roadmap with integrated gates and ownership rather than isolated vertical cards.\"\n    },\n    {\n      \"slide\": 9,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B delivers a clear circular workshop loop paired with effective marker-like annotations and worked examples.\"\n    },\n    {\n      \"slide\": 10,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B utilizes an impactful 100-cell unit chart and a clear multi-app journey narrative instead of a basic donut chart.\"\n    },\n    {\n      \"slide\": 11,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B establishes an authentic theatrical keynote presence with oversized typography and custom UI diagrams.\"\n    },\n    {\n      \"slide\": 12,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B balances the safety orange palette with a well-structured editorial grid and strong typographic scale.\"\n    },\n    {\n      \"slide\": 13,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B achieves the intended field-journal character with a detailed corridor map rather than abstract lines over a photo.\"\n    },\n    {\n      \"slide\": 14,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B features an enormous, genuinely instructional letterform set against a disciplined Bauhaus-inspired baseline grid.\"\n    },\n    {\n      \"slide\": 15,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B crafts an energetic, tailored culinary-futures composition that avoids the generic stock photography seen in Design A.\"\n    }\n  ]\n}"
+}

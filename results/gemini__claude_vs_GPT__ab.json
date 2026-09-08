@@ -1,0 +1,119 @@
+{
+  "id": "gemini__claude_vs_GPT__ab",
+  "metadata": {
+    "judge_key": "gemini",
+    "judge_label": "Gemini 3.8 Flash",
+    "judge_model": "google/gemini-3.8-flash",
+    "reasoning_effort": "high",
+    "design_a": "claude",
+    "design_a_label": "Claude (Fable)",
+    "design_b": "GPT",
+    "design_b_label": "ChatGPT 5.6 Sol High (Codex)",
+    "position_swap": false,
+    "slide_count": 15,
+    "created_at": "2026-09-07T18:17:57.993021+00:00",
+    "elapsed_seconds": 42.49,
+    "usage": {
+      "prompt_tokens": 37234,
+      "completion_tokens": 4434,
+      "total_tokens": 41668,
+      "cost": 0.044553,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.044553,
+        "upstream_inference_prompt_cost": 0.0279255,
+        "upstream_inference_completions_cost": 0.0166275
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 3578,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "openrouter_id": "gen-1788805036-hIwjBSnRL1oxbVjX5JbV"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "winner": "Design A",
+      "reasoning": "Design A establishes stronger technical hierarchy with bold condensed typography and an expressive rising traction curve compared to Design B's sparse layout."
+    },
+    {
+      "slide": 2,
+      "winner": "Design A",
+      "reasoning": "Design A fully realizes the brief's editorial journey concept with an illustrated winding path and tactile details, while Design B relies on a rigid horizontal timeline."
+    },
+    {
+      "slide": 3,
+      "winner": "Design A",
+      "reasoning": "Design A delivers a cohesive before-and-after graph transformation and grounded ROI hierarchy, whereas Design B uses disjointed blocks and inconsistent framing."
+    },
+    {
+      "slide": 4,
+      "winner": "Design A",
+      "reasoning": "Design A executes an elegant orbital allocation wheel with refined typography, outperforming Design B's standard donut chart and uneven spacing."
+    },
+    {
+      "slide": 5,
+      "winner": "Design A",
+      "reasoning": "Design A adheres strictly to the brushed silver palette with a detailed exploded render, whereas Design B violates palette dominance and obscures product details."
+    },
+    {
+      "slide": 6,
+      "winner": "Design A",
+      "reasoning": "Design A presents a coherent performance chart with clear variance callouts and scorecard alignment, whereas Design B features an unintuitive descending regional line."
+    },
+    {
+      "slide": 7,
+      "winner": "Design A",
+      "reasoning": "Design A creates a compelling converging transit-map diagram that visually unifies the pillars, while Design B settles for generic colored bars."
+    },
+    {
+      "slide": 8,
+      "winner": "Design A",
+      "reasoning": "Design A builds a dynamic horizontal roadmap with integrated gates and resource tallies, far surpassing Design B's static card-based layout."
+    },
+    {
+      "slide": 9,
+      "winner": "Design A",
+      "reasoning": "Design A provides an engaging circular facilitation loop with clear worked examples, while Design B's diagram is fragmented and poorly balanced."
+    },
+    {
+      "slide": 10,
+      "winner": "Design A",
+      "reasoning": "Design A effectively visualizes the core metric via a unit waffle chart and detailed multi-modal journey, outshining Design B's basic donut graphic."
+    },
+    {
+      "slide": 11,
+      "winner": "Design A",
+      "reasoning": "Design A delivers high theatrical keynote impact with custom UI diagrams and audience silhouette, whereas Design B relies on plain text boxes over photography."
+    },
+    {
+      "slide": 12,
+      "winner": "Design A",
+      "reasoning": "Design A uses a balanced two-tone split layout with clear typographic hierarchy, avoiding Design B's unanchored quote container and wide spacing voids."
+    },
+    {
+      "slide": 13,
+      "winner": "Design A",
+      "reasoning": "Design A authentically captures a field-journal aesthetic with a detailed corridor map, while Design B superimposes simplistic markers over generic photography."
+    },
+    {
+      "slide": 14,
+      "winner": "Design A",
+      "reasoning": "Design A showcases an enormous, instructional letterform breakdown adhering to a disciplined grid, whereas Design B's specimen is undersized and disconnected from its labels."
+    },
+    {
+      "slide": 15,
+      "winner": "Design A",
+      "reasoning": "Design A balances palette, custom macro art, and audience data cleanly, avoiding Design B's awkward text contrast and generic catering photography."
+    }
+  ],
+  "raw_text": "{\n  \"slides\": [\n    {\n      \"slide\": 1,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A establishes stronger technical hierarchy with bold condensed typography and an expressive rising traction curve compared to Design B's sparse layout.\"\n    },\n    {\n      \"slide\": 2,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A fully realizes the brief's editorial journey concept with an illustrated winding path and tactile details, while Design B relies on a rigid horizontal timeline.\"\n    },\n    {\n      \"slide\": 3,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A delivers a cohesive before-and-after graph transformation and grounded ROI hierarchy, whereas Design B uses disjointed blocks and inconsistent framing.\"\n    },\n    {\n      \"slide\": 4,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A executes an elegant orbital allocation wheel with refined typography, outperforming Design B's standard donut chart and uneven spacing.\"\n    },\n    {\n      \"slide\": 5,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A adheres strictly to the brushed silver palette with a detailed exploded render, whereas Design B violates palette dominance and obscures product details.\"\n    },\n    {\n      \"slide\": 6,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A presents a coherent performance chart with clear variance callouts and scorecard alignment, whereas Design B features an unintuitive descending regional line.\"\n    },\n    {\n      \"slide\": 7,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A creates a compelling converging transit-map diagram that visually unifies the pillars, while Design B settles for generic colored bars.\"\n    },\n    {\n      \"slide\": 8,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A builds a dynamic horizontal roadmap with integrated gates and resource tallies, far surpassing Design B's static card-based layout.\"\n    },\n    {\n      \"slide\": 9,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A provides an engaging circular facilitation loop with clear worked examples, while Design B's diagram is fragmented and poorly balanced.\"\n    },\n    {\n      \"slide\": 10,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A effectively visualizes the core metric via a unit waffle chart and detailed multi-modal journey, outshining Design B's basic donut graphic.\"\n    },\n    {\n      \"slide\": 11,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A delivers high theatrical keynote impact with custom UI diagrams and audience silhouette, whereas Design B relies on plain text boxes over photography.\"\n    },\n    {\n      \"slide\": 12,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A uses a balanced two-tone split layout with clear typographic hierarchy, avoiding Design B's unanchored quote container and wide spacing voids.\"\n    },\n    {\n      \"slide\": 13,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A authentically captures a field-journal aesthetic with a detailed corridor map, while Design B superimposes simplistic markers over generic photography.\"\n    },\n    {\n      \"slide\": 14,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A showcases an enormous, instructional letterform breakdown adhering to a disciplined grid, whereas Design B's specimen is undersized and disconnected from its labels.\"\n    },\n    {\n      \"slide\": 15,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A balances palette, custom macro art, and audience data cleanly, avoiding Design B's awkward text contrast and generic catering photography.\"\n    }\n  ]\n}"
+}

@@ -1,0 +1,119 @@
+{
+  "id": "gemini__claude_vs_nexdoc-design__swap",
+  "metadata": {
+    "judge_key": "gemini",
+    "judge_label": "Gemini 3.8 Flash",
+    "judge_model": "google/gemini-3.8-flash",
+    "reasoning_effort": "high",
+    "design_a": "claude",
+    "design_a_label": "Claude (Fable)",
+    "design_b": "nexdoc-design",
+    "design_b_label": "NexDoc Design",
+    "position_swap": true,
+    "slide_count": 15,
+    "created_at": "2026-09-07T18:17:10.256605+00:00",
+    "elapsed_seconds": 49.97,
+    "usage": {
+      "prompt_tokens": 37234,
+      "completion_tokens": 6098,
+      "total_tokens": 43332,
+      "cost": 0.050793,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.050793,
+        "upstream_inference_prompt_cost": 0.0279255,
+        "upstream_inference_completions_cost": 0.0228675
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 5355,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "openrouter_id": "gen-1788804980-PlfAF0MWAgXSURpcmuej"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "winner": "Design A",
+      "reasoning": "Design A features superior typographic hierarchy, bold condensed numerals, and a dynamic traction curve that matches the futurist brief."
+    },
+    {
+      "slide": 2,
+      "winner": "Design A",
+      "reasoning": "Design A correctly enforces the warm clay dominant palette and creates an engaging, illustrated studio journey."
+    },
+    {
+      "slide": 3,
+      "winner": "Design A",
+      "reasoning": "Design A visualizes the value transformation with an effective process graph diagram rather than basic bulleted boxes."
+    },
+    {
+      "slide": 4,
+      "winner": "Design A",
+      "reasoning": "Design A delivers an elegant orbital allocation map and refined institutional typography fitting an infrastructure fund."
+    },
+    {
+      "slide": 5,
+      "winner": "Design A",
+      "reasoning": "Design A achieves a cinematic keynote aesthetic with an exploded technical diagram, whereas Design B looks like a generic brochure."
+    },
+    {
+      "slide": 6,
+      "winner": "Design A",
+      "reasoning": "Design A presents a calmer, data-dense layout with clean monospaced styling and a sharply emphasized activation gap."
+    },
+    {
+      "slide": 7,
+      "winner": "Design A",
+      "reasoning": "Design A creatively merges the four strategic transit lines into a unified network diagram per the wayfinding brief."
+    },
+    {
+      "slide": 8,
+      "winner": "Design A",
+      "reasoning": "Design A provides a clean, well-spaced horizontal roadmap with distinct decision gates and balanced typography."
+    },
+    {
+      "slide": 9,
+      "winner": "Design A",
+      "reasoning": "Design A executes a clear facilitation loop with natural annotations, avoiding Design B's awkward punctuation errors."
+    },
+    {
+      "slide": 10,
+      "winner": "Design A",
+      "reasoning": "Design A effectively visualizes the multi-app travel friction through an intuitive journey diagram and bold stat grid."
+    },
+    {
+      "slide": 11,
+      "winner": "Design A",
+      "reasoning": "Design A captures an authentic theatrical keynote perspective with oversized typography and bespoke system diagrams."
+    },
+    {
+      "slide": 12,
+      "winner": "Design A",
+      "reasoning": "Design A balances high-contrast business metrics and customer quotes through a cohesive, two-tone editorial layout."
+    },
+    {
+      "slide": 13,
+      "winner": "Design A",
+      "reasoning": "Design A seamlessly integrates the conservation map and field ledger sheet, establishing a genuine journal aesthetic."
+    },
+    {
+      "slide": 14,
+      "winner": "Design A",
+      "reasoning": "Design A showcases an enormous, properly annotated letterform set against a disciplined modernist baseline grid."
+    },
+    {
+      "slide": 15,
+      "winner": "Design A",
+      "reasoning": "Design A builds an energetic culinary collage with polished data layouts, avoiding Design B's awkward text tracking and typos."
+    }
+  ],
+  "raw_text": "{\n  \"slides\": [\n    {\n      \"slide\": 1,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A features superior typographic hierarchy, bold condensed numerals, and a dynamic traction curve that matches the futurist brief.\"\n    },\n    {\n      \"slide\": 2,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A correctly enforces the warm clay dominant palette and creates an engaging, illustrated studio journey.\"\n    },\n    {\n      \"slide\": 3,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A visualizes the value transformation with an effective process graph diagram rather than basic bulleted boxes.\"\n    },\n    {\n      \"slide\": 4,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A delivers an elegant orbital allocation map and refined institutional typography fitting an infrastructure fund.\"\n    },\n    {\n      \"slide\": 5,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A achieves a cinematic keynote aesthetic with an exploded technical diagram, whereas Design B looks like a generic brochure.\"\n    },\n    {\n      \"slide\": 6,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A presents a calmer, data-dense layout with clean monospaced styling and a sharply emphasized activation gap.\"\n    },\n    {\n      \"slide\": 7,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A creatively merges the four strategic transit lines into a unified network diagram per the wayfinding brief.\"\n    },\n    {\n      \"slide\": 8,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A provides a clean, well-spaced horizontal roadmap with distinct decision gates and balanced typography.\"\n    },\n    {\n      \"slide\": 9,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A executes a clear facilitation loop with natural annotations, avoiding Design B's awkward punctuation errors.\"\n    },\n    {\n      \"slide\": 10,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A effectively visualizes the multi-app travel friction through an intuitive journey diagram and bold stat grid.\"\n    },\n    {\n      \"slide\": 11,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A captures an authentic theatrical keynote perspective with oversized typography and bespoke system diagrams.\"\n    },\n    {\n      \"slide\": 12,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A balances high-contrast business metrics and customer quotes through a cohesive, two-tone editorial layout.\"\n    },\n    {\n      \"slide\": 13,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A seamlessly integrates the conservation map and field ledger sheet, establishing a genuine journal aesthetic.\"\n    },\n    {\n      \"slide\": 14,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A showcases an enormous, properly annotated letterform set against a disciplined modernist baseline grid.\"\n    },\n    {\n      \"slide\": 15,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A builds an energetic culinary collage with polished data layouts, avoiding Design B's awkward text tracking and typos.\"\n    }\n  ]\n}"
+}

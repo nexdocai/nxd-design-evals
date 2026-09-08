@@ -1,0 +1,119 @@
+{
+  "id": "muse__claude_vs_nexdoc-design__swap",
+  "metadata": {
+    "judge_key": "muse",
+    "judge_label": "Muse Spark 1.3 max",
+    "judge_model": "meta/muse-spark-1.3",
+    "reasoning_effort": "max",
+    "design_a": "claude",
+    "design_a_label": "Claude (Fable)",
+    "design_b": "nexdoc-design",
+    "design_b_label": "NexDoc Design",
+    "position_swap": true,
+    "slide_count": 15,
+    "created_at": "2026-09-07T18:09:19.206125+00:00",
+    "elapsed_seconds": 144.46,
+    "usage": {
+      "prompt_tokens": 126381,
+      "completion_tokens": 15742,
+      "total_tokens": 142123,
+      "cost": 0.22487975,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.22487975,
+        "upstream_inference_prompt_cost": 0.15797625,
+        "upstream_inference_completions_cost": 0.0669035
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 14923,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "openrouter_id": "gen-1788804416-NsnkxQt38Z45RsAOMKNW"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "winner": "Design A",
+      "reasoning": "Design A delivers bolder condensed numerals with an integrated footer while Design B uses smaller metrics and a truncated y-axis."
+    },
+    {
+      "slide": 2,
+      "winner": "Design A",
+      "reasoning": "Design A honors warm clay dominance with a balanced illustrated journey while Design B wrongly uses blush dominant with large empty voids."
+    },
+    {
+      "slide": 3,
+      "winner": "Design A",
+      "reasoning": "Design A provides precise before-after diagrams with balanced density while Design B leaves large empty boxes with text-only lists."
+    },
+    {
+      "slide": 4,
+      "winner": "Design A",
+      "reasoning": "Design A maintains restrained serif tone with an elegant gold orbital map while Design B uses loud sans type and off-palette segments."
+    },
+    {
+      "slide": 5,
+      "winner": "Design A",
+      "reasoning": "Design A presents a seamless exploded hero at keynote scale while Design B shows a visibly boxed product with disconnected leaders and excess voids."
+    },
+    {
+      "slide": 6,
+      "winner": "Design A",
+      "reasoning": "Design A keeps a calm data-rich hierarchy with coherent variance markers while Design B disrupts calm with a heavy orange footer and overlapping chart labels."
+    },
+    {
+      "slide": 7,
+      "winner": "Design A",
+      "reasoning": "Design A builds a converging interchange with clearly assigned stations while Design B stacks parallel lines with intermingled Connected and Legible labels."
+    },
+    {
+      "slide": 8,
+      "winner": "Design A",
+      "reasoning": "Design A shows clean gates with correctly increasing rollout bars while Design B inverts rollout heights and crowds gate text against gridlines."
+    },
+    {
+      "slide": 9,
+      "winner": "Design A",
+      "reasoning": "Design A balances loop, annotated example, and footer rule while Design B leaves a large empty lower half and mangles quote punctuation."
+    },
+    {
+      "slide": 10,
+      "winner": "Design A",
+      "reasoning": "Design A provides an accurate 68 percent waffle with a timeline journey and full-bleed balance while Design B misrepresents the dots and leaves an empty column void."
+    },
+    {
+      "slide": 11,
+      "winner": "Design A",
+      "reasoning": "Design A keeps cobalt dominant with oversized disappearing type and elegant diagrams while Design B splits the slide with off-palette photography and smaller type."
+    },
+    {
+      "slide": 12,
+      "winner": "Design A",
+      "reasoning": "Design A pairs orange with a full powder-blue panel and fully stacked oversized numbers while Design B barely uses powder blue and leaves a large empty orange void."
+    },
+    {
+      "slide": 13,
+      "winner": "Design A",
+      "reasoning": "Design A centers a full-bleed corridor map with field-journal ledger and no voids while Design B shrinks the map to a thin strip with empty sage space and cramped labels."
+    },
+    {
+      "slide": 14,
+      "winner": "Design A",
+      "reasoning": "Design A makes the letterform enormous with aligned guides and an accurate counter callout while Design B uses a small a with misaligned guides and misplaced counter."
+    },
+    {
+      "slide": 15,
+      "winner": "Design A",
+      "reasoning": "Design A enforces plum peach aqua lilac without white with balanced editorial data while Design B introduces extensive off-palette white and leaves a large empty lower-right void."
+    }
+  ],
+  "raw_text": "{\n  \"slides\": [\n    {\n      \"slide\": 1,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A delivers bolder condensed numerals with an integrated footer while Design B uses smaller metrics and a truncated y-axis.\"\n    },\n    {\n      \"slide\": 2,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A honors warm clay dominance with a balanced illustrated journey while Design B wrongly uses blush dominant with large empty voids.\"\n    },\n    {\n      \"slide\": 3,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A provides precise before-after diagrams with balanced density while Design B leaves large empty boxes with text-only lists.\"\n    },\n    {\n      \"slide\": 4,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A maintains restrained serif tone with an elegant gold orbital map while Design B uses loud sans type and off-palette segments.\"\n    },\n    {\n      \"slide\": 5,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A presents a seamless exploded hero at keynote scale while Design B shows a visibly boxed product with disconnected leaders and excess voids.\"\n    },\n    {\n      \"slide\": 6,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A keeps a calm data-rich hierarchy with coherent variance markers while Design B disrupts calm with a heavy orange footer and overlapping chart labels.\"\n    },\n    {\n      \"slide\": 7,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A builds a converging interchange with clearly assigned stations while Design B stacks parallel lines with intermingled Connected and Legible labels.\"\n    },\n    {\n      \"slide\": 8,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A shows clean gates with correctly increasing rollout bars while Design B inverts rollout heights and crowds gate text against gridlines.\"\n    },\n    {\n      \"slide\": 9,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A balances loop, annotated example, and footer rule while Design B leaves a large empty lower half and mangles quote punctuation.\"\n    },\n    {\n      \"slide\": 10,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A provides an accurate 68 percent waffle with a timeline journey and full-bleed balance while Design B misrepresents the dots and leaves an empty column void.\"\n    },\n    {\n      \"slide\": 11,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A keeps cobalt dominant with oversized disappearing type and elegant diagrams while Design B splits the slide with off-palette photography and smaller type.\"\n    },\n    {\n      \"slide\": 12,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A pairs orange with a full powder-blue panel and fully stacked oversized numbers while Design B barely uses powder blue and leaves a large empty orange void.\"\n    },\n    {\n      \"slide\": 13,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A centers a full-bleed corridor map with field-journal ledger and no voids while Design B shrinks the map to a thin strip with empty sage space and cramped labels.\"\n    },\n    {\n      \"slide\": 14,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A makes the letterform enormous with aligned guides and an accurate counter callout while Design B uses a small a with misaligned guides and misplaced counter.\"\n    },\n    {\n      \"slide\": 15,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A enforces plum peach aqua lilac without white with balanced editorial data while Design B introduces extensive off-palette white and leaves a large empty lower-right void.\"\n    }\n  ]\n}"
+}

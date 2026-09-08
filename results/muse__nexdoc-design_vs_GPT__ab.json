@@ -1,0 +1,119 @@
+{
+  "id": "muse__nexdoc-design_vs_GPT__ab",
+  "metadata": {
+    "judge_key": "muse",
+    "judge_label": "Muse Spark 1.3 max",
+    "judge_model": "meta/muse-spark-1.3",
+    "reasoning_effort": "max",
+    "design_a": "nexdoc-design",
+    "design_a_label": "NexDoc Design",
+    "design_b": "GPT",
+    "design_b_label": "ChatGPT 5.6 Sol High (Codex)",
+    "position_swap": false,
+    "slide_count": 15,
+    "created_at": "2026-09-07T18:08:55.323430+00:00",
+    "elapsed_seconds": 120.58,
+    "usage": {
+      "prompt_tokens": 126381,
+      "completion_tokens": 12467,
+      "total_tokens": 138848,
+      "cost": 0.2073321,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 3299,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.2073321,
+        "upstream_inference_prompt_cost": 0.15434735,
+        "upstream_inference_completions_cost": 0.05298475
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 11586,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "openrouter_id": "gen-1788804416-IqJX9KVNBKsVA1JKbGwn"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "winner": "Design A",
+      "reasoning": "Design A adheres strictly to black/lime/white with bold condensed numerals and balanced chart hierarchy, while Design B introduces off-palette blue/red dot strokes."
+    },
+    {
+      "slide": 2,
+      "winner": "Design A",
+      "reasoning": "Design A delivers the clay/blush/aubergine/marigold system with a hand-drawn journey and clean structure, while Design B feels generic with awkward end ticks on the timeline."
+    },
+    {
+      "slide": 3,
+      "winner": "Design A",
+      "reasoning": "Design A shows precise enterprise hierarchy with sharp before/after panels and high-contrast CTA, while Design B has dangling connectors and low-contrast blue-on-navy text."
+    },
+    {
+      "slide": 4,
+      "winner": "Design A",
+      "reasoning": "Design A maintains institutional sophistication with balanced allocation wheel and footer returns, while Design B unbalances the layout with a stark white box and cramped partner note."
+    },
+    {
+      "slide": 5,
+      "winner": "Design A",
+      "reasoning": "Design A honors the silver-dominant premium brief with centered hero and minimal red accents, while Design B inverts to black-dominant and overlays a distracting label."
+    },
+    {
+      "slide": 6,
+      "winner": "Design A",
+      "reasoning": "Design A provides a coherent actual-vs-plan curve with monospaced details and emphasized activation gap, while Design B plots unrelated metrics on one declining line with overlapping labels."
+    },
+    {
+      "slide": 7,
+      "winner": "Design A",
+      "reasoning": "Design A stays on-palette with authentic transit-line stations and clear north-star bar, while Design B introduces off-palette orange and awkwardly floats metrics around a circle."
+    },
+    {
+      "slide": 8,
+      "winner": "Design A",
+      "reasoning": "Design A offers precise week-aligned swimlanes with consistent deep violet and citron gates, while Design B breaks palette consistency with a lighter violet block and split gate labels."
+    },
+    {
+      "slide": 9,
+      "winner": "Design A",
+      "reasoning": "Design A captures the workshop tone with marker annotations and a clear loop diagram, while Design B collides numerals with circle borders and leaves disconnected connectors."
+    },
+    {
+      "slide": 10,
+      "winner": "Design A",
+      "reasoning": "Design A balances expressive 68% typography, detailed three-app fragmentation, and clear implication bar, while Design B leaves top-right whitespace and tiny sample text."
+    },
+    {
+      "slide": 11,
+      "winner": "Design A",
+      "reasoning": "Design A achieves stronger contrast and theatrical hierarchy on solid cobalt with elegant outlined type, while Design B places key text over a busy audience photo reducing legibility."
+    },
+    {
+      "slide": 12,
+      "winner": "Design B",
+      "reasoning": "Design B better sustains orange dominance with balanced full-bleed hierarchy and powder-blue quote contrast, while Design A leaves large empty orange voids below the metrics."
+    },
+    {
+      "slide": 13,
+      "winner": "Design A",
+      "reasoning": "Design A respects sage dominance with a legible corridor map and clean funding hierarchy, while Design B minimizes sage and overlays disconnected corridor segments on a busy photo."
+    },
+    {
+      "slide": 14,
+      "winner": "Design A",
+      "reasoning": "Design A provides genuinely instructional leader lines to baseline/x-height features with sparing yellow, while Design B misaligns labels and cuts the letterform with a through-stroke."
+    },
+    {
+      "slide": 15,
+      "winner": "Design B",
+      "reasoning": "Design B achieves balanced two-column composition with integrated photography and no voids, while Design A leaves a large empty plum area below the audience mix."
+    }
+  ],
+  "raw_text": "{\n  \"slides\": [\n    {\n      \"slide\": 1,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A adheres strictly to black/lime/white with bold condensed numerals and balanced chart hierarchy, while Design B introduces off-palette blue/red dot strokes.\"\n    },\n    {\n      \"slide\": 2,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A delivers the clay/blush/aubergine/marigold system with a hand-drawn journey and clean structure, while Design B feels generic with awkward end ticks on the timeline.\"\n    },\n    {\n      \"slide\": 3,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A shows precise enterprise hierarchy with sharp before/after panels and high-contrast CTA, while Design B has dangling connectors and low-contrast blue-on-navy text.\"\n    },\n    {\n      \"slide\": 4,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A maintains institutional sophistication with balanced allocation wheel and footer returns, while Design B unbalances the layout with a stark white box and cramped partner note.\"\n    },\n    {\n      \"slide\": 5,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A honors the silver-dominant premium brief with centered hero and minimal red accents, while Design B inverts to black-dominant and overlays a distracting label.\"\n    },\n    {\n      \"slide\": 6,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A provides a coherent actual-vs-plan curve with monospaced details and emphasized activation gap, while Design B plots unrelated metrics on one declining line with overlapping labels.\"\n    },\n    {\n      \"slide\": 7,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A stays on-palette with authentic transit-line stations and clear north-star bar, while Design B introduces off-palette orange and awkwardly floats metrics around a circle.\"\n    },\n    {\n      \"slide\": 8,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A offers precise week-aligned swimlanes with consistent deep violet and citron gates, while Design B breaks palette consistency with a lighter violet block and split gate labels.\"\n    },\n    {\n      \"slide\": 9,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A captures the workshop tone with marker annotations and a clear loop diagram, while Design B collides numerals with circle borders and leaves disconnected connectors.\"\n    },\n    {\n      \"slide\": 10,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A balances expressive 68% typography, detailed three-app fragmentation, and clear implication bar, while Design B leaves top-right whitespace and tiny sample text.\"\n    },\n    {\n      \"slide\": 11,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A achieves stronger contrast and theatrical hierarchy on solid cobalt with elegant outlined type, while Design B places key text over a busy audience photo reducing legibility.\"\n    },\n    {\n      \"slide\": 12,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B better sustains orange dominance with balanced full-bleed hierarchy and powder-blue quote contrast, while Design A leaves large empty orange voids below the metrics.\"\n    },\n    {\n      \"slide\": 13,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A respects sage dominance with a legible corridor map and clean funding hierarchy, while Design B minimizes sage and overlays disconnected corridor segments on a busy photo.\"\n    },\n    {\n      \"slide\": 14,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A provides genuinely instructional leader lines to baseline/x-height features with sparing yellow, while Design B misaligns labels and cuts the letterform with a through-stroke.\"\n    },\n    {\n      \"slide\": 15,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B achieves balanced two-column composition with integrated photography and no voids, while Design A leaves a large empty plum area below the audience mix.\"\n    }\n  ]\n}"
+}

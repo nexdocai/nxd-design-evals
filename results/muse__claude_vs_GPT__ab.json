@@ -1,0 +1,119 @@
+{
+  "id": "muse__claude_vs_GPT__ab",
+  "metadata": {
+    "judge_key": "muse",
+    "judge_label": "Muse Spark 1.3 max",
+    "judge_model": "meta/muse-spark-1.3",
+    "reasoning_effort": "max",
+    "design_a": "claude",
+    "design_a_label": "Claude (Fable)",
+    "design_b": "GPT",
+    "design_b_label": "ChatGPT 5.6 Sol High (Codex)",
+    "position_swap": false,
+    "slide_count": 15,
+    "created_at": "2026-09-07T18:10:33.211160+00:00",
+    "elapsed_seconds": 84.2,
+    "usage": {
+      "prompt_tokens": 126381,
+      "completion_tokens": 8734,
+      "total_tokens": 135115,
+      "cost": 0.19509575,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.19509575,
+        "upstream_inference_prompt_cost": 0.15797625,
+        "upstream_inference_completions_cost": 0.0371195
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 7869,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "openrouter_id": "gen-1788804549-ez9dHah9ZKxfJqjr90Ey"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "winner": "Design A",
+      "reasoning": "Design A maintains strict black lime white palette with bold condensed numerals and balanced chart hierarchy while Design B uses off-palette dot rings and a sparser layout."
+    },
+    {
+      "slide": 2,
+      "winner": "Design A",
+      "reasoning": "Design A honors clay-dominant palette with an illustrated hand-drawn journey and editorial hierarchy while Design B flips to blush-dominant and a generic corporate timeline."
+    },
+    {
+      "slide": 3,
+      "winner": "Design A",
+      "reasoning": "Design A delivers precise white azure vermilion enterprise hierarchy with sharp before-after diagrams while Design B uses cruder shapes and low-contrast blue on dark."
+    },
+    {
+      "slide": 4,
+      "winner": "Design A",
+      "reasoning": "Design A upholds evergreen mineral gold coral serif sophistication with an elegant orbital map while Design B introduces an off-palette sage segment and simpler spacing."
+    },
+    {
+      "slide": 5,
+      "winner": "Design A",
+      "reasoning": "Design A respects silver-dominant premium palette with clean exploded annotations while Design B violates dominance with black and awkwardly overlays type on photo."
+    },
+    {
+      "slide": 6,
+      "winner": "Design A",
+      "reasoning": "Design A provides a coherent turquoise tangerine chart system with clear variance and activation emphasis while Design B mixes unrelated metrics on one line and leaves a large void."
+    },
+    {
+      "slide": 7,
+      "winner": "Design A",
+      "reasoning": "Design A executes a proper cream brick sky transit interchange with wayfinding hierarchy while Design B adds off-palette orange and scatters metrics with unbalanced whitespace."
+    },
+    {
+      "slide": 8,
+      "winner": "Design A",
+      "reasoning": "Design A shows a precise lavender violet citron roadmap with consistent violet and clear gates while Design B uses an off-shade purple block and less precise swimlanes."
+    },
+    {
+      "slide": 9,
+      "winner": "Design A",
+      "reasoning": "Design A presents a clean butter green berry loop with marker annotations and generous balanced type while Design B places numerals awkwardly on circle edges with disconnected lines."
+    },
+    {
+      "slide": 10,
+      "winner": "Design A",
+      "reasoning": "Design A achieves editorial blush cobalt pink hierarchy with a waffle 68 percent visual and detailed journey while Design B is simpler with emptier balance and weaker typographic contrast."
+    },
+    {
+      "slide": 11,
+      "winner": "Design A",
+      "reasoning": "Design A delivers saturated cobalt dominance with oversized theatrical type and crisp cyan diagrams while Design B dilutes palette with photo tones and lower text contrast."
+    },
+    {
+      "slide": 12,
+      "winner": "Design A",
+      "reasoning": "Design A balances orange powder-blue columns with consistent oversized numerals and clear hierarchy while Design B uses inconsistent numeral colors and leaves unbalanced empty space."
+    },
+    {
+      "slide": 13,
+      "winner": "Design A",
+      "reasoning": "Design A fully enforces sage moss ochre river paper palette in a detailed field-journal map while Design B minimizes sage and overlays a crude disconnected corridor on photo."
+    },
+    {
+      "slide": 14,
+      "winner": "Design A",
+      "reasoning": "Design A nails the white black red blue yellow Bauhaus system with an enormous annotated a and clean leaders while Design B has floating labels and a red line colliding through the letter."
+    },
+    {
+      "slide": 15,
+      "winner": "Design A",
+      "reasoning": "Design A stays within plum peach aqua lilac with sharp data hierarchy and readable contact while Design B introduces off-palette white and a low-contrast email on photo."
+    }
+  ],
+  "raw_text": "{\n  \"slides\": [\n    {\n      \"slide\": 1,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A maintains strict black lime white palette with bold condensed numerals and balanced chart hierarchy while Design B uses off-palette dot rings and a sparser layout.\"\n    },\n    {\n      \"slide\": 2,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A honors clay-dominant palette with an illustrated hand-drawn journey and editorial hierarchy while Design B flips to blush-dominant and a generic corporate timeline.\"\n    },\n    {\n      \"slide\": 3,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A delivers precise white azure vermilion enterprise hierarchy with sharp before-after diagrams while Design B uses cruder shapes and low-contrast blue on dark.\"\n    },\n    {\n      \"slide\": 4,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A upholds evergreen mineral gold coral serif sophistication with an elegant orbital map while Design B introduces an off-palette sage segment and simpler spacing.\"\n    },\n    {\n      \"slide\": 5,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A respects silver-dominant premium palette with clean exploded annotations while Design B violates dominance with black and awkwardly overlays type on photo.\"\n    },\n    {\n      \"slide\": 6,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A provides a coherent turquoise tangerine chart system with clear variance and activation emphasis while Design B mixes unrelated metrics on one line and leaves a large void.\"\n    },\n    {\n      \"slide\": 7,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A executes a proper cream brick sky transit interchange with wayfinding hierarchy while Design B adds off-palette orange and scatters metrics with unbalanced whitespace.\"\n    },\n    {\n      \"slide\": 8,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A shows a precise lavender violet citron roadmap with consistent violet and clear gates while Design B uses an off-shade purple block and less precise swimlanes.\"\n    },\n    {\n      \"slide\": 9,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A presents a clean butter green berry loop with marker annotations and generous balanced type while Design B places numerals awkwardly on circle edges with disconnected lines.\"\n    },\n    {\n      \"slide\": 10,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A achieves editorial blush cobalt pink hierarchy with a waffle 68 percent visual and detailed journey while Design B is simpler with emptier balance and weaker typographic contrast.\"\n    },\n    {\n      \"slide\": 11,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A delivers saturated cobalt dominance with oversized theatrical type and crisp cyan diagrams while Design B dilutes palette with photo tones and lower text contrast.\"\n    },\n    {\n      \"slide\": 12,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A balances orange powder-blue columns with consistent oversized numerals and clear hierarchy while Design B uses inconsistent numeral colors and leaves unbalanced empty space.\"\n    },\n    {\n      \"slide\": 13,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A fully enforces sage moss ochre river paper palette in a detailed field-journal map while Design B minimizes sage and overlays a crude disconnected corridor on photo.\"\n    },\n    {\n      \"slide\": 14,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A nails the white black red blue yellow Bauhaus system with an enormous annotated a and clean leaders while Design B has floating labels and a red line colliding through the letter.\"\n    },\n    {\n      \"slide\": 15,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A stays within plum peach aqua lilac with sharp data hierarchy and readable contact while Design B introduces off-palette white and a low-contrast email on photo.\"\n    }\n  ]\n}"
+}

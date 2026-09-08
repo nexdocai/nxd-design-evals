@@ -1,0 +1,119 @@
+{
+  "id": "grok__claude_vs_nexdoc-design__swap",
+  "metadata": {
+    "judge_key": "grok",
+    "judge_label": "Grok 4.6 high",
+    "judge_model": "x-ai/grok-4.6",
+    "reasoning_effort": "high",
+    "design_a": "claude",
+    "design_a_label": "Claude (Fable)",
+    "design_b": "nexdoc-design",
+    "design_b_label": "NexDoc Design",
+    "position_swap": true,
+    "slide_count": 15,
+    "created_at": "2026-09-07T18:13:35.582871+00:00",
+    "elapsed_seconds": 182.37,
+    "usage": {
+      "prompt_tokens": 76412,
+      "completion_tokens": 9564,
+      "total_tokens": 85976,
+      "cost": 0.210016,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 128,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.210016,
+        "upstream_inference_prompt_cost": 0.152632,
+        "upstream_inference_completions_cost": 0.057384
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 8550,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "openrouter_id": "gen-1788804633-jJ31XZ2hGDynbTkXFZZx"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "winner": "Design A",
+      "reasoning": "A better matches the brief with stacked oversized metrics and a single dramatic rising chart, while B\u2019s three-up metric row reads more like the dashboard of small boxes the brief forbids."
+    },
+    {
+      "slide": 2,
+      "winner": "Design A",
+      "reasoning": "A uses clay as the dominant field and a hand-drawn route with doodles and a buddy tag, whereas B puts blush in the majority and flattens the journey into a cleaner but less studio-like path."
+    },
+    {
+      "slide": 3,
+      "winner": "Design A",
+      "reasoning": "A delivers a true left-to-right process diagram (tangled systems vs identity graph) with a hero $780k, while B substitutes list/checklist cards that are less precise and less transformational."
+    },
+    {
+      "slide": 4,
+      "winner": "Design A",
+      "reasoning": "A\u2019s concentric orbital allocation wheel and restrained serif lock to the institutional brief, while B leans on a standard donut plus KPI-style construction stats the brief asked to avoid."
+    },
+    {
+      "slide": 5,
+      "winner": "Design A",
+      "reasoning": "A is a keynote reveal\u2014huge industrial type, silver field, exploded technical callouts, and a dominant $449\u2014whereas B is a centered brochure shot with weak connecting lines."
+    },
+    {
+      "slide": 6,
+      "winner": "Design A",
+      "reasoning": "A\u2019s quarterly actual-vs-plan curve, variance ticks, and hatched activation gap form one calm chart system; B\u2019s monthly 0-based curve distorts the story and is less coherent."
+    },
+    {
+      "slide": 7,
+      "winner": "Design A",
+      "reasoning": "A builds a custom transit map whose four lines merge at an interchange into north-star measures, while B\u2019s four parallel bars are essentially equal boxes with a metric footer."
+    },
+    {
+      "slide": 8,
+      "winner": "Design A",
+      "reasoning": "A\u2019s staggered chevron roadmap, citron gates, ownership, and correctly growing 10\u201340\u2013100% rollout are structurally clean; B wraps gate labels awkwardly and draws the rollout bars backwards."
+    },
+    {
+      "slide": 9,
+      "winner": "Design A",
+      "reasoning": "A\u2019s closed 4C loop plus marker-style annotations on a worked opener feel like a tactile workshop tool, while B\u2019s disconnected arcs and dark quote box are cleaner but less facilitative."
+    },
+    {
+      "slide": 10,
+      "winner": "Design A",
+      "reasoning": "A pairs a memorable 68% waffle with a literal fragmented three-app journey and uncertainty callouts; B\u2019s stacked app cards and giant 68% are punchy but do not show the journey."
+    },
+    {
+      "slide": 11,
+      "winner": "Design A",
+      "reasoning": "A is the auditorium keynote\u2014oversized fading DISAPPEARING type, elegant visible/hidden UI diagram, cyan provocation, and silhouetted crowd\u2014while B is a split poster with two text boxes and a stock figure."
+    },
+    {
+      "slide": 12,
+      "winner": "Design A",
+      "reasoning": "A balances oversized editorial numbers, powder-blue customer voice, and three priorities in one filled composition; B heroizes 1.8M well but leaves the orange field sparse and underuses powder blue."
+    },
+    {
+      "slide": 13,
+      "winner": "Design A",
+      "reasoning": "A makes a labeled geographic corridor the emotional and informational centerpiece with a field-ledger overlay; B\u2019s aerial crop plus schematic strip demotes the map to a sidebar diagram."
+    },
+    {
+      "slide": 14,
+      "winner": "Design A",
+      "reasoning": "A\u2019s enormous annotated a on a baseline grid, yellow counter, and same-baseline comparisons is genuinely instructional Bauhaus; B\u2019s smaller letter and mis-pointed aperture are less precise."
+    },
+    {
+      "slide": 15,
+      "winner": "Design A",
+      "reasoning": "A keeps plum/peach/aqua/lilac, sharp audience data, and collision-free partnership copy; B\u2019s food photo is on-brief but the moment pills break words (KITCHEN, LIVESTREAM) and weaken structure."
+    }
+  ],
+  "raw_text": "{\n  \"slides\": [\n    {\n      \"slide\": 1,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A better matches the brief with stacked oversized metrics and a single dramatic rising chart, while B\u2019s three-up metric row reads more like the dashboard of small boxes the brief forbids.\"\n    },\n    {\n      \"slide\": 2,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A uses clay as the dominant field and a hand-drawn route with doodles and a buddy tag, whereas B puts blush in the majority and flattens the journey into a cleaner but less studio-like path.\"\n    },\n    {\n      \"slide\": 3,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A delivers a true left-to-right process diagram (tangled systems vs identity graph) with a hero $780k, while B substitutes list/checklist cards that are less precise and less transformational.\"\n    },\n    {\n      \"slide\": 4,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A\u2019s concentric orbital allocation wheel and restrained serif lock to the institutional brief, while B leans on a standard donut plus KPI-style construction stats the brief asked to avoid.\"\n    },\n    {\n      \"slide\": 5,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A is a keynote reveal\u2014huge industrial type, silver field, exploded technical callouts, and a dominant $449\u2014whereas B is a centered brochure shot with weak connecting lines.\"\n    },\n    {\n      \"slide\": 6,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A\u2019s quarterly actual-vs-plan curve, variance ticks, and hatched activation gap form one calm chart system; B\u2019s monthly 0-based curve distorts the story and is less coherent.\"\n    },\n    {\n      \"slide\": 7,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A builds a custom transit map whose four lines merge at an interchange into north-star measures, while B\u2019s four parallel bars are essentially equal boxes with a metric footer.\"\n    },\n    {\n      \"slide\": 8,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A\u2019s staggered chevron roadmap, citron gates, ownership, and correctly growing 10\u201340\u2013100% rollout are structurally clean; B wraps gate labels awkwardly and draws the rollout bars backwards.\"\n    },\n    {\n      \"slide\": 9,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A\u2019s closed 4C loop plus marker-style annotations on a worked opener feel like a tactile workshop tool, while B\u2019s disconnected arcs and dark quote box are cleaner but less facilitative.\"\n    },\n    {\n      \"slide\": 10,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A pairs a memorable 68% waffle with a literal fragmented three-app journey and uncertainty callouts; B\u2019s stacked app cards and giant 68% are punchy but do not show the journey.\"\n    },\n    {\n      \"slide\": 11,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A is the auditorium keynote\u2014oversized fading DISAPPEARING type, elegant visible/hidden UI diagram, cyan provocation, and silhouetted crowd\u2014while B is a split poster with two text boxes and a stock figure.\"\n    },\n    {\n      \"slide\": 12,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A balances oversized editorial numbers, powder-blue customer voice, and three priorities in one filled composition; B heroizes 1.8M well but leaves the orange field sparse and underuses powder blue.\"\n    },\n    {\n      \"slide\": 13,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A makes a labeled geographic corridor the emotional and informational centerpiece with a field-ledger overlay; B\u2019s aerial crop plus schematic strip demotes the map to a sidebar diagram.\"\n    },\n    {\n      \"slide\": 14,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A\u2019s enormous annotated a on a baseline grid, yellow counter, and same-baseline comparisons is genuinely instructional Bauhaus; B\u2019s smaller letter and mis-pointed aperture are less precise.\"\n    },\n    {\n      \"slide\": 15,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A keeps plum/peach/aqua/lilac, sharp audience data, and collision-free partnership copy; B\u2019s food photo is on-brief but the moment pills break words (KITCHEN, LIVESTREAM) and weaken structure.\"\n    }\n  ]\n}"
+}

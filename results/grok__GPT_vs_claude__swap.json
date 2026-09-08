@@ -1,0 +1,119 @@
+{
+  "id": "grok__GPT_vs_claude__swap",
+  "metadata": {
+    "judge_key": "grok",
+    "judge_label": "Grok 4.6 high",
+    "judge_model": "x-ai/grok-4.6",
+    "reasoning_effort": "high",
+    "design_a": "GPT",
+    "design_a_label": "ChatGPT 5.6 Sol High (Codex)",
+    "design_b": "claude",
+    "design_b_label": "Claude (Fable)",
+    "position_swap": true,
+    "slide_count": 15,
+    "created_at": "2026-09-07T18:17:15.498191+00:00",
+    "elapsed_seconds": 189.0,
+    "usage": {
+      "prompt_tokens": 76412,
+      "completion_tokens": 9818,
+      "total_tokens": 86230,
+      "cost": 0.20578,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 3968,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.20578,
+        "upstream_inference_prompt_cost": 0.146872,
+        "upstream_inference_completions_cost": 0.058908
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 8845,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "openrouter_id": "gen-1788804847-7wDGzVgZuqPpc31RDC0A"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "winner": "Design B",
+      "reasoning": "B stays inside the lime\u2013steel\u2013white system with a single dramatic curve and a true hero metric, while A\u2019s multi-colored chart dots break the no-blue/purple palette and weaken hierarchy."
+    },
+    {
+      "slide": 2,
+      "winner": "Design B",
+      "reasoning": "B uses clay as the dominant field with editorial, hand-drawn type, whereas A\u2019s blush-paper ground misses the specified dominant hex and reads as a generic three-node timeline."
+    },
+    {
+      "slide": 3,
+      "winner": "Design B",
+      "reasoning": "B\u2019s left-to-right diagrams, oversized $780k, and sharp rules create clearer contrast and enterprise hierarchy; A\u2019s footer equally weights five stats and the before/after drawing is looser."
+    },
+    {
+      "slide": 4,
+      "winner": "Design B",
+      "reasoning": "B\u2019s restrained serif, gold orbital wheel, and generous margins match the institutional palette and tone; A\u2019s generic donut and redundant legend flatten hierarchy."
+    },
+    {
+      "slide": 5,
+      "winner": "Design B",
+      "reasoning": "B is brushed-silver dominant with industrial type and a clean exploded layout; A is graphite/black dominant, violating the specified silver field, and the dark photo buries product detail."
+    },
+    {
+      "slide": 6,
+      "winner": "Design B",
+      "reasoning": "B\u2019s coherent performance curve, variance ticks, and isolated activation gap produce a calm data hierarchy; A collides regional growth and activation on one line and under-emphasizes the gap."
+    },
+    {
+      "slide": 7,
+      "winner": "Design B",
+      "reasoning": "B\u2019s wayfinding type and converging transit lines create civic contrast and a clear north-star hierarchy; A\u2019s four equal-weight bars are cleaner but weaker in typographic tone and structure."
+    },
+    {
+      "slide": 8,
+      "winner": "Design B",
+      "reasoning": "B\u2019s week axis, diamond gates, and named ownership form a precise non-colliding roadmap; A\u2019s overlapping gate dots and orphaned captions are simpler but structurally looser."
+    },
+    {
+      "slide": 9,
+      "winner": "Design B",
+      "reasoning": "B renders a true loop with generous type and marker annotations, while A\u2019s disconnected circles and empty practice-rule footer leave hierarchy and structure incomplete."
+    },
+    {
+      "slide": 10,
+      "winner": "Design B",
+      "reasoning": "B\u2019s waffle 68%, journey schematic, and editorial quote build stronger contrast and spacing; A\u2019s donut and three unlabeled circles are cleaner but less hierarchical and less on-palette in emphasis."
+    },
+    {
+      "slide": 11,
+      "winner": "Design B",
+      "reasoning": "B\u2019s pure cobalt field, oversized fading title, and silhouette base hit theatrical type and palette; A\u2019s photo overlay muddies hexes and reduces contrast on the UI diagram."
+    },
+    {
+      "slide": 12,
+      "winner": "Design B",
+      "reasoning": "B\u2019s stacked editorial numerals and orange/powder-blue split give clearer scale and grouping; A is tidy but flattens 46 and 81% and treats the quote as a floating card."
+    },
+    {
+      "slide": 13,
+      "winner": "Design B",
+      "reasoning": "B keeps sage/moss/ochre/river-blue dominant with a mapped corridor and paper ledger; A\u2019s photo-dominant split leaves the palette secondary and the corridor marks disconnected."
+    },
+    {
+      "slide": 14,
+      "winner": "Design B",
+      "reasoning": "B\u2019s enormous annotated a, true baseline grid, and precise leaders are instructional and collision-free; A\u2019s floating labels do not attach to letter parts and the comparison panel fights the grid."
+    },
+    {
+      "slide": 15,
+      "winner": "Design B",
+      "reasoning": "B\u2019s plum\u2013peach\u2013aqua\u2013lilac system, editorial stat row, and ingredient graphic hold tighter brand tone and margins; A\u2019s stock canap\u00e9 photo and overlay box weaken contrast and feel less of the specified identity."
+    }
+  ],
+  "raw_text": "{\n  \"slides\": [\n    {\n      \"slide\": 1,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B stays inside the lime\u2013steel\u2013white system with a single dramatic curve and a true hero metric, while A\u2019s multi-colored chart dots break the no-blue/purple palette and weaken hierarchy.\"\n    },\n    {\n      \"slide\": 2,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B uses clay as the dominant field with editorial, hand-drawn type, whereas A\u2019s blush-paper ground misses the specified dominant hex and reads as a generic three-node timeline.\"\n    },\n    {\n      \"slide\": 3,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B\u2019s left-to-right diagrams, oversized $780k, and sharp rules create clearer contrast and enterprise hierarchy; A\u2019s footer equally weights five stats and the before/after drawing is looser.\"\n    },\n    {\n      \"slide\": 4,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B\u2019s restrained serif, gold orbital wheel, and generous margins match the institutional palette and tone; A\u2019s generic donut and redundant legend flatten hierarchy.\"\n    },\n    {\n      \"slide\": 5,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B is brushed-silver dominant with industrial type and a clean exploded layout; A is graphite/black dominant, violating the specified silver field, and the dark photo buries product detail.\"\n    },\n    {\n      \"slide\": 6,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B\u2019s coherent performance curve, variance ticks, and isolated activation gap produce a calm data hierarchy; A collides regional growth and activation on one line and under-emphasizes the gap.\"\n    },\n    {\n      \"slide\": 7,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B\u2019s wayfinding type and converging transit lines create civic contrast and a clear north-star hierarchy; A\u2019s four equal-weight bars are cleaner but weaker in typographic tone and structure.\"\n    },\n    {\n      \"slide\": 8,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B\u2019s week axis, diamond gates, and named ownership form a precise non-colliding roadmap; A\u2019s overlapping gate dots and orphaned captions are simpler but structurally looser.\"\n    },\n    {\n      \"slide\": 9,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B renders a true loop with generous type and marker annotations, while A\u2019s disconnected circles and empty practice-rule footer leave hierarchy and structure incomplete.\"\n    },\n    {\n      \"slide\": 10,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B\u2019s waffle 68%, journey schematic, and editorial quote build stronger contrast and spacing; A\u2019s donut and three unlabeled circles are cleaner but less hierarchical and less on-palette in emphasis.\"\n    },\n    {\n      \"slide\": 11,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B\u2019s pure cobalt field, oversized fading title, and silhouette base hit theatrical type and palette; A\u2019s photo overlay muddies hexes and reduces contrast on the UI diagram.\"\n    },\n    {\n      \"slide\": 12,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B\u2019s stacked editorial numerals and orange/powder-blue split give clearer scale and grouping; A is tidy but flattens 46 and 81% and treats the quote as a floating card.\"\n    },\n    {\n      \"slide\": 13,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B keeps sage/moss/ochre/river-blue dominant with a mapped corridor and paper ledger; A\u2019s photo-dominant split leaves the palette secondary and the corridor marks disconnected.\"\n    },\n    {\n      \"slide\": 14,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B\u2019s enormous annotated a, true baseline grid, and precise leaders are instructional and collision-free; A\u2019s floating labels do not attach to letter parts and the comparison panel fights the grid.\"\n    },\n    {\n      \"slide\": 15,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B\u2019s plum\u2013peach\u2013aqua\u2013lilac system, editorial stat row, and ingredient graphic hold tighter brand tone and margins; A\u2019s stock canap\u00e9 photo and overlay box weaken contrast and feel less of the specified identity.\"\n    }\n  ]\n}"
+}

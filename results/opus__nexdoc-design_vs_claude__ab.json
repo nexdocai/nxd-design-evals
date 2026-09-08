@@ -1,0 +1,119 @@
+{
+  "id": "opus__nexdoc-design_vs_claude__ab",
+  "metadata": {
+    "judge_key": "opus",
+    "judge_label": "Opus 5 max",
+    "judge_model": "anthropic/claude-opus-5",
+    "reasoning_effort": "max",
+    "design_a": "nexdoc-design",
+    "design_a_label": "NexDoc Design",
+    "design_b": "claude",
+    "design_b_label": "Claude (Fable)",
+    "position_swap": false,
+    "slide_count": 15,
+    "created_at": "2026-09-07T18:27:44.941876+00:00",
+    "elapsed_seconds": 212.7,
+    "usage": {
+      "prompt_tokens": 95109,
+      "completion_tokens": 12287,
+      "total_tokens": 107396,
+      "cost": 0.78272,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.78272,
+        "upstream_inference_prompt_cost": 0.475545,
+        "upstream_inference_completions_cost": 0.307175
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 10542,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "openrouter_id": "gen-1788805469-Cc31S8oR21vdYYMbpqrv"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "winner": "Tie",
+      "reasoning": "Both hold the near-black/lime system flawlessly with a huge ARR figure and one rising curve \u2014 A wins on condensed uppercase futurism and a more dramatic labelled chart, B wins on fuller canvas use and finer axis/footnote detailing, with neither showing collisions or margin faults."
+    },
+    {
+      "slide": 2,
+      "winner": "Design B",
+      "reasoning": "B makes the specified clay the dominant field with a genuinely hand-drawn route, day markers, taped note and buddy tag, while A inverts the palette hierarchy (blush dominant) and leaves a large dead band between the curve and the aubergine quote bar."
+    },
+    {
+      "slide": 3,
+      "winner": "Design B",
+      "reasoning": "B delivers a real before/after diagram (tangled reconciliation vs. radial identity graph) with sharp rules, aligned sub-metrics and a dominant $780k band, whereas A's two panels are mostly empty inside and the transformation is only a bulleted list."
+    },
+    {
+      "slide": 4,
+      "winner": "Design B",
+      "reasoning": "B honours the restrained-serif institutional tone with an elegant orbital allocation ring and clean footnotes, while A's sans uppercase headline breaks badly with an orphaned 'THE' line and reads as a generic KPI column beside a plain donut."
+    },
+    {
+      "slide": 5,
+      "winner": "Design B",
+      "reasoning": "B is a true keynote reveal \u2014 oversized wordmark, exploded driver stack, precise leader callouts and a bold $449 \u2014 while A's small boxed stock photo sits on a mismatched grey square with floating dashes that never connect to the product."
+    },
+    {
+      "slide": 6,
+      "winner": "Design B",
+      "reasoning": "B is a calm, coherent chart system with variance labels, scorecard rows and a clearly hatched activation gap, whereas A's '103% of plan' label is struck through by the plan line and the heavy orange footer band flattens the hierarchy."
+    },
+    {
+      "slide": 7,
+      "winner": "Design B",
+      "reasoning": "B builds an actual transit-map strategy diagram converging on an interchange, while A's four parallel bars mis-associate the Connected and Legible captions in one stacked block and leave an empty band above the footer."
+    },
+    {
+      "slide": 8,
+      "winner": "Design B",
+      "reasoning": "B's arrow swimlanes, full week ruler, named owners and clean gate labels avoid any overlap, whereas A's Gate C caption runs across the purple Build & Pilot bar and the lower-left quadrant is largely dead space."
+    },
+    {
+      "slide": 9,
+      "winner": "Design B",
+      "reasoning": "B pairs a bold arrowed loop with an annotated worked example and marker highlights, while A shows a doubled quotation-mark error, a dotted leader crossing the word 'judgment', and a large empty right-hand quadrant."
+    },
+    {
+      "slide": 10,
+      "winner": "Design B",
+      "reasoning": "B's waffle grid, serif 68%/54% and diagnosed three-app journey are expertly spaced, whereas A's oversized 68% crowds into the headline's second line and the bottom stat block presses against the blue implication bar."
+    },
+    {
+      "slide": 11,
+      "winner": "Design B",
+      "reasoning": "B achieves the auditorium-scale moment with a monumental fading wordmark, elegant visible/hidden UI icon diagram and audience silhouette, while A's modest type, orphaned quote line and generic dark stock photo undercut the keynote scale."
+    },
+    {
+      "slide": 12,
+      "winner": "Design B",
+      "reasoning": "B uses oversized editorial numerals down a ruled orange column against a powder-blue quote panel with no wasted space, whereas A leaves roughly a third of the orange field empty below its metric row."
+    },
+    {
+      "slide": 13,
+      "winner": "Design B",
+      "reasoning": "B centres the emotional corridor map full-bleed with legend, scale and a taped field ledger, while A's schematic collides '18,400 ha in restoration' with the '100 km' tick and strands empty sage beneath the CTA."
+    },
+    {
+      "slide": 14,
+      "winner": "Design B",
+      "reasoning": "B's enormous 'a' with yellow counter, correctly seated baseline/x-height rules and three genuinely different comparison faces is far more instructional than A's smaller glyph overshooting its x-height guide with near-identical sample letters."
+    },
+    {
+      "slide": 15,
+      "winner": "Design B",
+      "reasoning": "B's collage citrus hero, clean stat row and dotted-leader partnership list stay on-palette and precisely spaced, while A suffers visible letter-spacing breaks ('FUT URE T ABLE ST AGE'), an off-palette white bar segment and a large empty mid-right zone."
+    }
+  ],
+  "raw_text": "```json\n{\n  \"slides\": [\n    {\n      \"slide\": 1,\n      \"winner\": \"Tie\",\n      \"reasoning\": \"Both hold the near-black/lime system flawlessly with a huge ARR figure and one rising curve \u2014 A wins on condensed uppercase futurism and a more dramatic labelled chart, B wins on fuller canvas use and finer axis/footnote detailing, with neither showing collisions or margin faults.\"\n    },\n    {\n      \"slide\": 2,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B makes the specified clay the dominant field with a genuinely hand-drawn route, day markers, taped note and buddy tag, while A inverts the palette hierarchy (blush dominant) and leaves a large dead band between the curve and the aubergine quote bar.\"\n    },\n    {\n      \"slide\": 3,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B delivers a real before/after diagram (tangled reconciliation vs. radial identity graph) with sharp rules, aligned sub-metrics and a dominant $780k band, whereas A's two panels are mostly empty inside and the transformation is only a bulleted list.\"\n    },\n    {\n      \"slide\": 4,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B honours the restrained-serif institutional tone with an elegant orbital allocation ring and clean footnotes, while A's sans uppercase headline breaks badly with an orphaned 'THE' line and reads as a generic KPI column beside a plain donut.\"\n    },\n    {\n      \"slide\": 5,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B is a true keynote reveal \u2014 oversized wordmark, exploded driver stack, precise leader callouts and a bold $449 \u2014 while A's small boxed stock photo sits on a mismatched grey square with floating dashes that never connect to the product.\"\n    },\n    {\n      \"slide\": 6,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B is a calm, coherent chart system with variance labels, scorecard rows and a clearly hatched activation gap, whereas A's '103% of plan' label is struck through by the plan line and the heavy orange footer band flattens the hierarchy.\"\n    },\n    {\n      \"slide\": 7,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B builds an actual transit-map strategy diagram converging on an interchange, while A's four parallel bars mis-associate the Connected and Legible captions in one stacked block and leave an empty band above the footer.\"\n    },\n    {\n      \"slide\": 8,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B's arrow swimlanes, full week ruler, named owners and clean gate labels avoid any overlap, whereas A's Gate C caption runs across the purple Build & Pilot bar and the lower-left quadrant is largely dead space.\"\n    },\n    {\n      \"slide\": 9,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B pairs a bold arrowed loop with an annotated worked example and marker highlights, while A shows a doubled quotation-mark error, a dotted leader crossing the word 'judgment', and a large empty right-hand quadrant.\"\n    },\n    {\n      \"slide\": 10,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B's waffle grid, serif 68%/54% and diagnosed three-app journey are expertly spaced, whereas A's oversized 68% crowds into the headline's second line and the bottom stat block presses against the blue implication bar.\"\n    },\n    {\n      \"slide\": 11,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B achieves the auditorium-scale moment with a monumental fading wordmark, elegant visible/hidden UI icon diagram and audience silhouette, while A's modest type, orphaned quote line and generic dark stock photo undercut the keynote scale.\"\n    },\n    {\n      \"slide\": 12,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B uses oversized editorial numerals down a ruled orange column against a powder-blue quote panel with no wasted space, whereas A leaves roughly a third of the orange field empty below its metric row.\"\n    },\n    {\n      \"slide\": 13,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B centres the emotional corridor map full-bleed with legend, scale and a taped field ledger, while A's schematic collides '18,400 ha in restoration' with the '100 km' tick and strands empty sage beneath the CTA.\"\n    },\n    {\n      \"slide\": 14,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B's enormous 'a' with yellow counter, correctly seated baseline/x-height rules and three genuinely different comparison faces is far more instructional than A's smaller glyph overshooting its x-height guide with near-identical sample letters.\"\n    },\n    {\n      \"slide\": 15,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B's collage citrus hero, clean stat row and dotted-leader partnership list stay on-palette and precisely spaced, while A suffers visible letter-spacing breaks ('FUT URE T ABLE ST AGE'), an off-palette white bar segment and a large empty mid-right zone.\"\n    }\n  ]\n}\n```"
+}

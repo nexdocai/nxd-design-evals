@@ -1,0 +1,119 @@
+{
+  "id": "muse__GPT_vs_nexdoc-design__swap",
+  "metadata": {
+    "judge_key": "muse",
+    "judge_label": "Muse Spark 1.3 max",
+    "judge_model": "meta/muse-spark-1.3",
+    "reasoning_effort": "max",
+    "design_a": "GPT",
+    "design_a_label": "ChatGPT 5.6 Sol High (Codex)",
+    "design_b": "nexdoc-design",
+    "design_b_label": "NexDoc Design",
+    "position_swap": true,
+    "slide_count": 15,
+    "created_at": "2026-09-07T18:10:45.841572+00:00",
+    "elapsed_seconds": 110.52,
+    "usage": {
+      "prompt_tokens": 126381,
+      "completion_tokens": 11791,
+      "total_tokens": 138172,
+      "cost": 0.208088,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.208088,
+        "upstream_inference_prompt_cost": 0.15797625,
+        "upstream_inference_completions_cost": 0.05011175
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 11036,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "openrouter_id": "gen-1788804535-mP4Fhj4Yd1eVDFY5RrZl"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "winner": "Design B",
+      "reasoning": "Design B keeps strict black-lime-white-steel palette without off-color dot rings and delivers cleaner technical hierarchy and chart balance."
+    },
+    {
+      "slide": 2,
+      "winner": "Design B",
+      "reasoning": "Design B builds a true illustrated hand-drawn journey with better warmth and composition versus Design A's flat straight-line layout."
+    },
+    {
+      "slide": 3,
+      "winner": "Design B",
+      "reasoning": "Design B offers sharp before-after panels and prominent ROI with clean structure versus Design A's floating dots and off-palette fills."
+    },
+    {
+      "slide": 4,
+      "winner": "Design A",
+      "reasoning": "Design A nails institutional restrained serif tone and balanced allocation wheel versus Design B's sans headline with awkward line break."
+    },
+    {
+      "slide": 5,
+      "winner": "Design B",
+      "reasoning": "Design B honors brushed-silver dominance with symmetrical hero product layout versus Design A's dark-dominant cinematic crop."
+    },
+    {
+      "slide": 6,
+      "winner": "Design B",
+      "reasoning": "Design B provides a coherent actual-vs-plan curve with emphasized activation gap versus Design A's mixed-metric line and overlapping labels."
+    },
+    {
+      "slide": 7,
+      "winner": "Design B",
+      "reasoning": "Design B stays on-palette with authentic transit-station logic and unified north-star bar versus Design A's off-palette orange pillar."
+    },
+    {
+      "slide": 8,
+      "winner": "Design B",
+      "reasoning": "Design B shows precise week-anchored swimlanes with consistent violet-citron system versus Design A's inconsistent tint and simpler blocks."
+    },
+    {
+      "slide": 9,
+      "winner": "Design B",
+      "reasoning": "Design B visualizes a true circular loop with marker-style annotations versus Design A's cramped circles and empty footer rule."
+    },
+    {
+      "slide": 10,
+      "winner": "Design B",
+      "reasoning": "Design B creates a more expressive 68% dot-matrix and stacked-app fragmentation with fuller layout versus Design A's empty top-right void."
+    },
+    {
+      "slide": 11,
+      "winner": "Design A",
+      "reasoning": "Design A delivers bolder oversized provocation with higher back-row legibility versus Design B's lower-contrast outline title."
+    },
+    {
+      "slide": 12,
+      "winner": "Design A",
+      "reasoning": "Design A maintains full-orange dominance with balanced oversized numbers versus Design B's empty lower-left void and split contrast."
+    },
+    {
+      "slide": 13,
+      "winner": "Design B",
+      "reasoning": "Design B achieves sage dominance with a clear linear corridor map versus Design A's disconnected overlays and missing sage field."
+    },
+    {
+      "slide": 14,
+      "winner": "Design B",
+      "reasoning": "Design B provides precise dot-to-form annotations and clean baseline grid versus Design A's floating labels and unexplained red strike-through."
+    },
+    {
+      "slide": 15,
+      "winner": "Design B",
+      "reasoning": "Design B keeps palette discipline with legible audience legend and high contrast versus Design A's tiny legend and low-contrast email on photo."
+    }
+  ],
+  "raw_text": "{\n  \"slides\": [\n    {\n      \"slide\": 1,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B keeps strict black-lime-white-steel palette without off-color dot rings and delivers cleaner technical hierarchy and chart balance.\"\n    },\n    {\n      \"slide\": 2,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B builds a true illustrated hand-drawn journey with better warmth and composition versus Design A's flat straight-line layout.\"\n    },\n    {\n      \"slide\": 3,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B offers sharp before-after panels and prominent ROI with clean structure versus Design A's floating dots and off-palette fills.\"\n    },\n    {\n      \"slide\": 4,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A nails institutional restrained serif tone and balanced allocation wheel versus Design B's sans headline with awkward line break.\"\n    },\n    {\n      \"slide\": 5,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B honors brushed-silver dominance with symmetrical hero product layout versus Design A's dark-dominant cinematic crop.\"\n    },\n    {\n      \"slide\": 6,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B provides a coherent actual-vs-plan curve with emphasized activation gap versus Design A's mixed-metric line and overlapping labels.\"\n    },\n    {\n      \"slide\": 7,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B stays on-palette with authentic transit-station logic and unified north-star bar versus Design A's off-palette orange pillar.\"\n    },\n    {\n      \"slide\": 8,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B shows precise week-anchored swimlanes with consistent violet-citron system versus Design A's inconsistent tint and simpler blocks.\"\n    },\n    {\n      \"slide\": 9,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B visualizes a true circular loop with marker-style annotations versus Design A's cramped circles and empty footer rule.\"\n    },\n    {\n      \"slide\": 10,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B creates a more expressive 68% dot-matrix and stacked-app fragmentation with fuller layout versus Design A's empty top-right void.\"\n    },\n    {\n      \"slide\": 11,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A delivers bolder oversized provocation with higher back-row legibility versus Design B's lower-contrast outline title.\"\n    },\n    {\n      \"slide\": 12,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A maintains full-orange dominance with balanced oversized numbers versus Design B's empty lower-left void and split contrast.\"\n    },\n    {\n      \"slide\": 13,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B achieves sage dominance with a clear linear corridor map versus Design A's disconnected overlays and missing sage field.\"\n    },\n    {\n      \"slide\": 14,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B provides precise dot-to-form annotations and clean baseline grid versus Design A's floating labels and unexplained red strike-through.\"\n    },\n    {\n      \"slide\": 15,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B keeps palette discipline with legible audience legend and high contrast versus Design A's tiny legend and low-contrast email on photo.\"\n    }\n  ]\n}"
+}

@@ -1,0 +1,119 @@
+{
+  "id": "opus__GPT_vs_nexdoc-design__swap",
+  "metadata": {
+    "judge_key": "opus",
+    "judge_label": "Opus 5 max",
+    "judge_model": "anthropic/claude-opus-5",
+    "reasoning_effort": "max",
+    "design_a": "GPT",
+    "design_a_label": "ChatGPT 5.6 Sol High (Codex)",
+    "design_b": "nexdoc-design",
+    "design_b_label": "NexDoc Design",
+    "position_swap": true,
+    "slide_count": 15,
+    "created_at": "2026-09-07T18:25:37.708792+00:00",
+    "elapsed_seconds": 33.79,
+    "usage": {
+      "prompt_tokens": 95109,
+      "completion_tokens": 1690,
+      "total_tokens": 96799,
+      "cost": 0.517795,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.517795,
+        "upstream_inference_prompt_cost": 0.475545,
+        "upstream_inference_completions_cost": 0.04225
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "openrouter_id": "gen-1788805505-DlKyjm3Fh8DjRdMF6eVQ"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "winner": "Design B",
+      "reasoning": "B nails the futurist condensed-numeral tone with a bold lime hero metric, technical mono labels and a tightly integrated area chart, while A's generic bold sans, small chart labels and stray blue/red data points break the specified palette."
+    },
+    {
+      "slide": 2,
+      "winner": "Design B",
+      "reasoning": "B delivers the requested illustrated hand-drawn route with marigold accents and a cohesive aubergine quote bar, whereas A's flat three-dot timeline is generic, leaves a large empty band, and centers text awkwardly."
+    },
+    {
+      "slide": 3,
+      "winner": "Design B",
+      "reasoning": "B's crisp azure/ink before-and-after panels with clean rules and an aligned metric strip read instantly, while A's floating chained boxes, unlabeled dots and stray connector lines look unresolved and cluttered."
+    },
+    {
+      "slide": 4,
+      "winner": "Design A",
+      "reasoning": "A's restrained serif typography and balanced donut-plus-legend match the institutional brief precisely, whereas B abandons the serif tone for an all-caps sans headline that awkwardly wraps 'THE' onto its own line."
+    },
+    {
+      "slide": 5,
+      "winner": "Design A",
+      "reasoning": "A's cinematic dark close-up with signal-red accents feels like a keynote reveal, while B's small centered product tile on flat silver with a symmetrical four-callout grid reads as a brochure and wastes vertical space."
+    },
+    {
+      "slide": 6,
+      "winner": "Design B",
+      "reasoning": "B provides the single large performance curve with plan variance markers and a sharply emphasized activation gap, while A's misleading downward 'regional' line and colliding 'ACTIVATION/TARGET 75%' labels are a structural failure."
+    },
+    {
+      "slide": 7,
+      "winner": "Design B",
+      "reasoning": "B's four-line transit-map diagram with route codes, interchange nodes and a charcoal north-star bar is authentically wayfinding, while A's plain progress bars plus an oversized floating black circle feel arbitrary."
+    },
+    {
+      "slide": 8,
+      "winner": "Design A",
+      "reasoning": "A's swimlane phases with clear gate lines are clean and legible, whereas B's staggered Gantt has gate labels overrunning bars and text colliding with the Gate C diamond and rollout blocks."
+    },
+    {
+      "slide": 9,
+      "winner": "Design A",
+      "reasoning": "A's circle loop is bolder and cleanly set, while B suffers duplicated double quotation marks, leader lines crossing the word 'judgment', and a large empty lower-right void."
+    },
+    {
+      "slide": 10,
+      "winner": "Design B",
+      "reasoning": "B builds a memorable 68% with an oversized figure plus dot matrix and an explicit three-app fragmented journey, though its headline wraps awkwardly; A's donut and three plain circles are comparatively conventional and the top-left area feels thin."
+    },
+    {
+      "slide": 11,
+      "winner": "Design B",
+      "reasoning": "B's cobalt field, cyan outlined title word and clean visible/hidden UI diagram against a theatrical image read as a keynote moment, while A's banner-across-crowd composition creates a muddy hierarchy and a photo seam at the right edge."
+    },
+    {
+      "slide": 12,
+      "winner": "Design B",
+      "reasoning": "B's orange/ink split with a knocked-out 1.8M block, aligned metric row and a dedicated quote column is confidently composed, whereas A leaves a large dead zone at the bottom and floats loose numbers with inconsistent baselines."
+    },
+    {
+      "slide": 13,
+      "winner": "Design A",
+      "reasoning": "A's full-bleed aerial with mapped corridor nodes is the emotional centerpiece the brief asks for, while B's schematic corridor has overlapping monospace labels ('18,400 ha in restoration' colliding with '100 km') and a caption box clipping the photo."
+    },
+    {
+      "slide": 14,
+      "winner": "Design B",
+      "reasoning": "B's annotated 'a' with baseline/x-height rules, tidy red callout dots and a Bauhaus yellow-highlight teaching note is genuinely instructional, while A's disconnected floating leader lines point at nothing and the classification panel is a heavy black slab."
+    },
+    {
+      "slide": 15,
+      "winner": "Design A",
+      "reasoning": "A's editorial plum-and-photo split with a clean audience bar is more assured, whereas B's collage suffers broken letter-spacing in the partnership-moment tags ('FUTURE T ABLE ST AGE') and a large empty right-hand void."
+    }
+  ],
+  "raw_text": "{\n  \"slides\": [\n    {\n      \"slide\": 1,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B nails the futurist condensed-numeral tone with a bold lime hero metric, technical mono labels and a tightly integrated area chart, while A's generic bold sans, small chart labels and stray blue/red data points break the specified palette.\"\n    },\n    {\n      \"slide\": 2,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B delivers the requested illustrated hand-drawn route with marigold accents and a cohesive aubergine quote bar, whereas A's flat three-dot timeline is generic, leaves a large empty band, and centers text awkwardly.\"\n    },\n    {\n      \"slide\": 3,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B's crisp azure/ink before-and-after panels with clean rules and an aligned metric strip read instantly, while A's floating chained boxes, unlabeled dots and stray connector lines look unresolved and cluttered.\"\n    },\n    {\n      \"slide\": 4,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A's restrained serif typography and balanced donut-plus-legend match the institutional brief precisely, whereas B abandons the serif tone for an all-caps sans headline that awkwardly wraps 'THE' onto its own line.\"\n    },\n    {\n      \"slide\": 5,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A's cinematic dark close-up with signal-red accents feels like a keynote reveal, while B's small centered product tile on flat silver with a symmetrical four-callout grid reads as a brochure and wastes vertical space.\"\n    },\n    {\n      \"slide\": 6,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B provides the single large performance curve with plan variance markers and a sharply emphasized activation gap, while A's misleading downward 'regional' line and colliding 'ACTIVATION/TARGET 75%' labels are a structural failure.\"\n    },\n    {\n      \"slide\": 7,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B's four-line transit-map diagram with route codes, interchange nodes and a charcoal north-star bar is authentically wayfinding, while A's plain progress bars plus an oversized floating black circle feel arbitrary.\"\n    },\n    {\n      \"slide\": 8,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A's swimlane phases with clear gate lines are clean and legible, whereas B's staggered Gantt has gate labels overrunning bars and text colliding with the Gate C diamond and rollout blocks.\"\n    },\n    {\n      \"slide\": 9,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A's circle loop is bolder and cleanly set, while B suffers duplicated double quotation marks, leader lines crossing the word 'judgment', and a large empty lower-right void.\"\n    },\n    {\n      \"slide\": 10,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B builds a memorable 68% with an oversized figure plus dot matrix and an explicit three-app fragmented journey, though its headline wraps awkwardly; A's donut and three plain circles are comparatively conventional and the top-left area feels thin.\"\n    },\n    {\n      \"slide\": 11,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B's cobalt field, cyan outlined title word and clean visible/hidden UI diagram against a theatrical image read as a keynote moment, while A's banner-across-crowd composition creates a muddy hierarchy and a photo seam at the right edge.\"\n    },\n    {\n      \"slide\": 12,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B's orange/ink split with a knocked-out 1.8M block, aligned metric row and a dedicated quote column is confidently composed, whereas A leaves a large dead zone at the bottom and floats loose numbers with inconsistent baselines.\"\n    },\n    {\n      \"slide\": 13,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A's full-bleed aerial with mapped corridor nodes is the emotional centerpiece the brief asks for, while B's schematic corridor has overlapping monospace labels ('18,400 ha in restoration' colliding with '100 km') and a caption box clipping the photo.\"\n    },\n    {\n      \"slide\": 14,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B's annotated 'a' with baseline/x-height rules, tidy red callout dots and a Bauhaus yellow-highlight teaching note is genuinely instructional, while A's disconnected floating leader lines point at nothing and the classification panel is a heavy black slab.\"\n    },\n    {\n      \"slide\": 15,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A's editorial plum-and-photo split with a clean audience bar is more assured, whereas B's collage suffers broken letter-spacing in the partnership-moment tags ('FUTURE T ABLE ST AGE') and a large empty right-hand void.\"\n    }\n  ]\n}"
+}
