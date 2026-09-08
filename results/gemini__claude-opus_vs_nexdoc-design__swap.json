@@ -1,0 +1,119 @@
+{
+  "id": "gemini__claude-opus_vs_nexdoc-design__swap",
+  "metadata": {
+    "judge_key": "gemini",
+    "judge_label": "Gemini 3.8 Flash",
+    "judge_model": "google/gemini-3.8-flash",
+    "reasoning_effort": "high",
+    "design_a": "claude-opus",
+    "design_a_label": "Claude Code (Opus 5)",
+    "design_b": "nexdoc-design",
+    "design_b_label": "NexDoc Design",
+    "position_swap": true,
+    "slide_count": 15,
+    "created_at": "2026-09-08T07:57:44.670556+00:00",
+    "elapsed_seconds": 64.77,
+    "usage": {
+      "prompt_tokens": 37234,
+      "completion_tokens": 8126,
+      "total_tokens": 45360,
+      "cost": 0.058398,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.058398,
+        "upstream_inference_prompt_cost": 0.0279255,
+        "upstream_inference_completions_cost": 0.0304725
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 7354,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "openrouter_id": "gen-1788854200-Bg2xIpEyWxTbtvp2kK4s"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "winner": "Design A",
+      "reasoning": "Design A achieves stronger typographic hierarchy and visual impact with its dynamic chart integration and clear metric scaling."
+    },
+    {
+      "slide": 2,
+      "winner": "Design A",
+      "reasoning": "Design A delivers a more cohesive narrative journey with balanced spacing and superior editorial typography."
+    },
+    {
+      "slide": 3,
+      "winner": "Design A",
+      "reasoning": "Design A establishes a cleaner visual transformation and information hierarchy, avoiding Design B's heavy-handed bordered containers."
+    },
+    {
+      "slide": 4,
+      "winner": "Design A",
+      "reasoning": "Design A maintains refined editorial typography and orbital data visualization, whereas Design B suffers from an awkward headline line break."
+    },
+    {
+      "slide": 5,
+      "winner": "Design A",
+      "reasoning": "Design A creates a seamless cinematic product composition, while Design B relies on an unintegrated, bordered photo box."
+    },
+    {
+      "slide": 6,
+      "winner": "Design A",
+      "reasoning": "Design A presents a calmer, more disciplined data hierarchy with well-integrated variance markers and activation gap visualization."
+    },
+    {
+      "slide": 7,
+      "winner": "Design A",
+      "reasoning": "Design A effectively embodies civic wayfinding through a dynamic transit diagram rather than Design B's static parallel lines."
+    },
+    {
+      "slide": 8,
+      "winner": "Design A",
+      "reasoning": "Design A provides a clean horizontal roadmap structure with balanced gate placement and superior use of whitespace."
+    },
+    {
+      "slide": 9,
+      "winner": "Design A",
+      "reasoning": "Design A visualizes the conversation loop with clearer circular flow and polished typography, avoiding Design B's quotation syntax errors."
+    },
+    {
+      "slide": 10,
+      "winner": "Design A",
+      "reasoning": "Design A exhibits tighter editorial hierarchy and balanced layout composition across the headline, data points, and quote."
+    },
+    {
+      "slide": 11,
+      "winner": "Design A",
+      "reasoning": "Design A delivers high conceptual clarity and auditorium scale through bold typographic contrast and an articulate interface diagram."
+    },
+    {
+      "slide": 12,
+      "winner": "Design A",
+      "reasoning": "Design A provides a balanced grid layout that harmonizes large metrics, narrative voice, and strategic priorities."
+    },
+    {
+      "slide": 13,
+      "winner": "Design A",
+      "reasoning": "Design A makes the geographic corridor map the clear informational centerpiece with harmonious spatial hierarchy."
+    },
+    {
+      "slide": 14,
+      "winner": "Design A",
+      "reasoning": "Design A applies a more authentic Bauhaus educational aesthetic with precise baseline grid lines and balanced typographic annotations."
+    },
+    {
+      "slide": 15,
+      "winner": "Design A",
+      "reasoning": "Design A ensures strong structural integrity and layout polish, whereas Design B exhibits noticeable word-spacing and text-splitting defects."
+    }
+  ],
+  "raw_text": "{\n  \"slides\": [\n    {\n      \"slide\": 1,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A achieves stronger typographic hierarchy and visual impact with its dynamic chart integration and clear metric scaling.\"\n    },\n    {\n      \"slide\": 2,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A delivers a more cohesive narrative journey with balanced spacing and superior editorial typography.\"\n    },\n    {\n      \"slide\": 3,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A establishes a cleaner visual transformation and information hierarchy, avoiding Design B's heavy-handed bordered containers.\"\n    },\n    {\n      \"slide\": 4,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A maintains refined editorial typography and orbital data visualization, whereas Design B suffers from an awkward headline line break.\"\n    },\n    {\n      \"slide\": 5,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A creates a seamless cinematic product composition, while Design B relies on an unintegrated, bordered photo box.\"\n    },\n    {\n      \"slide\": 6,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A presents a calmer, more disciplined data hierarchy with well-integrated variance markers and activation gap visualization.\"\n    },\n    {\n      \"slide\": 7,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A effectively embodies civic wayfinding through a dynamic transit diagram rather than Design B's static parallel lines.\"\n    },\n    {\n      \"slide\": 8,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A provides a clean horizontal roadmap structure with balanced gate placement and superior use of whitespace.\"\n    },\n    {\n      \"slide\": 9,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A visualizes the conversation loop with clearer circular flow and polished typography, avoiding Design B's quotation syntax errors.\"\n    },\n    {\n      \"slide\": 10,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A exhibits tighter editorial hierarchy and balanced layout composition across the headline, data points, and quote.\"\n    },\n    {\n      \"slide\": 11,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A delivers high conceptual clarity and auditorium scale through bold typographic contrast and an articulate interface diagram.\"\n    },\n    {\n      \"slide\": 12,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A provides a balanced grid layout that harmonizes large metrics, narrative voice, and strategic priorities.\"\n    },\n    {\n      \"slide\": 13,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A makes the geographic corridor map the clear informational centerpiece with harmonious spatial hierarchy.\"\n    },\n    {\n      \"slide\": 14,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A applies a more authentic Bauhaus educational aesthetic with precise baseline grid lines and balanced typographic annotations.\"\n    },\n    {\n      \"slide\": 15,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A ensures strong structural integrity and layout polish, whereas Design B exhibits noticeable word-spacing and text-splitting defects.\"\n    }\n  ]\n}"
+}

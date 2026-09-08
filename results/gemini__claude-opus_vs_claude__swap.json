@@ -1,0 +1,119 @@
+{
+  "id": "gemini__claude-opus_vs_claude__swap",
+  "metadata": {
+    "judge_key": "gemini",
+    "judge_label": "Gemini 3.8 Flash",
+    "judge_model": "google/gemini-3.8-flash",
+    "reasoning_effort": "high",
+    "design_a": "claude-opus",
+    "design_a_label": "Claude Code (Opus 5)",
+    "design_b": "claude",
+    "design_b_label": "Claude Code (Fable)",
+    "position_swap": true,
+    "slide_count": 15,
+    "created_at": "2026-09-08T07:59:26.459860+00:00",
+    "elapsed_seconds": 47.96,
+    "usage": {
+      "prompt_tokens": 37234,
+      "completion_tokens": 5345,
+      "total_tokens": 42579,
+      "cost": 0.04796925,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.04796925,
+        "upstream_inference_prompt_cost": 0.0279255,
+        "upstream_inference_completions_cost": 0.02004375
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 4620,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "openrouter_id": "gen-1788854318-qcdi88mMJLRczSWbPuUs"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "winner": "Design A",
+      "reasoning": "Design A delivers a more cohesive typographic hierarchy and directly connects the primary metric to the trajectory curve."
+    },
+    {
+      "slide": 2,
+      "winner": "Design B",
+      "reasoning": "Design B adheres accurately to the warm clay palette dominance and creates a more authentic hand-drawn journey."
+    },
+    {
+      "slide": 3,
+      "winner": "Design A",
+      "reasoning": "Design A establishes clearer enterprise layout structure and sharper diagrammatic contrast across the before-and-after workflow."
+    },
+    {
+      "slide": 4,
+      "winner": "Design A",
+      "reasoning": "Design A integrates the portfolio allocation wheel with superior institutional typographic restraint and margin balance."
+    },
+    {
+      "slide": 5,
+      "winner": "Design B",
+      "reasoning": "Design B fulfills the keynote reveal brief with an impactful exploded technical component view rather than a flat graphic."
+    },
+    {
+      "slide": 6,
+      "winner": "Design A",
+      "reasoning": "Design A provides a calmer, less cluttered performance curve with a more legible visual emphasis on the activation gap."
+    },
+    {
+      "slide": 7,
+      "winner": "Design B",
+      "reasoning": "Design B employs a clever converging transit-track diagram that communicates strategic alignment more effectively."
+    },
+    {
+      "slide": 8,
+      "winner": "Design B",
+      "reasoning": "Design B visualizes phase velocity and gate dependencies more dynamically than the rigid container layout in Design A."
+    },
+    {
+      "slide": 9,
+      "winner": "Design B",
+      "reasoning": "Design B captures the workshop aesthetic better through tactile annotations and a tightly integrated facilitation loop."
+    },
+    {
+      "slide": 10,
+      "winner": "Design B",
+      "reasoning": "Design B represents the core data more vividly using a complete 68% grid and a contextualized multi-app journey."
+    },
+    {
+      "slide": 11,
+      "winner": "Design A",
+      "reasoning": "Design A commands the stage with bold typographic scale and high-contrast editorial clarity suited for an auditorium."
+    },
+    {
+      "slide": 12,
+      "winner": "Design A",
+      "reasoning": "Design A maintains confident palette dominance and a unified composition across metrics and customer evidence."
+    },
+    {
+      "slide": 13,
+      "winner": "Design A",
+      "reasoning": "Design A provides superior text legibility and cartographic framing by cleanly dividing content from the corridor map."
+    },
+    {
+      "slide": 14,
+      "winner": "Design B",
+      "reasoning": "Design B delivers an enormous, truly instructional hero letterform with precise architectural callouts."
+    },
+    {
+      "slide": 15,
+      "winner": "Design B",
+      "reasoning": "Design B creates a more dynamic culinary-futures composition through bold graphic scale and cohesive typographic rhythm."
+    }
+  ],
+  "raw_text": "{\n  \"slides\": [\n    {\n      \"slide\": 1,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A delivers a more cohesive typographic hierarchy and directly connects the primary metric to the trajectory curve.\"\n    },\n    {\n      \"slide\": 2,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B adheres accurately to the warm clay palette dominance and creates a more authentic hand-drawn journey.\"\n    },\n    {\n      \"slide\": 3,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A establishes clearer enterprise layout structure and sharper diagrammatic contrast across the before-and-after workflow.\"\n    },\n    {\n      \"slide\": 4,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A integrates the portfolio allocation wheel with superior institutional typographic restraint and margin balance.\"\n    },\n    {\n      \"slide\": 5,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B fulfills the keynote reveal brief with an impactful exploded technical component view rather than a flat graphic.\"\n    },\n    {\n      \"slide\": 6,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A provides a calmer, less cluttered performance curve with a more legible visual emphasis on the activation gap.\"\n    },\n    {\n      \"slide\": 7,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B employs a clever converging transit-track diagram that communicates strategic alignment more effectively.\"\n    },\n    {\n      \"slide\": 8,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B visualizes phase velocity and gate dependencies more dynamically than the rigid container layout in Design A.\"\n    },\n    {\n      \"slide\": 9,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B captures the workshop aesthetic better through tactile annotations and a tightly integrated facilitation loop.\"\n    },\n    {\n      \"slide\": 10,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B represents the core data more vividly using a complete 68% grid and a contextualized multi-app journey.\"\n    },\n    {\n      \"slide\": 11,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A commands the stage with bold typographic scale and high-contrast editorial clarity suited for an auditorium.\"\n    },\n    {\n      \"slide\": 12,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A maintains confident palette dominance and a unified composition across metrics and customer evidence.\"\n    },\n    {\n      \"slide\": 13,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A provides superior text legibility and cartographic framing by cleanly dividing content from the corridor map.\"\n    },\n    {\n      \"slide\": 14,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B delivers an enormous, truly instructional hero letterform with precise architectural callouts.\"\n    },\n    {\n      \"slide\": 15,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B creates a more dynamic culinary-futures composition through bold graphic scale and cohesive typographic rhythm.\"\n    }\n  ]\n}"
+}

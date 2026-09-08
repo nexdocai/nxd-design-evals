@@ -1,0 +1,119 @@
+{
+  "id": "opus__claude-opus_vs_claude__swap",
+  "metadata": {
+    "judge_key": "opus",
+    "judge_label": "Opus 5 max",
+    "judge_model": "anthropic/claude-opus-5",
+    "reasoning_effort": "max",
+    "design_a": "claude-opus",
+    "design_a_label": "Claude Code (Opus 5)",
+    "design_b": "claude",
+    "design_b_label": "Claude Code (Fable)",
+    "position_swap": true,
+    "slide_count": 15,
+    "created_at": "2026-09-08T07:45:46.474589+00:00",
+    "elapsed_seconds": 424.93,
+    "usage": {
+      "prompt_tokens": 95109,
+      "completion_tokens": 28180,
+      "total_tokens": 123289,
+      "cost": 1.180045,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 1.180045,
+        "upstream_inference_prompt_cost": 0.475545,
+        "upstream_inference_completions_cost": 0.7045
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 26431,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "openrouter_id": "gen-1788853123-GPw38iN8wSjeIOYRIWAR"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "winner": "Design A",
+      "reasoning": "Both are on-palette and clean, but A's condensed lime headline, oversized $4.8M and dramatic full-height curve create a stronger single hierarchy, whereas B lets a floating top-right metric overpower its own headline."
+    },
+    {
+      "slide": 2,
+      "winner": "Design B",
+      "reasoning": "B correctly makes clay the dominant field with blush/marigold accents and delivers a genuinely illustrated, hand-drawn route with taped note and buddy tag, while A inverts the palette dominance, leans on a soft background gradient, and reverts to three text columns beneath the path."
+    },
+    {
+      "slide": 3,
+      "winner": "Design B",
+      "reasoning": "B's tangled-network vs. ordered-identity-graph panels read the before/after transformation in under a second with equal-weight boxes and a clean ROI band, whereas A's left panel uses a weak decorative squiggle and its top-right customer-model block competes with the headline."
+    },
+    {
+      "slide": 4,
+      "winner": "Design B",
+      "reasoning": "B stays strictly within evergreen/gold/coral/mineral with more restrained, institutional serif detailing and clean leader-lined labels, while A introduces an off-palette sage segment and lets the '20%' label collide with the faint orbital ring."
+    },
+    {
+      "slide": 5,
+      "winner": "Design B",
+      "reasoning": "B's exploded driver stack is a credible keynote hero with spare, well-spaced callouts, whereas A's flat headphone illustration reads brochure-like, duplicates specs in a table, and pushes annotation text almost to the right trim."
+    },
+    {
+      "slide": 6,
+      "winner": "Design B",
+      "reasoning": "B uses the full canvas in balanced quadrants with an even, correctly scaled axis and consistent monospaced variance markers, while A's chart has uneven y-axis intervals and leaves a noticeable dead zone under the right-hand scorecard."
+    },
+    {
+      "slide": 7,
+      "winner": "Design A",
+      "reasoning": "A fills the frame with a bolder wayfinding diagram, complete pillar descriptions and a strong charcoal north-star band, while B leaves the entire upper-right quadrant empty and compresses the pillar copy into station labels."
+    },
+    {
+      "slide": 8,
+      "winner": "Design B",
+      "reasoning": "B's cascading chevron phases name a decision owner at every gate with precise week-ruler alignment and generous footer margins, whereas A's launch-ramp labels sit flush against the bottom trim and its week-scale numerals render awkwardly."
+    },
+    {
+      "slide": 9,
+      "winner": "Design B",
+      "reasoning": "B's heavy arrowed loop plus marker-annotated, line-by-line dissection of the opener is far more instructional and cleanly gridded, while A's loop lacks directional clarity and its 'Commit' label breaks the left margin, nearly touching the edge."
+    },
+    {
+      "slide": 10,
+      "winner": "Design B",
+      "reasoning": "B pairs a memorable waffle-grid 68% with a truly fragmented journey diagram showing where confidence breaks, all rigorously aligned, whereas A's middle column floats and its footer band produces an orphaned 'PERTH' line."
+    },
+    {
+      "slide": 11,
+      "winner": "Design B",
+      "reasoning": "B's solid-to-outline title and auditorium silhouette deliver the requested back-of-the-room keynote moment with no collisions, while A's stacked title letters visibly overlap and its boxed UI diagram feels like a generic slide chart."
+    },
+    {
+      "slide": 12,
+      "winner": "Design B",
+      "reasoning": "B's split orange/powder-blue field with genuinely oversized editorial numerals and rule-separated rows better matches the brief's typographic tone, while A's four-across metric row plus two panels reads more like a dashboard with minor label orphans."
+    },
+    {
+      "slide": 13,
+      "winner": "Design B",
+      "reasoning": "B makes the sage corridor map the full-bleed emotional centerpiece with a taped field-ledger card and parcel-level close-up detail, while A's safer panel-plus-map split reduces the map to an illustration beside an info rail."
+    },
+    {
+      "slide": 14,
+      "winner": "Design B",
+      "reasoning": "B's letterform is genuinely enormous with a yellow-filled counter, measured aperture and baseline-shared specimen comparison, whereas A's 'a' is comparatively small and its x-height/baseline labels sit almost on the left trim."
+    },
+    {
+      "slide": 15,
+      "winner": "Design B",
+      "reasoning": "B's halftone citrus macro and dotted-leader editorial column are cleanly spaced and far more collage-like, while A's flat clip-art fruit and the collision between '41 countries represented' and the partnership list crowd the mid-right."
+    }
+  ],
+  "raw_text": "```json\n{\n  \"slides\": [\n    {\n      \"slide\": 1,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Both are on-palette and clean, but A's condensed lime headline, oversized $4.8M and dramatic full-height curve create a stronger single hierarchy, whereas B lets a floating top-right metric overpower its own headline.\"\n    },\n    {\n      \"slide\": 2,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B correctly makes clay the dominant field with blush/marigold accents and delivers a genuinely illustrated, hand-drawn route with taped note and buddy tag, while A inverts the palette dominance, leans on a soft background gradient, and reverts to three text columns beneath the path.\"\n    },\n    {\n      \"slide\": 3,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B's tangled-network vs. ordered-identity-graph panels read the before/after transformation in under a second with equal-weight boxes and a clean ROI band, whereas A's left panel uses a weak decorative squiggle and its top-right customer-model block competes with the headline.\"\n    },\n    {\n      \"slide\": 4,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B stays strictly within evergreen/gold/coral/mineral with more restrained, institutional serif detailing and clean leader-lined labels, while A introduces an off-palette sage segment and lets the '20%' label collide with the faint orbital ring.\"\n    },\n    {\n      \"slide\": 5,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B's exploded driver stack is a credible keynote hero with spare, well-spaced callouts, whereas A's flat headphone illustration reads brochure-like, duplicates specs in a table, and pushes annotation text almost to the right trim.\"\n    },\n    {\n      \"slide\": 6,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B uses the full canvas in balanced quadrants with an even, correctly scaled axis and consistent monospaced variance markers, while A's chart has uneven y-axis intervals and leaves a noticeable dead zone under the right-hand scorecard.\"\n    },\n    {\n      \"slide\": 7,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A fills the frame with a bolder wayfinding diagram, complete pillar descriptions and a strong charcoal north-star band, while B leaves the entire upper-right quadrant empty and compresses the pillar copy into station labels.\"\n    },\n    {\n      \"slide\": 8,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B's cascading chevron phases name a decision owner at every gate with precise week-ruler alignment and generous footer margins, whereas A's launch-ramp labels sit flush against the bottom trim and its week-scale numerals render awkwardly.\"\n    },\n    {\n      \"slide\": 9,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B's heavy arrowed loop plus marker-annotated, line-by-line dissection of the opener is far more instructional and cleanly gridded, while A's loop lacks directional clarity and its 'Commit' label breaks the left margin, nearly touching the edge.\"\n    },\n    {\n      \"slide\": 10,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B pairs a memorable waffle-grid 68% with a truly fragmented journey diagram showing where confidence breaks, all rigorously aligned, whereas A's middle column floats and its footer band produces an orphaned 'PERTH' line.\"\n    },\n    {\n      \"slide\": 11,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B's solid-to-outline title and auditorium silhouette deliver the requested back-of-the-room keynote moment with no collisions, while A's stacked title letters visibly overlap and its boxed UI diagram feels like a generic slide chart.\"\n    },\n    {\n      \"slide\": 12,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B's split orange/powder-blue field with genuinely oversized editorial numerals and rule-separated rows better matches the brief's typographic tone, while A's four-across metric row plus two panels reads more like a dashboard with minor label orphans.\"\n    },\n    {\n      \"slide\": 13,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B makes the sage corridor map the full-bleed emotional centerpiece with a taped field-ledger card and parcel-level close-up detail, while A's safer panel-plus-map split reduces the map to an illustration beside an info rail.\"\n    },\n    {\n      \"slide\": 14,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B's letterform is genuinely enormous with a yellow-filled counter, measured aperture and baseline-shared specimen comparison, whereas A's 'a' is comparatively small and its x-height/baseline labels sit almost on the left trim.\"\n    },\n    {\n      \"slide\": 15,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B's halftone citrus macro and dotted-leader editorial column are cleanly spaced and far more collage-like, while A's flat clip-art fruit and the collision between '41 countries represented' and the partnership list crowd the mid-right.\"\n    }\n  ]\n}\n```"
+}

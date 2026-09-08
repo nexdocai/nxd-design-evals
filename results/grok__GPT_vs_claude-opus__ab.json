@@ -1,0 +1,119 @@
+{
+  "id": "grok__GPT_vs_claude-opus__ab",
+  "metadata": {
+    "judge_key": "grok",
+    "judge_label": "Grok 4.6 high",
+    "judge_model": "x-ai/grok-4.6",
+    "reasoning_effort": "high",
+    "design_a": "GPT",
+    "design_a_label": "ChatGPT 5.6 Sol High (Codex)",
+    "design_b": "claude-opus",
+    "design_b_label": "Claude Code (Opus 5)",
+    "position_swap": false,
+    "slide_count": 15,
+    "created_at": "2026-09-08T07:36:33.968726+00:00",
+    "elapsed_seconds": 196.95,
+    "usage": {
+      "prompt_tokens": 72302,
+      "completion_tokens": 10892,
+      "total_tokens": 83194,
+      "cost": 0.209764,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 128,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.209764,
+        "upstream_inference_prompt_cost": 0.144412,
+        "upstream_inference_completions_cost": 0.065352
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 9965,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "openrouter_id": "gen-1788852798-qAqBmTK087GaTACucpgp"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "winner": "Design B",
+      "reasoning": "Stronger brand compliance and hierarchy: lime is reserved for the hero ARR and rising chart, metrics stack cleanly without extra chart-dot colors, and the composition stays collision-free."
+    },
+    {
+      "slide": 2,
+      "winner": "Design B",
+      "reasoning": "The dashed route, generous type, and footer callout create a clearer journey hierarchy within the clay/blush/aubergine system, with no collisions and more balanced spacing than the linear three-node layout."
+    },
+    {
+      "slide": 3,
+      "winner": "Design B",
+      "reasoning": "Sharper enterprise structure and hierarchy: a true left-to-right before/after, prominent $780k, and precise rules with no overlapping boxes or dangling connector lines."
+    },
+    {
+      "slide": 4,
+      "winner": "Design B",
+      "reasoning": "The orbital allocation wheel and restrained serif/gold treatment match the institutional palette and avoid the startup-style KPI box, with cleaner spacing around thesis, construction, and returns."
+    },
+    {
+      "slide": 5,
+      "winner": "Design B",
+      "reasoning": "Brushed-silver dominance, exploded callouts, and a readable product hero beat the dark graphite close-up, which underuses the specified silver and hides detail."
+    },
+    {
+      "slide": 6,
+      "winner": "Design B",
+      "reasoning": "A coherent performance curve with variance markers and a hatched activation gap delivers the required data hierarchy; Design A\u2019s declining regional line is structurally misleading and leaves a large empty mid-slide."
+    },
+    {
+      "slide": 7,
+      "winner": "Design B",
+      "reasoning": "Custom transit-map lines, wayfinding type, and a grounded north-star footer use the civic palette more faithfully than equal-length bars plus an off-palette gold accent."
+    },
+    {
+      "slide": 8,
+      "winner": "Design B",
+      "reasoning": "Week axis, diamond gates, ownership dots, and launch ramp form a precise swimlane roadmap with clearer hierarchy and no orphaned gate captions."
+    },
+    {
+      "slide": 9,
+      "winner": "Design B",
+      "reasoning": "The circular 4C loop, marker-like annotations, and worked example create a bolder facilitation diagram with tighter hierarchy and less leftover yellow void."
+    },
+    {
+      "slide": 10,
+      "winner": "Design B",
+      "reasoning": "Giant 68% plus unit chart, editorial quote card, and three-app handover diagram produce a more expressive, collision-free research hierarchy within the blush/cobalt/pink system."
+    },
+    {
+      "slide": 11,
+      "winner": "Design B",
+      "reasoning": "Oversized stacked type and a clean visible/hidden UI diagram hold the cobalt\u2013cyan system without photo overlays, giving stronger hierarchy and structural integrity."
+    },
+    {
+      "slide": 12,
+      "winner": "Design B",
+      "reasoning": "Four even editorial metrics, a quote panel, and a priorities card mix health, voice, and focus in a tighter orange/ink/powder-blue grid with less leftover space."
+    },
+    {
+      "slide": 13,
+      "winner": "Design B",
+      "reasoning": "The mapped corridor, scale, and palette-locked sage/moss/ochre field are more structurally coherent than disconnected photo overlays, with clearer funding and CTA hierarchy."
+    },
+    {
+      "slide": 14,
+      "winner": "Design B",
+      "reasoning": "Leader lines actually hit terminal, aperture, stem, bowl, and counter on a baseline grid, making the letterform instructional rather than a set of unattached rules."
+    },
+    {
+      "slide": 15,
+      "winner": "Design B",
+      "reasoning": "Collage, labeled audience bar, and peach investment footer use the plum/peach/aqua/lilac system with sharper data hierarchy and no overlay collisions on the photo panel."
+    }
+  ],
+  "raw_text": "{\n  \"slides\": [\n    {\n      \"slide\": 1,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Stronger brand compliance and hierarchy: lime is reserved for the hero ARR and rising chart, metrics stack cleanly without extra chart-dot colors, and the composition stays collision-free.\"\n    },\n    {\n      \"slide\": 2,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"The dashed route, generous type, and footer callout create a clearer journey hierarchy within the clay/blush/aubergine system, with no collisions and more balanced spacing than the linear three-node layout.\"\n    },\n    {\n      \"slide\": 3,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Sharper enterprise structure and hierarchy: a true left-to-right before/after, prominent $780k, and precise rules with no overlapping boxes or dangling connector lines.\"\n    },\n    {\n      \"slide\": 4,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"The orbital allocation wheel and restrained serif/gold treatment match the institutional palette and avoid the startup-style KPI box, with cleaner spacing around thesis, construction, and returns.\"\n    },\n    {\n      \"slide\": 5,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Brushed-silver dominance, exploded callouts, and a readable product hero beat the dark graphite close-up, which underuses the specified silver and hides detail.\"\n    },\n    {\n      \"slide\": 6,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"A coherent performance curve with variance markers and a hatched activation gap delivers the required data hierarchy; Design A\u2019s declining regional line is structurally misleading and leaves a large empty mid-slide.\"\n    },\n    {\n      \"slide\": 7,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Custom transit-map lines, wayfinding type, and a grounded north-star footer use the civic palette more faithfully than equal-length bars plus an off-palette gold accent.\"\n    },\n    {\n      \"slide\": 8,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Week axis, diamond gates, ownership dots, and launch ramp form a precise swimlane roadmap with clearer hierarchy and no orphaned gate captions.\"\n    },\n    {\n      \"slide\": 9,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"The circular 4C loop, marker-like annotations, and worked example create a bolder facilitation diagram with tighter hierarchy and less leftover yellow void.\"\n    },\n    {\n      \"slide\": 10,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Giant 68% plus unit chart, editorial quote card, and three-app handover diagram produce a more expressive, collision-free research hierarchy within the blush/cobalt/pink system.\"\n    },\n    {\n      \"slide\": 11,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Oversized stacked type and a clean visible/hidden UI diagram hold the cobalt\u2013cyan system without photo overlays, giving stronger hierarchy and structural integrity.\"\n    },\n    {\n      \"slide\": 12,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Four even editorial metrics, a quote panel, and a priorities card mix health, voice, and focus in a tighter orange/ink/powder-blue grid with less leftover space.\"\n    },\n    {\n      \"slide\": 13,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"The mapped corridor, scale, and palette-locked sage/moss/ochre field are more structurally coherent than disconnected photo overlays, with clearer funding and CTA hierarchy.\"\n    },\n    {\n      \"slide\": 14,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Leader lines actually hit terminal, aperture, stem, bowl, and counter on a baseline grid, making the letterform instructional rather than a set of unattached rules.\"\n    },\n    {\n      \"slide\": 15,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Collage, labeled audience bar, and peach investment footer use the plum/peach/aqua/lilac system with sharper data hierarchy and no overlay collisions on the photo panel.\"\n    }\n  ]\n}"
+}

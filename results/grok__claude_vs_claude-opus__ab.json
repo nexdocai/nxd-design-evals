@@ -1,0 +1,119 @@
+{
+  "id": "grok__claude_vs_claude-opus__ab",
+  "metadata": {
+    "judge_key": "grok",
+    "judge_label": "Grok 4.6 high",
+    "judge_model": "x-ai/grok-4.6",
+    "reasoning_effort": "high",
+    "design_a": "claude",
+    "design_a_label": "Claude Code (Fable)",
+    "design_b": "claude-opus",
+    "design_b_label": "Claude Code (Opus 5)",
+    "position_swap": false,
+    "slide_count": 15,
+    "created_at": "2026-09-08T07:34:23.313594+00:00",
+    "elapsed_seconds": 317.56,
+    "usage": {
+      "prompt_tokens": 72302,
+      "completion_tokens": 16792,
+      "total_tokens": 89094,
+      "cost": 0.245164,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 128,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.245164,
+        "upstream_inference_prompt_cost": 0.144412,
+        "upstream_inference_completions_cost": 0.100752
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 15921,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "openrouter_id": "gen-1788852547-g9Hdslhu3VLR1JU68X7f"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "winner": "Design A",
+      "reasoning": "Equal lime-on-near-black compliance, but A\u2019s oversized $4.8M locked to a fully labeled rising chart creates stronger hierarchy and contrast than B\u2019s fainter metric labels."
+    },
+    {
+      "slide": 2,
+      "winner": "Design A",
+      "reasoning": "Clay is correctly dominant with a hand-drawn editorial tone, and the illustrated path stays collision-free, whereas B\u2019s blush field breaks the specified dominant color."
+    },
+    {
+      "slide": 3,
+      "winner": "Design A",
+      "reasoning": "Same enterprise palette, but A\u2019s before/after diagrams plus a truly prominent $780k give a clearer transformation hierarchy with clean rules and no overlap."
+    },
+    {
+      "slide": 4,
+      "winner": "Design B",
+      "reasoning": "Both hit evergreen/gold/coral serif tone, yet B\u2019s allocation wheel and left-column spacing make portfolio shares and construction far easier to parse."
+    },
+    {
+      "slide": 5,
+      "winner": "Design B",
+      "reasoning": "B\u2019s cinematic product-hero hierarchy, brushed-silver/graphite/red system, and uncluttered spec-and-price framing outperform A\u2019s busier exploded diagram."
+    },
+    {
+      "slide": 6,
+      "winner": "Design A",
+      "reasoning": "On the same navy/turquoise/tangerine system, A\u2019s variance-marked curve and emphasized activation gap deliver stronger data hierarchy without collisions."
+    },
+    {
+      "slide": 7,
+      "winner": "Design B",
+      "reasoning": "B pairs a custom transit diagram with oversized north-star measures and more balanced civic spacing, while A\u2019s map is denser and the resilient line lacks contrast."
+    },
+    {
+      "slide": 8,
+      "winner": "Design A",
+      "reasoning": "A\u2019s week-scale swimlane and citron gates are structurally intact and hierarchical; B is airier but the week-17 tick appears clipped."
+    },
+    {
+      "slide": 9,
+      "winner": "Design B",
+      "reasoning": "B uses the yellow/green/berry system with more generous type and a cleaner loop-versus-example split, while A\u2019s marker notes crowd the right column."
+    },
+    {
+      "slide": 10,
+      "winner": "Design A",
+      "reasoning": "A\u2019s 68% unit grid and annotated three-app journey create stronger editorial contrast on the blush/cobalt/pink palette with no colliding labels."
+    },
+    {
+      "slide": 11,
+      "winner": "Design A",
+      "reasoning": "A\u2019s fading oversized title and auditorium silhouette match the theatrical cobalt/cyan tone and rank the provocation clearly without overlap."
+    },
+    {
+      "slide": 12,
+      "winner": "Design B",
+      "reasoning": "Safety orange stays dominant while large metrics, quote, and priorities sit in one balanced composition; A\u2019s 50/50 split weakens brand dominance."
+    },
+    {
+      "slide": 13,
+      "winner": "Design A",
+      "reasoning": "The corridor map plus paper ledger hit the field-journal palette and tone, with geography as the hierarchy and no clipped labels."
+    },
+    {
+      "slide": 14,
+      "winner": "Design A",
+      "reasoning": "The enormous annotated letterform on a baseline grid, with red/blue/yellow callouts, produces clearer instructional hierarchy and no collisions."
+    },
+    {
+      "slide": 15,
+      "winner": "Design B",
+      "reasoning": "Equal plum/peach/aqua compliance, but B\u2019s whitespace and stats-to-investment footer hierarchy are cleaner and less crowded than A\u2019s dense left stack."
+    }
+  ],
+  "raw_text": "{\n  \"slides\": [\n    {\n      \"slide\": 1,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Equal lime-on-near-black compliance, but A\u2019s oversized $4.8M locked to a fully labeled rising chart creates stronger hierarchy and contrast than B\u2019s fainter metric labels.\"\n    },\n    {\n      \"slide\": 2,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Clay is correctly dominant with a hand-drawn editorial tone, and the illustrated path stays collision-free, whereas B\u2019s blush field breaks the specified dominant color.\"\n    },\n    {\n      \"slide\": 3,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Same enterprise palette, but A\u2019s before/after diagrams plus a truly prominent $780k give a clearer transformation hierarchy with clean rules and no overlap.\"\n    },\n    {\n      \"slide\": 4,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Both hit evergreen/gold/coral serif tone, yet B\u2019s allocation wheel and left-column spacing make portfolio shares and construction far easier to parse.\"\n    },\n    {\n      \"slide\": 5,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B\u2019s cinematic product-hero hierarchy, brushed-silver/graphite/red system, and uncluttered spec-and-price framing outperform A\u2019s busier exploded diagram.\"\n    },\n    {\n      \"slide\": 6,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"On the same navy/turquoise/tangerine system, A\u2019s variance-marked curve and emphasized activation gap deliver stronger data hierarchy without collisions.\"\n    },\n    {\n      \"slide\": 7,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B pairs a custom transit diagram with oversized north-star measures and more balanced civic spacing, while A\u2019s map is denser and the resilient line lacks contrast.\"\n    },\n    {\n      \"slide\": 8,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A\u2019s week-scale swimlane and citron gates are structurally intact and hierarchical; B is airier but the week-17 tick appears clipped.\"\n    },\n    {\n      \"slide\": 9,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B uses the yellow/green/berry system with more generous type and a cleaner loop-versus-example split, while A\u2019s marker notes crowd the right column.\"\n    },\n    {\n      \"slide\": 10,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A\u2019s 68% unit grid and annotated three-app journey create stronger editorial contrast on the blush/cobalt/pink palette with no colliding labels.\"\n    },\n    {\n      \"slide\": 11,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A\u2019s fading oversized title and auditorium silhouette match the theatrical cobalt/cyan tone and rank the provocation clearly without overlap.\"\n    },\n    {\n      \"slide\": 12,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Safety orange stays dominant while large metrics, quote, and priorities sit in one balanced composition; A\u2019s 50/50 split weakens brand dominance.\"\n    },\n    {\n      \"slide\": 13,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"The corridor map plus paper ledger hit the field-journal palette and tone, with geography as the hierarchy and no clipped labels.\"\n    },\n    {\n      \"slide\": 14,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"The enormous annotated letterform on a baseline grid, with red/blue/yellow callouts, produces clearer instructional hierarchy and no collisions.\"\n    },\n    {\n      \"slide\": 15,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Equal plum/peach/aqua compliance, but B\u2019s whitespace and stats-to-investment footer hierarchy are cleaner and less crowded than A\u2019s dense left stack.\"\n    }\n  ]\n}"
+}

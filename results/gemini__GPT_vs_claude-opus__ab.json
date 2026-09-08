@@ -1,0 +1,119 @@
+{
+  "id": "gemini__GPT_vs_claude-opus__ab",
+  "metadata": {
+    "judge_key": "gemini",
+    "judge_label": "Gemini 3.8 Flash",
+    "judge_model": "google/gemini-3.8-flash",
+    "reasoning_effort": "high",
+    "design_a": "GPT",
+    "design_a_label": "ChatGPT 5.6 Sol High (Codex)",
+    "design_b": "claude-opus",
+    "design_b_label": "Claude Code (Opus 5)",
+    "position_swap": false,
+    "slide_count": 15,
+    "created_at": "2026-09-08T08:00:14.965133+00:00",
+    "elapsed_seconds": 48.5,
+    "usage": {
+      "prompt_tokens": 37234,
+      "completion_tokens": 4112,
+      "total_tokens": 41346,
+      "cost": 0.0433455,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0433455,
+        "upstream_inference_prompt_cost": 0.0279255,
+        "upstream_inference_completions_cost": 0.01542
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 3394,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "openrouter_id": "gen-1788854369-PKz7CNAWNPSmhfLDKuGE"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "winner": "Design B",
+      "reasoning": "Features superior technical condensed typography and integrates the ARR metric directly into a more dynamic rising chart."
+    },
+    {
+      "slide": 2,
+      "winner": "Design B",
+      "reasoning": "Captures the studio aesthetic effectively with a playful, hand-drawn path rather than a rigid linear diagram."
+    },
+    {
+      "slide": 3,
+      "winner": "Design B",
+      "reasoning": "Delivers a cleaner enterprise layout with a more sophisticated before-and-after graph diagram."
+    },
+    {
+      "slide": 4,
+      "winner": "Design B",
+      "reasoning": "Utilizes a refined orbital wheel layout with strong typographic hierarchy that fits an institutional climate fund."
+    },
+    {
+      "slide": 5,
+      "winner": "Design B",
+      "reasoning": "Properly executes the brushed silver dominant palette and provides a focused, high-contrast keynote product reveal."
+    },
+    {
+      "slide": 6,
+      "winner": "Design B",
+      "reasoning": "Visualizes the data logically with an upward trajectory, clear variance markers, and a distinct activation gap."
+    },
+    {
+      "slide": 7,
+      "winner": "Design B",
+      "reasoning": "Implements an authentic transit schematic diagram rather than simple horizontal progress bars."
+    },
+    {
+      "slide": 8,
+      "winner": "Design B",
+      "reasoning": "Features a well-structured horizontal swimlane roadmap with prominent decision gates and team resource allocation."
+    },
+    {
+      "slide": 9,
+      "winner": "Design B",
+      "reasoning": "Presents a continuous circular facilitation loop that improves readability and structural flow."
+    },
+    {
+      "slide": 10,
+      "winner": "Design B",
+      "reasoning": "Stronger editorial hierarchy with an impactful 68% typographic stat and an explicit multi-app handoff journey."
+    },
+    {
+      "slide": 11,
+      "winner": "Design B",
+      "reasoning": "Achieves high-impact auditorium scale through massive typography and a structured visible-versus-hidden interface diagram."
+    },
+    {
+      "slide": 12,
+      "winner": "Design B",
+      "reasoning": "Balances metrics, customer feedback, and quarterly priorities within an organized, cohesive grid."
+    },
+    {
+      "slide": 13,
+      "winner": "Design B",
+      "reasoning": "Demonstrates excellent cartographic information design with clear habitat milestones and strict palette compliance."
+    },
+    {
+      "slide": 14,
+      "winner": "Design B",
+      "reasoning": "Exemplifies modernist typographic instruction with clean callouts on a dominant white baseline grid."
+    },
+    {
+      "slide": 15,
+      "winner": "Design A",
+      "reasoning": "Adheres to the photography requirement with food imagery while maintaining a clean, non-tabular sponsorship layout."
+    }
+  ],
+  "raw_text": "{\n  \"slides\": [\n    {\n      \"slide\": 1,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Features superior technical condensed typography and integrates the ARR metric directly into a more dynamic rising chart.\"\n    },\n    {\n      \"slide\": 2,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Captures the studio aesthetic effectively with a playful, hand-drawn path rather than a rigid linear diagram.\"\n    },\n    {\n      \"slide\": 3,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Delivers a cleaner enterprise layout with a more sophisticated before-and-after graph diagram.\"\n    },\n    {\n      \"slide\": 4,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Utilizes a refined orbital wheel layout with strong typographic hierarchy that fits an institutional climate fund.\"\n    },\n    {\n      \"slide\": 5,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Properly executes the brushed silver dominant palette and provides a focused, high-contrast keynote product reveal.\"\n    },\n    {\n      \"slide\": 6,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Visualizes the data logically with an upward trajectory, clear variance markers, and a distinct activation gap.\"\n    },\n    {\n      \"slide\": 7,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Implements an authentic transit schematic diagram rather than simple horizontal progress bars.\"\n    },\n    {\n      \"slide\": 8,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Features a well-structured horizontal swimlane roadmap with prominent decision gates and team resource allocation.\"\n    },\n    {\n      \"slide\": 9,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Presents a continuous circular facilitation loop that improves readability and structural flow.\"\n    },\n    {\n      \"slide\": 10,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Stronger editorial hierarchy with an impactful 68% typographic stat and an explicit multi-app handoff journey.\"\n    },\n    {\n      \"slide\": 11,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Achieves high-impact auditorium scale through massive typography and a structured visible-versus-hidden interface diagram.\"\n    },\n    {\n      \"slide\": 12,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Balances metrics, customer feedback, and quarterly priorities within an organized, cohesive grid.\"\n    },\n    {\n      \"slide\": 13,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Demonstrates excellent cartographic information design with clear habitat milestones and strict palette compliance.\"\n    },\n    {\n      \"slide\": 14,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Exemplifies modernist typographic instruction with clean callouts on a dominant white baseline grid.\"\n    },\n    {\n      \"slide\": 15,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Adheres to the photography requirement with food imagery while maintaining a clean, non-tabular sponsorship layout.\"\n    }\n  ]\n}"
+}

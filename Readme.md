@@ -15,8 +15,8 @@ DesignEval tests generators against **15 standardized production-grade design br
 ```
 ┌─────────────────────────┐      ┌─────────────────────────┐      ┌─────────────────────────┐
 │ 15 Standardized Briefs  │ ───► │ Generation              │ ───► │ Rendered slides (PNG)   │
-│ slide-decks-prompt.md   │      │ NexDoc / Claude / GPT   │      │ claude / GPT / nexdoc-  │
-└─────────────────────────┘      └─────────────────────────┘      │ design/proof-01..15.png │
+│ slide-decks-prompt.md   │      │ four generators         │      │ proof-01.png … 15.png   │
+└─────────────────────────┘      └─────────────────────────┘      └────────────┬────────────┘
                                                                                │
 ┌─────────────────────────┐      ┌─────────────────────────┐                   ▼
 │ Sequential Elo          │ ◄─── │ data/battles.csv        │ ◄──── Blind pairwise judging
@@ -28,25 +28,31 @@ DesignEval tests generators against **15 standardized production-grade design br
 
 ## Current Leaderboard (15-Specimen Benchmark)
 
-Judged 8 September 2026. Three generators, four OpenRouter judges, position-swapped rematches. **360** slide-level judgments from **24** deck-vs-deck battles.
+Judged 8 September 2026. Four generators, four OpenRouter judges, position-swapped rematches. **720** slide-level judgments from **48** deck-vs-deck battles.
 
-![DesignEval Performance — ELO, Cost, and Time](assets/design-eval.png)
+![DesignEval Performance — ELO, Speed, and Cost efficiency](assets/design-eval.png)
 
-| Rank | Generator | Elo | Win Rate | Slide Battles | Generation Time | Generation Cost |
-| :---: | --- | ---: | ---: | ---: | ---: | ---: |
-| 1 | **Claude Code (Fable)** | **1385.7** | **96.7%** | 240 | 1 h 40 min | ~$36.81 |
-| 2 | **NexDoc Design** | **910.4** | **42.7%** | 240 | 17 min | ~$0.54 |
-| 3 | **ChatGPT 5.6 Sol High (Codex)** | **704.0** | **10.6%** | 240 | 20 min | ~$1.94 |
+| Rank | Generator | Elo | Win Rate | Slide Battles | Generation Time | Generation Cost | Speed (slides/10 min) | Cost efficiency (slides/$) |
+| :---: | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| 1 | **Claude Code (Fable)** | **1398.8** | **88.5%** | 360 | 1 h 40 min | ~$36.81 | 1.50 | 0.41 |
+| 2 | **Claude Code (Opus 5)** | **1158.5** | **67.2%** | 360 | 55 min | ~$29.11 | 2.73 | 0.52 |
+| 3 | **NexDoc Design** | **806.5** | **34.3%** | 360 | 17 min | ~$0.54 | 8.82 | 27.78 |
+| 4 | **ChatGPT 5.6 Sol High (Codex)** | **636.2** | **10.0%** | 360 | 20 min | ~$1.94 | 7.50 | 7.73 |
+
+Speed and cost efficiency are from the 15-slide deck: slides per 10 minutes of wall time, and slides per generation dollar. Higher is better.
 
 Head-to-head (ties count as 0.5):
 
 | Matchup | Result |
 | --- | --- |
-| Claude vs NexDoc | Claude **95.4%** (114.5 / 120) |
-| Claude vs GPT | Claude **97.9%** (117.5 / 120) |
+| Fable vs Opus 5 | Fable **72.1%** (86.5 / 120) |
+| Fable vs NexDoc | Fable **95.4%** (114.5 / 120) |
+| Fable vs GPT | Fable **97.9%** (117.5 / 120) |
+| Opus 5 vs NexDoc | Opus 5 **82.5%** (99.0 / 120) |
+| Opus 5 vs GPT | Opus 5 **91.2%** (109.5 / 120) |
 | NexDoc vs GPT | NexDoc **80.8%** (97.0 / 120) |
 
-Judges (each saw every pair twice, A/B swapped): Muse Spark 1.3 max, Grok 4.6 high, Gemini 3.8 Flash (high), Claude Opus 5 max. OpenRouter judging cost for this run: **$6.18**. Generation and judging cost detail: [run-costs.md](./run-costs.md).
+Judges (each saw every pair twice, A/B swapped): Muse Spark 1.3 max, Grok 4.6 high, Gemini 3.8 Flash (high), Claude Opus 5 max. OpenRouter judging cost for this run: **$12.59**. Generation and judging cost detail: [run-costs.md](./run-costs.md).
 
 ---
 
@@ -81,16 +87,18 @@ Every generator received the same anthology brief in `slide-decks-prompt.md` / `
 Use `slide-decks-prompt.md` as the generation brief.
 
 1. **NexDoc Design** — run via the NexDoc MCP / `https://nexdoc.design/skills.md`.
-2. **Claude** — run the same brief in Claude Code (this run used Fable as the main agent, with Opus and Sonnet as assistants).
-3. **ChatGPT** — run the same brief in Codex / GPT-5.6 Sol High.
+2. **Claude Code (Fable)** — same brief in Claude Code with Fable as the main agent, Opus and Sonnet as assistants.
+3. **Claude Code (Opus 5)** — same brief in Claude Code with Opus 5 as the main agent, Opus and Sonnet as assistants.
+4. **ChatGPT** — run the same brief in Codex / GPT-5.6 Sol High.
 
 Save one PNG per slide as `proof-01.png` … `proof-15.png` in:
 
 - `nexdoc-design/`
-- `claude/`
+- `claude-fable/`
+- `claude-opus/`
 - `GPT/`
 
-Source PDFs from this run: `slide-deck-nexdoc-design.pdf`, `slide-deck-claude-fable.pdf`, `slide-deck-chat-gpt-5.6-high-codex.pdf`.
+Source PDFs from this run: `slide-deck-nexdoc-design.pdf`, `slide-deck-claude-fable.pdf`, `slide-deck-claude-opus-5.pdf`, `slide-deck-chat-gpt-5.6-high-codex.pdf`.
 
 ### 2. Blind pairwise judging (`run_evals.py`)
 
@@ -112,7 +120,7 @@ python3 run_evals.py --all --dry-run  # print the battle matrix only
 
 What the runner does:
 
-- Builds every unordered pair of designers (`nexdoc-design`, `claude`, `GPT`).
+- Builds every unordered pair of designers (`nexdoc-design`, `claude`, `GPT`, `claude-opus`).
 - For each pair and each judge, sends **all 15 matching slides in one request** (Design A slide 1, Design B slide 1, … slide 15).
 - Repeats the matchup with **A/B swapped** to reduce position bias.
 - Keeps generator names out of the judge prompt. Mapping lives only in result metadata (`design_a`, `design_b`, labels).
@@ -130,7 +138,7 @@ Judges and reasoning effort:
 
 Images are downscaled to a 2000px long edge before upload so many-image requests stay within Anthropic’s limit. Existing result files are skipped unless `--force` is set.
 
-Full matrix: **3 pairs × 2 positions × 4 judges = 24 battles** (15 slide verdicts each).
+Full matrix: **6 pairs × 2 positions × 4 judges = 48 battles** (15 slide verdicts each).
 
 ### 3. Compute Elo
 
@@ -138,15 +146,16 @@ Full matrix: **3 pairs × 2 positions × 4 judges = 24 battles** (15 slide verdi
 python3 compute_elo.py --input data/battles.csv
 ```
 
-`compute_elo.py` walks `battles.csv` in order and applies sequential Elo (K=32, base 1000). Ties score 0.5. Each row is one slide judgment; a generator’s “battles” count is therefore 240 in the current matrix (15 slides × 2 opponents × 2 positions × 4 judges).
+`compute_elo.py` walks `battles.csv` in order and applies sequential Elo (K=32, base 1000). Ties score 0.5. Each row is one slide judgment; a generator’s “battles” count is therefore 360 in the current matrix (15 slides × 3 opponents × 2 positions × 4 judges).
 
 This run:
 
 ```text
         model    elo  win_rate  battles
-       claude 1385.7      96.7      240
-nexdoc-design  910.4      42.7      240
-          GPT  704.0      10.6      240
+       claude 1398.8      88.5      360
+  claude-opus 1158.5      67.2      360
+nexdoc-design  806.5      34.3      360
+          GPT  636.2      10.0      360
 ```
 
 ---
@@ -162,7 +171,8 @@ nxd-design-evals/
 ├── requirements.txt               # pandas, Pillow
 ├── run-costs.md                   # Generation + judging cost log
 ├── .env                           # OPENROUTER_API_KEY (not committed)
-├── claude/                        # Claude (Fable) slide PNGs: proof-01.png … proof-15.png
+├── claude-fable/                  # Claude Code (Fable) slide PNGs: proof-01.png … proof-15.png
+├── claude-opus/                   # Claude Code (Opus 5) slide PNGs
 ├── GPT/                           # ChatGPT 5.6 Sol High slide PNGs
 ├── nexdoc-design/                 # NexDoc Design slide PNGs
 ├── data/
@@ -171,6 +181,7 @@ nxd-design-evals/
 │   ├── eval_results.json          # Aggregate of all battles + Designer A/B metadata
 │   └── <judge>__<A>_vs_<B>__<ab|swap>.json
 ├── slide-deck-claude-fable.pdf
+├── slide-deck-claude-opus-5.pdf
 ├── slide-deck-chat-gpt-5.6-high-codex.pdf
 ├── slide-deck-nexdoc-design.pdf
 └── Readme.md

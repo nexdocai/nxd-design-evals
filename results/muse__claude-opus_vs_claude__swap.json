@@ -1,0 +1,119 @@
+{
+  "id": "muse__claude-opus_vs_claude__swap",
+  "metadata": {
+    "judge_key": "muse",
+    "judge_label": "Muse Spark 1.3 max",
+    "judge_model": "meta/muse-spark-1.3",
+    "reasoning_effort": "max",
+    "design_a": "claude-opus",
+    "design_a_label": "Claude Code (Opus 5)",
+    "design_b": "claude",
+    "design_b_label": "Claude Code (Fable)",
+    "position_swap": true,
+    "slide_count": 15,
+    "created_at": "2026-09-08T07:52:25.885027+00:00",
+    "elapsed_seconds": 36.86,
+    "usage": {
+      "prompt_tokens": 89181,
+      "completion_tokens": 4194,
+      "total_tokens": 93375,
+      "cost": 0.12930075,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.12930075,
+        "upstream_inference_prompt_cost": 0.11147625,
+        "upstream_inference_completions_cost": 0.0178245
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 3375,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "openrouter_id": "gen-1788853909-GmyefCnDb5uBVkUeVrFC"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "winner": "Design B",
+      "reasoning": "Design B delivers stronger brand compliance with dominant near-black and electric lime plus a cleaner dramatic rising chart and balanced huge metrics without collisions."
+    },
+    {
+      "slide": 2,
+      "winner": "Design A",
+      "reasoning": "Design A better captures the warm clay, blush paper, aubergine and marigold editorial tone with a clear illustrated journey and generous spacing versus a cramped layout."
+    },
+    {
+      "slide": 3,
+      "winner": "Design A",
+      "reasoning": "Design A maintains crisp white dominance with precise azure and vermilion rules and a stronger left-to-right transformation and prominent ROI hierarchy without overlap."
+    },
+    {
+      "slide": 4,
+      "winner": "Design A",
+      "reasoning": "Design A upholds the deep evergreen, antique gold and coral institutional serif system with an elegant balanced allocation wheel and refined whitespace."
+    },
+    {
+      "slide": 5,
+      "winner": "Design B",
+      "reasoning": "Design B more faithfully uses brushed silver dominance with graphite and signal red restraint and a cinematic hero product composition with minimal copy hierarchy."
+    },
+    {
+      "slide": 6,
+      "winner": "Tie",
+      "reasoning": "Both designs respect the midnight navy, turquoise and tangerine system with a coherent chart, clear activation gap emphasis, and clean collision-free structure."
+    },
+    {
+      "slide": 7,
+      "winner": "Design B",
+      "reasoning": "Design B achieves stronger civic-modernist wayfinding with warm cream dominance and an integrated transit-line diagram versus a more fragmented pillar layout."
+    },
+    {
+      "slide": 8,
+      "winner": "Design A",
+      "reasoning": "Design A presents clearer pale lavender dominance with deep violet swimlanes and citron gates in a dynamic horizontal roadmap with superior spacing and legibility."
+    },
+    {
+      "slide": 9,
+      "winner": "Design A",
+      "reasoning": "Design A visualizes the butter yellow, bottle green and berry workshop loop with bolder facilitation hierarchy and a legible worked example free of text collisions."
+    },
+    {
+      "slide": 10,
+      "winner": "Design B",
+      "reasoning": "Design B delivers a more memorable pale blush, cobalt and hot pink editorial composition with a striking 68% visual and clearer fragmented journey spacing."
+    },
+    {
+      "slide": 11,
+      "winner": "Design A",
+      "reasoning": "Design A commands the saturated cobalt stage with oversized theatrical typography and a cleaner visible versus hidden interface diagram with strong contrast."
+    },
+    {
+      "slide": 12,
+      "winner": "Design A",
+      "reasoning": "Design A sustains bright safety orange dominance with oversized editorial numbers and a confident balanced mix of health metrics, customer voice, and priorities."
+    },
+    {
+      "slide": 13,
+      "winner": "Design B",
+      "reasoning": "Design B centers the sage, moss, ochre and river blue palette on a stronger geographic corridor map with field-journal texture and cleaner funding hierarchy."
+    },
+    {
+      "slide": 14,
+      "winner": "Design A",
+      "reasoning": "Design A makes the annotated lowercase a genuinely enormous and instructional within a strict Bauhaus grid using exact primary red, blue and yellow accents without collisions."
+    },
+    {
+      "slide": 15,
+      "winner": "Design B",
+      "reasoning": "Design B better balances deep plum dominance with neon peach and aqua energy through an editorial audience composition and striking event image without pricing-table clutter."
+    }
+  ],
+  "raw_text": "{\n  \"slides\": [\n    {\n      \"slide\": 1,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B delivers stronger brand compliance with dominant near-black and electric lime plus a cleaner dramatic rising chart and balanced huge metrics without collisions.\"\n    },\n    {\n      \"slide\": 2,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A better captures the warm clay, blush paper, aubergine and marigold editorial tone with a clear illustrated journey and generous spacing versus a cramped layout.\"\n    },\n    {\n      \"slide\": 3,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A maintains crisp white dominance with precise azure and vermilion rules and a stronger left-to-right transformation and prominent ROI hierarchy without overlap.\"\n    },\n    {\n      \"slide\": 4,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A upholds the deep evergreen, antique gold and coral institutional serif system with an elegant balanced allocation wheel and refined whitespace.\"\n    },\n    {\n      \"slide\": 5,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B more faithfully uses brushed silver dominance with graphite and signal red restraint and a cinematic hero product composition with minimal copy hierarchy.\"\n    },\n    {\n      \"slide\": 6,\n      \"winner\": \"Tie\",\n      \"reasoning\": \"Both designs respect the midnight navy, turquoise and tangerine system with a coherent chart, clear activation gap emphasis, and clean collision-free structure.\"\n    },\n    {\n      \"slide\": 7,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B achieves stronger civic-modernist wayfinding with warm cream dominance and an integrated transit-line diagram versus a more fragmented pillar layout.\"\n    },\n    {\n      \"slide\": 8,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A presents clearer pale lavender dominance with deep violet swimlanes and citron gates in a dynamic horizontal roadmap with superior spacing and legibility.\"\n    },\n    {\n      \"slide\": 9,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A visualizes the butter yellow, bottle green and berry workshop loop with bolder facilitation hierarchy and a legible worked example free of text collisions.\"\n    },\n    {\n      \"slide\": 10,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B delivers a more memorable pale blush, cobalt and hot pink editorial composition with a striking 68% visual and clearer fragmented journey spacing.\"\n    },\n    {\n      \"slide\": 11,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A commands the saturated cobalt stage with oversized theatrical typography and a cleaner visible versus hidden interface diagram with strong contrast.\"\n    },\n    {\n      \"slide\": 12,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A sustains bright safety orange dominance with oversized editorial numbers and a confident balanced mix of health metrics, customer voice, and priorities.\"\n    },\n    {\n      \"slide\": 13,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B centers the sage, moss, ochre and river blue palette on a stronger geographic corridor map with field-journal texture and cleaner funding hierarchy.\"\n    },\n    {\n      \"slide\": 14,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A makes the annotated lowercase a genuinely enormous and instructional within a strict Bauhaus grid using exact primary red, blue and yellow accents without collisions.\"\n    },\n    {\n      \"slide\": 15,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B better balances deep plum dominance with neon peach and aqua energy through an editorial audience composition and striking event image without pricing-table clutter.\"\n    }\n  ]\n}"
+}

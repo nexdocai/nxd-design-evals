@@ -1,0 +1,119 @@
+{
+  "id": "grok__nexdoc-design_vs_claude-opus__ab",
+  "metadata": {
+    "judge_key": "grok",
+    "judge_label": "Grok 4.6 high",
+    "judge_model": "x-ai/grok-4.6",
+    "reasoning_effort": "high",
+    "design_a": "nexdoc-design",
+    "design_a_label": "NexDoc Design",
+    "design_b": "claude-opus",
+    "design_b_label": "Claude Code (Opus 5)",
+    "position_swap": false,
+    "slide_count": 15,
+    "created_at": "2026-09-08T07:31:16.829879+00:00",
+    "elapsed_seconds": 151.32,
+    "usage": {
+      "prompt_tokens": 72302,
+      "completion_tokens": 8071,
+      "total_tokens": 80373,
+      "cost": 0.19303,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.19303,
+        "upstream_inference_prompt_cost": 0.144604,
+        "upstream_inference_completions_cost": 0.048426
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 7146,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "openrouter_id": "gen-1788852526-z4J9liRUsJA4EKBag0cC"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "winner": "Design A",
+      "reasoning": "Design A better matches the brief with a heroic $4.8M, high-contrast lime metrics, and a dramatic rising chart, while B\u2019s steel labels are too faint and the stacked KPIs weaken hierarchy."
+    },
+    {
+      "slide": 2,
+      "winner": "Design B",
+      "reasoning": "Design B has stronger editorial hierarchy and spacing\u2014a numbered route plus complete phase copy and a confident quote bar\u2014whereas A\u2019s path is charming but thinner and less instructional."
+    },
+    {
+      "slide": 3,
+      "winner": "Design B",
+      "reasoning": "Design B is the more precise enterprise system: sharper rules, a real before/after diagram with identity-graph, and a clearer $780k ROI stack without A\u2019s heavier boxed cards."
+    },
+    {
+      "slide": 4,
+      "winner": "Design B",
+      "reasoning": "Design B\u2019s orbital allocation wheel, restrained serif thesis, and gold/coral accents better fulfill the institutional palette and map brief than A\u2019s simpler donut."
+    },
+    {
+      "slide": 5,
+      "winner": "Design B",
+      "reasoning": "Design B feels like a keynote reveal\u2014oversized type, product-as-hero, exploded callouts\u2014while A\u2019s centered photo and four corner specs read as a brochure."
+    },
+    {
+      "slide": 6,
+      "winner": "Design B",
+      "reasoning": "Design B is calmer and more data-coherent (honest monthly scale, hatched activation gap, regional bars), whereas A\u2019s 0\u201318 chart and loud orange footer overpower the scorecard."
+    },
+    {
+      "slide": 7,
+      "winner": "Design B",
+      "reasoning": "Design B builds a true transit-network diagram with an interchange, matching civic wayfinding, while A\u2019s four parallel lines still feel like equal rows."
+    },
+    {
+      "slide": 8,
+      "winner": "Design B",
+      "reasoning": "Design B has clean swimlanes, gated cards, and no collisions; A\u2019s gate labels wrap into bars and overlap the timeline."
+    },
+    {
+      "slide": 9,
+      "winner": "Design B",
+      "reasoning": "Design B\u2019s closed numbered loop, generous workshop type, and well-spaced example outperform A\u2019s gapped arcs and tighter annotations."
+    },
+    {
+      "slide": 10,
+      "winner": "Design B",
+      "reasoning": "Design B delivers a more memorable 68% lockup, a clearer fragmented three-app journey, and stronger quote/implication hierarchy without crowding."
+    },
+    {
+      "slide": 11,
+      "winner": "Design B",
+      "reasoning": "Design B hits the theatrical brief with auditorium-scale type and an elegant visible/hidden UI diagram; A\u2019s photo split shrinks the typography the slide needed."
+    },
+    {
+      "slide": 12,
+      "winner": "Design B",
+      "reasoning": "Design B balances oversized numbers, customer voice, and three priorities in one filled composition, while A leaves a large empty orange field and over-boxes 1.8M."
+    },
+    {
+      "slide": 13,
+      "winner": "Design B",
+      "reasoning": "Design B makes the geographic corridor map the informational and emotional centerpiece; A\u2019s aerial is handsome but paired with a weak schematic, not a map."
+    },
+    {
+      "slide": 14,
+      "winner": "Design B",
+      "reasoning": "Design B is more Bauhaus and instructional\u2014visible baseline grid, enormous annotated a, and comparative letterforms\u2014while A\u2019s leaders are looser and less grid-true."
+    },
+    {
+      "slide": 15,
+      "winner": "Design B",
+      "reasoning": "Design B is structurally clean with a sharp collage identity and intact labels; A breaks partnership-chip letter-spacing (e.g. FUTURET ABLEST AGE) and leaves a dashed bar gap."
+    }
+  ],
+  "raw_text": "{\n  \"slides\": [\n    {\n      \"slide\": 1,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A better matches the brief with a heroic $4.8M, high-contrast lime metrics, and a dramatic rising chart, while B\u2019s steel labels are too faint and the stacked KPIs weaken hierarchy.\"\n    },\n    {\n      \"slide\": 2,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B has stronger editorial hierarchy and spacing\u2014a numbered route plus complete phase copy and a confident quote bar\u2014whereas A\u2019s path is charming but thinner and less instructional.\"\n    },\n    {\n      \"slide\": 3,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B is the more precise enterprise system: sharper rules, a real before/after diagram with identity-graph, and a clearer $780k ROI stack without A\u2019s heavier boxed cards.\"\n    },\n    {\n      \"slide\": 4,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B\u2019s orbital allocation wheel, restrained serif thesis, and gold/coral accents better fulfill the institutional palette and map brief than A\u2019s simpler donut.\"\n    },\n    {\n      \"slide\": 5,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B feels like a keynote reveal\u2014oversized type, product-as-hero, exploded callouts\u2014while A\u2019s centered photo and four corner specs read as a brochure.\"\n    },\n    {\n      \"slide\": 6,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B is calmer and more data-coherent (honest monthly scale, hatched activation gap, regional bars), whereas A\u2019s 0\u201318 chart and loud orange footer overpower the scorecard.\"\n    },\n    {\n      \"slide\": 7,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B builds a true transit-network diagram with an interchange, matching civic wayfinding, while A\u2019s four parallel lines still feel like equal rows.\"\n    },\n    {\n      \"slide\": 8,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B has clean swimlanes, gated cards, and no collisions; A\u2019s gate labels wrap into bars and overlap the timeline.\"\n    },\n    {\n      \"slide\": 9,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B\u2019s closed numbered loop, generous workshop type, and well-spaced example outperform A\u2019s gapped arcs and tighter annotations.\"\n    },\n    {\n      \"slide\": 10,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B delivers a more memorable 68% lockup, a clearer fragmented three-app journey, and stronger quote/implication hierarchy without crowding.\"\n    },\n    {\n      \"slide\": 11,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B hits the theatrical brief with auditorium-scale type and an elegant visible/hidden UI diagram; A\u2019s photo split shrinks the typography the slide needed.\"\n    },\n    {\n      \"slide\": 12,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B balances oversized numbers, customer voice, and three priorities in one filled composition, while A leaves a large empty orange field and over-boxes 1.8M.\"\n    },\n    {\n      \"slide\": 13,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B makes the geographic corridor map the informational and emotional centerpiece; A\u2019s aerial is handsome but paired with a weak schematic, not a map.\"\n    },\n    {\n      \"slide\": 14,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B is more Bauhaus and instructional\u2014visible baseline grid, enormous annotated a, and comparative letterforms\u2014while A\u2019s leaders are looser and less grid-true.\"\n    },\n    {\n      \"slide\": 15,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B is structurally clean with a sharp collage identity and intact labels; A breaks partnership-chip letter-spacing (e.g. FUTURET ABLEST AGE) and leaves a dashed bar gap.\"\n    }\n  ]\n}"
+}
