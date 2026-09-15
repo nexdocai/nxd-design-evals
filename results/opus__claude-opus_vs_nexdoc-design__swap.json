@@ -1,0 +1,119 @@
+{
+  "id": "opus__claude-opus_vs_nexdoc-design__swap",
+  "metadata": {
+    "judge_key": "opus",
+    "judge_label": "Opus 5 max",
+    "judge_model": "anthropic/claude-opus-5",
+    "reasoning_effort": "max",
+    "design_a": "claude-opus",
+    "design_a_label": "Claude Code (Opus 5)",
+    "design_b": "nexdoc-design",
+    "design_b_label": "NexDoc Design",
+    "position_swap": true,
+    "slide_count": 15,
+    "created_at": "2026-09-08T07:38:52.166707+00:00",
+    "elapsed_seconds": 47.27,
+    "usage": {
+      "prompt_tokens": 95109,
+      "completion_tokens": 1765,
+      "total_tokens": 96874,
+      "cost": 0.51967,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.51967,
+        "upstream_inference_prompt_cost": 0.475545,
+        "upstream_inference_completions_cost": 0.044125
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "openrouter_id": "gen-1788853097-bmAC2YoO9DlJrdbixXUo"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "winner": "Design A",
+      "reasoning": "Design A delivers a bolder condensed-numeral hierarchy with a full-bleed rising chart, disciplined metric rules and a proof-point footer band, while Design B leaves a large dead zone under the left metrics and lets the '4.8' label crowd the plot edge."
+    },
+    {
+      "slide": 2,
+      "winner": "Design A",
+      "reasoning": "Design A's illustrated route with numbered stops, staggered labels and a full three-column editorial breakdown fills the frame gracefully, whereas Design B leaves a big empty mid-band and has label text sitting on top of the dashed path near 'judgment'."
+    },
+    {
+      "slide": 3,
+      "winner": "Design A",
+      "reasoning": "Design A shows a genuinely precise enterprise before/after with an identity-graph diagram, tiered ROI row and clean rules; Design B's two heavy blocks are internally under-filled and its metric row crowds unevenly against the CTA."
+    },
+    {
+      "slide": 4,
+      "winner": "Design A",
+      "reasoning": "Design A's restrained serif voice, orbital allocation wheel and structured left column match the institutional brief better, while Design B's all-caps sans headline breaks the serif tone and leaves a large empty lower-right void."
+    },
+    {
+      "slide": 5,
+      "winner": "Design A",
+      "reasoning": "Design A stages a cinematic keynote reveal with oversized wordmark, callout annotations and a graphite price bar, while Design B centers a small boxed stock render in a symmetrical four-label layout that reads as a brochure with visible letter-spacing glitches."
+    },
+    {
+      "slide": 6,
+      "winner": "Design A",
+      "reasoning": "Design A's calm monospaced scorecard, variance callouts and hatched activation gap bar are tightly integrated, whereas Design B has the '103% of plan' label colliding with the dashed plan line and a very heavy orange footer that unbalances the palette."
+    },
+    {
+      "slide": 7,
+      "winner": "Design A",
+      "reasoning": "Design A builds a true transit-map diagram with interchange spine, wayfinding labels and a north-star measures band, while Design B's four parallel straight rules feel diagrammatically flat, misassigns labels between lanes, and leaves a large empty gap above the footer."
+    },
+    {
+      "slide": 8,
+      "winner": "Design A",
+      "reasoning": "Design A's phase bars, diamond gates and team/rollout footer are cleanly aligned with no overlaps, while Design B's gate labels overrun and collide with the phase bars (notably Gate C over the Build & Pilot block) in a spreadsheet-like Gantt."
+    },
+    {
+      "slide": 9,
+      "winner": "Design A",
+      "reasoning": "Design A pairs a bold facilitation loop with a well-set worked-example panel and marker-style annotation, while Design B shows doubled quotation marks, a label overlapping the ring, and a large empty right-hand area."
+    },
+    {
+      "slide": 10,
+      "winner": "Design A",
+      "reasoning": "Design A's editorial 68% figure, dot matrix, three-app handover chain and quote block are elegantly balanced, whereas Design B's headline wraps awkwardly onto a stray 'DECISIONS' line crowding the 68% and its stacked app boxes read generically."
+    },
+    {
+      "slide": 11,
+      "winner": "Design A",
+      "reasoning": "Design A creates the auditorium-scale typographic moment with a layered oversized title and a clear visible/hidden UI diagram, while Design B's small title, awkward script-italic provocation and photo-half composition lack keynote presence and typographic discipline."
+    },
+    {
+      "slide": 12,
+      "winner": "Design A",
+      "reasoning": "Design A confidently mixes oversized numbers, customer quote and three priorities across a full, well-margined field, while Design B leaves nearly a third of the orange panel empty and buries the closing line in a cramped sidebar list."
+    },
+    {
+      "slide": 13,
+      "winner": "Design A",
+      "reasoning": "Design A makes the corridor map the emotional centerpiece with mapped milestones, scale bar and a tidy funding column, while Design B's schematic corridor overlaps its own km labels and leaves a large blank lower-right area."
+    },
+    {
+      "slide": 14,
+      "winner": "Design A",
+      "reasoning": "Design A's letterform is larger and genuinely instructional with baseline/x-height rules and clean leader lines, while Design B's leader lines cross the glyph and each other, with the aperture label pointing awkwardly below the baseline."
+    },
+    {
+      "slide": 15,
+      "winner": "Design A",
+      "reasoning": "Design A's collage of ingredient graphics, audience stacked bar and partnership moments fills the plum field energetically, while Design B has broken letter-spacing in its partnership chips ('FUT URE T ABLE ST AGE') and a large empty right-hand void."
+    }
+  ],
+  "raw_text": "{\n  \"slides\": [\n    {\n      \"slide\": 1,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A delivers a bolder condensed-numeral hierarchy with a full-bleed rising chart, disciplined metric rules and a proof-point footer band, while Design B leaves a large dead zone under the left metrics and lets the '4.8' label crowd the plot edge.\"\n    },\n    {\n      \"slide\": 2,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A's illustrated route with numbered stops, staggered labels and a full three-column editorial breakdown fills the frame gracefully, whereas Design B leaves a big empty mid-band and has label text sitting on top of the dashed path near 'judgment'.\"\n    },\n    {\n      \"slide\": 3,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A shows a genuinely precise enterprise before/after with an identity-graph diagram, tiered ROI row and clean rules; Design B's two heavy blocks are internally under-filled and its metric row crowds unevenly against the CTA.\"\n    },\n    {\n      \"slide\": 4,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A's restrained serif voice, orbital allocation wheel and structured left column match the institutional brief better, while Design B's all-caps sans headline breaks the serif tone and leaves a large empty lower-right void.\"\n    },\n    {\n      \"slide\": 5,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A stages a cinematic keynote reveal with oversized wordmark, callout annotations and a graphite price bar, while Design B centers a small boxed stock render in a symmetrical four-label layout that reads as a brochure with visible letter-spacing glitches.\"\n    },\n    {\n      \"slide\": 6,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A's calm monospaced scorecard, variance callouts and hatched activation gap bar are tightly integrated, whereas Design B has the '103% of plan' label colliding with the dashed plan line and a very heavy orange footer that unbalances the palette.\"\n    },\n    {\n      \"slide\": 7,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A builds a true transit-map diagram with interchange spine, wayfinding labels and a north-star measures band, while Design B's four parallel straight rules feel diagrammatically flat, misassigns labels between lanes, and leaves a large empty gap above the footer.\"\n    },\n    {\n      \"slide\": 8,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A's phase bars, diamond gates and team/rollout footer are cleanly aligned with no overlaps, while Design B's gate labels overrun and collide with the phase bars (notably Gate C over the Build & Pilot block) in a spreadsheet-like Gantt.\"\n    },\n    {\n      \"slide\": 9,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A pairs a bold facilitation loop with a well-set worked-example panel and marker-style annotation, while Design B shows doubled quotation marks, a label overlapping the ring, and a large empty right-hand area.\"\n    },\n    {\n      \"slide\": 10,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A's editorial 68% figure, dot matrix, three-app handover chain and quote block are elegantly balanced, whereas Design B's headline wraps awkwardly onto a stray 'DECISIONS' line crowding the 68% and its stacked app boxes read generically.\"\n    },\n    {\n      \"slide\": 11,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A creates the auditorium-scale typographic moment with a layered oversized title and a clear visible/hidden UI diagram, while Design B's small title, awkward script-italic provocation and photo-half composition lack keynote presence and typographic discipline.\"\n    },\n    {\n      \"slide\": 12,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A confidently mixes oversized numbers, customer quote and three priorities across a full, well-margined field, while Design B leaves nearly a third of the orange panel empty and buries the closing line in a cramped sidebar list.\"\n    },\n    {\n      \"slide\": 13,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A makes the corridor map the emotional centerpiece with mapped milestones, scale bar and a tidy funding column, while Design B's schematic corridor overlaps its own km labels and leaves a large blank lower-right area.\"\n    },\n    {\n      \"slide\": 14,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A's letterform is larger and genuinely instructional with baseline/x-height rules and clean leader lines, while Design B's leader lines cross the glyph and each other, with the aperture label pointing awkwardly below the baseline.\"\n    },\n    {\n      \"slide\": 15,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A's collage of ingredient graphics, audience stacked bar and partnership moments fills the plum field energetically, while Design B has broken letter-spacing in its partnership chips ('FUT URE T ABLE ST AGE') and a large empty right-hand void.\"\n    }\n  ]\n}"
+}

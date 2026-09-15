@@ -1,0 +1,119 @@
+{
+  "id": "opus__nexdoc-design_vs_claude-opus__ab",
+  "metadata": {
+    "judge_key": "opus",
+    "judge_label": "Opus 5 max",
+    "judge_model": "anthropic/claude-opus-5",
+    "reasoning_effort": "max",
+    "design_a": "nexdoc-design",
+    "design_a_label": "NexDoc Design",
+    "design_b": "claude-opus",
+    "design_b_label": "Claude Code (Opus 5)",
+    "position_swap": false,
+    "slide_count": 15,
+    "created_at": "2026-09-08T08:06:14.028039+00:00",
+    "elapsed_seconds": 313.06,
+    "usage": {
+      "prompt_tokens": 95109,
+      "completion_tokens": 11667,
+      "total_tokens": 106776,
+      "cost": 0.76722,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.76722,
+        "upstream_inference_prompt_cost": 0.475545,
+        "upstream_inference_completions_cost": 0.291675
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 10188,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "openrouter_id": "gen-1788854588-sPWIJZU8CzhHAnWgybGU"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "winner": "Design A",
+      "reasoning": "Both nail the near-black/lime system, but A's tighter metric row with rules and clearer labelled chart axis reads faster, whereas B strands its metric labels far right of their numerals creating awkward internal voids."
+    },
+    {
+      "slide": 2,
+      "winner": "Design B",
+      "reasoning": "B fills the frame with a coherent illustrated route plus three supporting columns and a clean aubergine quote bar, while A leaves a large dead band beneath the curve and lets dotted marks tangle with the route line."
+    },
+    {
+      "slide": 3,
+      "winner": "Design B",
+      "reasoning": "B's before/after panels carry real supporting visuals and a structured header, while A's two large panels are mostly empty inside and the ROI strip feels crowded against the CTA."
+    },
+    {
+      "slide": 4,
+      "winner": "Design B",
+      "reasoning": "B honours the brief's restrained serif tone with an elegant orbital allocation wheel and hairline data rows, whereas A substitutes a bold sans headline with an awkward 'FOR THE' line break."
+    },
+    {
+      "slide": 5,
+      "winner": "Design B",
+      "reasoning": "B makes the product the hero at keynote scale with annotated callouts and a decisive black price bar, while A's small photo sits in a visibly mismatched grey image box that breaks the silver field."
+    },
+    {
+      "slide": 6,
+      "winner": "Design B",
+      "reasoning": "B delivers one calm, coherent chart system with clean variance annotations, while A's '103% of plan' label is struck through by the plan line \u2014 a clear collision."
+    },
+    {
+      "slide": 7,
+      "winner": "Design B",
+      "reasoning": "B builds a genuine transit-map interchange with unambiguous pillar copy; A's four parallel bars mix two pillars' annotations into one text block and leave a large empty mid-slide gap."
+    },
+    {
+      "slide": 8,
+      "winner": "Design B",
+      "reasoning": "A's gate labels are crossed by dashed lines and the Gate C text runs into its diamond, whereas B's phase band, gate boxes and launch ramp are cleanly separated and hierarchically ordered."
+    },
+    {
+      "slide": 9,
+      "winner": "Design B",
+      "reasoning": "B's loop, worked example and practice rule are balanced across the full canvas, while A doubles its quotation marks and leaves roughly a third of the slide empty at bottom right."
+    },
+    {
+      "slide": 10,
+      "winner": "Design B",
+      "reasoning": "B's editorial serif headline, monumental 68% and handover diagram sit on a clear grid, while A's headline third line crowds the 68% figure and the mid-right area is left hollow."
+    },
+    {
+      "slide": 11,
+      "winner": "Design B",
+      "reasoning": "B achieves the oversized back-of-auditorium scale with a genuine visible/hidden UI diagram; A's type is comparatively small and its two plain boxes plus stock silhouette read more like a brochure."
+    },
+    {
+      "slide": 12,
+      "winner": "Design B",
+      "reasoning": "B composes four oversized metrics, the customer quote and three priorities into one confident spread, while A leaves the bottom third of the orange field completely empty."
+    },
+    {
+      "slide": 13,
+      "winner": "Design B",
+      "reasoning": "B's corridor map is a true informational centrepiece with clean marginal data, whereas A's schematic collides '18,400 ha in restoration' with the '100 km' scale label and buries 'KARRI FOREST' on a dark shape."
+    },
+    {
+      "slide": 14,
+      "winner": "Design B",
+      "reasoning": "B's baseline-grid layout, descriptive annotations and three genuinely different classification specimens are more instructional and better balanced than A's near-identical specimens and empty lower band."
+    },
+    {
+      "slide": 15,
+      "winner": "Design B",
+      "reasoning": "A suffers broken letter-spacing in the partnership pills and an unfilled dashed segment in its audience bar, while B's collage, complete stacked bar and peach footer band are cleanly resolved."
+    }
+  ],
+  "raw_text": "```json\n{\n  \"slides\": [\n    {\n      \"slide\": 1,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Both nail the near-black/lime system, but A's tighter metric row with rules and clearer labelled chart axis reads faster, whereas B strands its metric labels far right of their numerals creating awkward internal voids.\"\n    },\n    {\n      \"slide\": 2,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B fills the frame with a coherent illustrated route plus three supporting columns and a clean aubergine quote bar, while A leaves a large dead band beneath the curve and lets dotted marks tangle with the route line.\"\n    },\n    {\n      \"slide\": 3,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B's before/after panels carry real supporting visuals and a structured header, while A's two large panels are mostly empty inside and the ROI strip feels crowded against the CTA.\"\n    },\n    {\n      \"slide\": 4,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B honours the brief's restrained serif tone with an elegant orbital allocation wheel and hairline data rows, whereas A substitutes a bold sans headline with an awkward 'FOR THE' line break.\"\n    },\n    {\n      \"slide\": 5,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B makes the product the hero at keynote scale with annotated callouts and a decisive black price bar, while A's small photo sits in a visibly mismatched grey image box that breaks the silver field.\"\n    },\n    {\n      \"slide\": 6,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B delivers one calm, coherent chart system with clean variance annotations, while A's '103% of plan' label is struck through by the plan line \u2014 a clear collision.\"\n    },\n    {\n      \"slide\": 7,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B builds a genuine transit-map interchange with unambiguous pillar copy; A's four parallel bars mix two pillars' annotations into one text block and leave a large empty mid-slide gap.\"\n    },\n    {\n      \"slide\": 8,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"A's gate labels are crossed by dashed lines and the Gate C text runs into its diamond, whereas B's phase band, gate boxes and launch ramp are cleanly separated and hierarchically ordered.\"\n    },\n    {\n      \"slide\": 9,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B's loop, worked example and practice rule are balanced across the full canvas, while A doubles its quotation marks and leaves roughly a third of the slide empty at bottom right.\"\n    },\n    {\n      \"slide\": 10,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B's editorial serif headline, monumental 68% and handover diagram sit on a clear grid, while A's headline third line crowds the 68% figure and the mid-right area is left hollow.\"\n    },\n    {\n      \"slide\": 11,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B achieves the oversized back-of-auditorium scale with a genuine visible/hidden UI diagram; A's type is comparatively small and its two plain boxes plus stock silhouette read more like a brochure.\"\n    },\n    {\n      \"slide\": 12,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B composes four oversized metrics, the customer quote and three priorities into one confident spread, while A leaves the bottom third of the orange field completely empty.\"\n    },\n    {\n      \"slide\": 13,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B's corridor map is a true informational centrepiece with clean marginal data, whereas A's schematic collides '18,400 ha in restoration' with the '100 km' scale label and buries 'KARRI FOREST' on a dark shape.\"\n    },\n    {\n      \"slide\": 14,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B's baseline-grid layout, descriptive annotations and three genuinely different classification specimens are more instructional and better balanced than A's near-identical specimens and empty lower band.\"\n    },\n    {\n      \"slide\": 15,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"A suffers broken letter-spacing in the partnership pills and an unfilled dashed segment in its audience bar, while B's collage, complete stacked bar and peach footer band are cleanly resolved.\"\n    }\n  ]\n}\n```"
+}

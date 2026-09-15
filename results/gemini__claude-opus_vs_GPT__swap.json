@@ -1,0 +1,119 @@
+{
+  "id": "gemini__claude-opus_vs_GPT__swap",
+  "metadata": {
+    "judge_key": "gemini",
+    "judge_label": "Gemini 3.8 Flash",
+    "judge_model": "google/gemini-3.8-flash",
+    "reasoning_effort": "high",
+    "design_a": "claude-opus",
+    "design_a_label": "Claude Code (Opus 5)",
+    "design_b": "GPT",
+    "design_b_label": "ChatGPT 5.6 Sol High (Codex)",
+    "position_swap": true,
+    "slide_count": 15,
+    "created_at": "2026-09-08T08:01:00.949229+00:00",
+    "elapsed_seconds": 45.98,
+    "usage": {
+      "prompt_tokens": 37234,
+      "completion_tokens": 4307,
+      "total_tokens": 41541,
+      "cost": 0.04407675,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.04407675,
+        "upstream_inference_prompt_cost": 0.0279255,
+        "upstream_inference_completions_cost": 0.01615125
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 3574,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "openrouter_id": "gen-1788854415-J7uvT4wRCDd6Y3bUaP6a"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "winner": "Design A",
+      "reasoning": "Design A delivers a more cohesive futurist aesthetic with stronger typographic hierarchy and seamless chart integration."
+    },
+    {
+      "slide": 2,
+      "winner": "Design A",
+      "reasoning": "Design A effectively executes an illustrated journey rather than a generic linear timeline, fitting the editorial studio brief."
+    },
+    {
+      "slide": 3,
+      "winner": "Design A",
+      "reasoning": "Design A provides a polished enterprise look with a clear left-to-right transformation diagram and well-anchored metrics."
+    },
+    {
+      "slide": 4,
+      "winner": "Design A",
+      "reasoning": "Design A features a sophisticated orbital allocation map and restrained institutional typography that aligns closely with the thesis."
+    },
+    {
+      "slide": 5,
+      "winner": "Design A",
+      "reasoning": "Design A honors the specified brushed silver dominant palette and presents clear, keynote-ready technical callouts."
+    },
+    {
+      "slide": 6,
+      "winner": "Design A",
+      "reasoning": "Design A establishes a disciplined data-dense scorecard that sharply visualizes the activation gap."
+    },
+    {
+      "slide": 7,
+      "winner": "Design A",
+      "reasoning": "Design A successfully employs authentic transit-map logic to connect the strategic pillars into a unified network."
+    },
+    {
+      "slide": 8,
+      "winner": "Design A",
+      "reasoning": "Design A features superior horizontal swimlanes, clear gate indicators, and an integrated launch ramp."
+    },
+    {
+      "slide": 9,
+      "winner": "Design A",
+      "reasoning": "Design A provides a clean, continuous circular facilitation loop paired with a well-structured worked example."
+    },
+    {
+      "slide": 10,
+      "winner": "Design A",
+      "reasoning": "Design A crafts a more engaging editorial layout with a memorable data graphic and a clear multi-app journey flow."
+    },
+    {
+      "slide": 11,
+      "winner": "Design A",
+      "reasoning": "Design A uses high-impact typographic contrast and a legible conceptual diagram suited for a main-stage keynote."
+    },
+    {
+      "slide": 12,
+      "winner": "Design A",
+      "reasoning": "Design A balances the intense safety orange canvas with structured high-contrast containers and sharp editorial type."
+    },
+    {
+      "slide": 13,
+      "winner": "Design A",
+      "reasoning": "Design A captures the field-journal brief with an informative geographic map and integrated progress metrics."
+    },
+    {
+      "slide": 14,
+      "winner": "Design A",
+      "reasoning": "Design A executes the Bauhaus instructional aesthetic with precise baseline alignment and clear anatomical labeling."
+    },
+    {
+      "slide": 15,
+      "winner": "Design B",
+      "reasoning": "Design B adheres to the brief by incorporating striking event macro photography balanced with clean audience metrics."
+    }
+  ],
+  "raw_text": "{\n  \"slides\": [\n    {\n      \"slide\": 1,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A delivers a more cohesive futurist aesthetic with stronger typographic hierarchy and seamless chart integration.\"\n    },\n    {\n      \"slide\": 2,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A effectively executes an illustrated journey rather than a generic linear timeline, fitting the editorial studio brief.\"\n    },\n    {\n      \"slide\": 3,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A provides a polished enterprise look with a clear left-to-right transformation diagram and well-anchored metrics.\"\n    },\n    {\n      \"slide\": 4,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A features a sophisticated orbital allocation map and restrained institutional typography that aligns closely with the thesis.\"\n    },\n    {\n      \"slide\": 5,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A honors the specified brushed silver dominant palette and presents clear, keynote-ready technical callouts.\"\n    },\n    {\n      \"slide\": 6,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A establishes a disciplined data-dense scorecard that sharply visualizes the activation gap.\"\n    },\n    {\n      \"slide\": 7,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A successfully employs authentic transit-map logic to connect the strategic pillars into a unified network.\"\n    },\n    {\n      \"slide\": 8,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A features superior horizontal swimlanes, clear gate indicators, and an integrated launch ramp.\"\n    },\n    {\n      \"slide\": 9,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A provides a clean, continuous circular facilitation loop paired with a well-structured worked example.\"\n    },\n    {\n      \"slide\": 10,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A crafts a more engaging editorial layout with a memorable data graphic and a clear multi-app journey flow.\"\n    },\n    {\n      \"slide\": 11,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A uses high-impact typographic contrast and a legible conceptual diagram suited for a main-stage keynote.\"\n    },\n    {\n      \"slide\": 12,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A balances the intense safety orange canvas with structured high-contrast containers and sharp editorial type.\"\n    },\n    {\n      \"slide\": 13,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A captures the field-journal brief with an informative geographic map and integrated progress metrics.\"\n    },\n    {\n      \"slide\": 14,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A executes the Bauhaus instructional aesthetic with precise baseline alignment and clear anatomical labeling.\"\n    },\n    {\n      \"slide\": 15,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B adheres to the brief by incorporating striking event macro photography balanced with clean audience metrics.\"\n    }\n  ]\n}"
+}

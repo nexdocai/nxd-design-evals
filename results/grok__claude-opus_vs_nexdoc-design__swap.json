@@ -1,0 +1,119 @@
+{
+  "id": "grok__claude-opus_vs_nexdoc-design__swap",
+  "metadata": {
+    "judge_key": "grok",
+    "judge_label": "Grok 4.6 high",
+    "judge_model": "x-ai/grok-4.6",
+    "reasoning_effort": "high",
+    "design_a": "claude-opus",
+    "design_a_label": "Claude Code (Opus 5)",
+    "design_b": "nexdoc-design",
+    "design_b_label": "NexDoc Design",
+    "position_swap": true,
+    "slide_count": 15,
+    "created_at": "2026-09-08T07:33:17.017841+00:00",
+    "elapsed_seconds": 255.04,
+    "usage": {
+      "prompt_tokens": 72302,
+      "completion_tokens": 13326,
+      "total_tokens": 85628,
+      "cost": 0.224368,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 128,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.224368,
+        "upstream_inference_prompt_cost": 0.144412,
+        "upstream_inference_completions_cost": 0.079956
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 12554,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "openrouter_id": "gen-1788852543-LHHTHuvfzg6wtedzppkl"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "winner": "Design B",
+      "reasoning": "Cleaner metric row, a properly scaled chart with axes, and more even whitespace without label-to-chart crowding."
+    },
+    {
+      "slide": 2,
+      "winner": "Design A",
+      "reasoning": "Stronger hierarchy and spacing: a complete three-stage journey with balanced columns, on-palette type, and no collisions."
+    },
+    {
+      "slide": 3,
+      "winner": "Design B",
+      "reasoning": "Sharper before/after contrast, more even margins, and a collision-free metrics/CTA row versus Design A\u2019s cramped bottom-right."
+    },
+    {
+      "slide": 4,
+      "winner": "Design A",
+      "reasoning": "Better institutional serif tone and two-column hierarchy, with an orbital wheel whose labels stay clear of the chart."
+    },
+    {
+      "slide": 5,
+      "winner": "Design B",
+      "reasoning": "Superior hierarchy and spacing: the product is the undisputed hero with balanced satellite specs and no redundant overlapping callouts."
+    },
+    {
+      "slide": 6,
+      "winner": "Design A",
+      "reasoning": "Tighter but still balanced data grid, clearer chart-versus-plan structure, and no colliding labels, while staying fully on-palette."
+    },
+    {
+      "slide": 7,
+      "winner": "Design A",
+      "reasoning": "Stronger civic hierarchy with an interconnected network diagram, aligned pillars, and collision-free north-star metrics."
+    },
+    {
+      "slide": 8,
+      "winner": "Design A",
+      "reasoning": "Phases, gates, and launch ramp stay structurally clean with no overflowing labels, unlike Design B\u2019s crowded gate text."
+    },
+    {
+      "slide": 9,
+      "winner": "Design A",
+      "reasoning": "Clearer numbered loop, more balanced two-column spacing, and collision-free annotations versus Design B\u2019s looser arcs."
+    },
+    {
+      "slide": 10,
+      "winner": "Design B",
+      "reasoning": "Stronger 68% hierarchy via the dot grid and stacked app cards, with clean spacing and no overlapping elements."
+    },
+    {
+      "slide": 11,
+      "winner": "Design A",
+      "reasoning": "More theatrical oversized type, a clearer visible/hidden UI diagram, and tighter hierarchy without a competing photo splitting focus."
+    },
+    {
+      "slide": 12,
+      "winner": "Design A",
+      "reasoning": "More even composition of metrics, quote, and priorities across the orange field, with balanced margins and no dead zones."
+    },
+    {
+      "slide": 13,
+      "winner": "Design A",
+      "reasoning": "Corridor map is a well-margined centerpiece with high-contrast stats, a clear funding bar, and no collisions."
+    },
+    {
+      "slide": 14,
+      "winner": "Design A",
+      "reasoning": "Enormous letterform on a true baseline grid, distinct comparison zones, and annotation lines that never collide."
+    },
+    {
+      "slide": 15,
+      "winner": "Design A",
+      "reasoning": "Structurally clean metric rhythm and partnership list, while Design B\u2019s moment pills break letter-spacing into colliding fragments."
+    }
+  ],
+  "raw_text": "{\n  \"slides\": [\n    {\n      \"slide\": 1,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Cleaner metric row, a properly scaled chart with axes, and more even whitespace without label-to-chart crowding.\"\n    },\n    {\n      \"slide\": 2,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Stronger hierarchy and spacing: a complete three-stage journey with balanced columns, on-palette type, and no collisions.\"\n    },\n    {\n      \"slide\": 3,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Sharper before/after contrast, more even margins, and a collision-free metrics/CTA row versus Design A\u2019s cramped bottom-right.\"\n    },\n    {\n      \"slide\": 4,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Better institutional serif tone and two-column hierarchy, with an orbital wheel whose labels stay clear of the chart.\"\n    },\n    {\n      \"slide\": 5,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Superior hierarchy and spacing: the product is the undisputed hero with balanced satellite specs and no redundant overlapping callouts.\"\n    },\n    {\n      \"slide\": 6,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Tighter but still balanced data grid, clearer chart-versus-plan structure, and no colliding labels, while staying fully on-palette.\"\n    },\n    {\n      \"slide\": 7,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Stronger civic hierarchy with an interconnected network diagram, aligned pillars, and collision-free north-star metrics.\"\n    },\n    {\n      \"slide\": 8,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Phases, gates, and launch ramp stay structurally clean with no overflowing labels, unlike Design B\u2019s crowded gate text.\"\n    },\n    {\n      \"slide\": 9,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Clearer numbered loop, more balanced two-column spacing, and collision-free annotations versus Design B\u2019s looser arcs.\"\n    },\n    {\n      \"slide\": 10,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Stronger 68% hierarchy via the dot grid and stacked app cards, with clean spacing and no overlapping elements.\"\n    },\n    {\n      \"slide\": 11,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"More theatrical oversized type, a clearer visible/hidden UI diagram, and tighter hierarchy without a competing photo splitting focus.\"\n    },\n    {\n      \"slide\": 12,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"More even composition of metrics, quote, and priorities across the orange field, with balanced margins and no dead zones.\"\n    },\n    {\n      \"slide\": 13,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Corridor map is a well-margined centerpiece with high-contrast stats, a clear funding bar, and no collisions.\"\n    },\n    {\n      \"slide\": 14,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Enormous letterform on a true baseline grid, distinct comparison zones, and annotation lines that never collide.\"\n    },\n    {\n      \"slide\": 15,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Structurally clean metric rhythm and partnership list, while Design B\u2019s moment pills break letter-spacing into colliding fragments.\"\n    }\n  ]\n}"
+}

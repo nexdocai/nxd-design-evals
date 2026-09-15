@@ -1,0 +1,119 @@
+{
+  "id": "gemini__claude_vs_claude-opus__ab",
+  "metadata": {
+    "judge_key": "gemini",
+    "judge_label": "Gemini 3.8 Flash",
+    "judge_model": "google/gemini-3.8-flash",
+    "reasoning_effort": "high",
+    "design_a": "claude",
+    "design_a_label": "Claude Code (Fable)",
+    "design_b": "claude-opus",
+    "design_b_label": "Claude Code (Opus 5)",
+    "position_swap": false,
+    "slide_count": 15,
+    "created_at": "2026-09-08T07:58:38.492592+00:00",
+    "elapsed_seconds": 53.82,
+    "usage": {
+      "prompt_tokens": 37234,
+      "completion_tokens": 6165,
+      "total_tokens": 43399,
+      "cost": 0.05104425,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.05104425,
+        "upstream_inference_prompt_cost": 0.0279255,
+        "upstream_inference_completions_cost": 0.02311875
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 5394,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "openrouter_id": "gen-1788854265-CPcF2LYVfcyF1dzIuH3u"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "winner": "Design A",
+      "reasoning": "Design A integrates the hero ARR metric seamlessly with a dynamic chart trajectory and clearer typographic hierarchy."
+    },
+    {
+      "slide": 2,
+      "winner": "Design A",
+      "reasoning": "Design A strictly follows the specified warm clay dominance and crafts an engaging illustrated journey rather than disconnected columns."
+    },
+    {
+      "slide": 3,
+      "winner": "Design A",
+      "reasoning": "Design A delivers a far clearer transformation diagram and cleaner visual hierarchy between the before/after states and core ROI metrics."
+    },
+    {
+      "slide": 4,
+      "winner": "Design A",
+      "reasoning": "Design A features a sophisticated orbital data visualization without the typographic artifacts and cramped label placement seen in Design B."
+    },
+    {
+      "slide": 5,
+      "winner": "Design A",
+      "reasoning": "Design A creates a compelling keynote-style exploded technical render that highlights the product features far better than Design B's flat 2D diagram."
+    },
+    {
+      "slide": 6,
+      "winner": "Design A",
+      "reasoning": "Design A integrates the performance curve, scorecard metrics, and activation gap into a single cohesive, highly legible dashboard layout."
+    },
+    {
+      "slide": 7,
+      "winner": "Design A",
+      "reasoning": "Design A executes a genuine transit-map metaphor with converging lines, providing far superior narrative flow and wayfinding aesthetics."
+    },
+    {
+      "slide": 8,
+      "winner": "Design A",
+      "reasoning": "Design A honors the pale lavender dominance and delivers a dynamic horizontal roadmap with cleaner phase-and-gate alignment."
+    },
+    {
+      "slide": 9,
+      "winner": "Design A",
+      "reasoning": "Design A offers a clearer circular framework with authentic workshop-style annotations that directly link the methodology to the worked example."
+    },
+    {
+      "slide": 10,
+      "winner": "Design A",
+      "reasoning": "Design A accurately visualizes the 68% metric with a 100-unit grid and provides a superior multi-step journey diagram."
+    },
+    {
+      "slide": 11,
+      "winner": "Design A",
+      "reasoning": "Design A captures the dramatic keynote atmosphere with immersive audience staging and a clearer conceptual UI diagram."
+    },
+    {
+      "slide": 12,
+      "winner": "Design A",
+      "reasoning": "Design A achieves a more balanced editorial composition with superior typographic contrast and effective palette blocking."
+    },
+    {
+      "slide": 13,
+      "winner": "Design A",
+      "reasoning": "Design A feels authentically like a conservation field journal, making the mapped corridor the clear emotional and informational focal point."
+    },
+    {
+      "slide": 14,
+      "winner": "Design A",
+      "reasoning": "Design A showcases an enormous, impeccably annotated letterform that adheres strictly to Bauhaus instructional design principles."
+    },
+    {
+      "slide": 15,
+      "winner": "Design A",
+      "reasoning": "Design A provides richer visual texture, superior typographic hierarchy, and a sophisticated audience data visualization."
+    }
+  ],
+  "raw_text": "{\n  \"slides\": [\n    {\n      \"slide\": 1,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A integrates the hero ARR metric seamlessly with a dynamic chart trajectory and clearer typographic hierarchy.\"\n    },\n    {\n      \"slide\": 2,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A strictly follows the specified warm clay dominance and crafts an engaging illustrated journey rather than disconnected columns.\"\n    },\n    {\n      \"slide\": 3,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A delivers a far clearer transformation diagram and cleaner visual hierarchy between the before/after states and core ROI metrics.\"\n    },\n    {\n      \"slide\": 4,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A features a sophisticated orbital data visualization without the typographic artifacts and cramped label placement seen in Design B.\"\n    },\n    {\n      \"slide\": 5,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A creates a compelling keynote-style exploded technical render that highlights the product features far better than Design B's flat 2D diagram.\"\n    },\n    {\n      \"slide\": 6,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A integrates the performance curve, scorecard metrics, and activation gap into a single cohesive, highly legible dashboard layout.\"\n    },\n    {\n      \"slide\": 7,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A executes a genuine transit-map metaphor with converging lines, providing far superior narrative flow and wayfinding aesthetics.\"\n    },\n    {\n      \"slide\": 8,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A honors the pale lavender dominance and delivers a dynamic horizontal roadmap with cleaner phase-and-gate alignment.\"\n    },\n    {\n      \"slide\": 9,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A offers a clearer circular framework with authentic workshop-style annotations that directly link the methodology to the worked example.\"\n    },\n    {\n      \"slide\": 10,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A accurately visualizes the 68% metric with a 100-unit grid and provides a superior multi-step journey diagram.\"\n    },\n    {\n      \"slide\": 11,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A captures the dramatic keynote atmosphere with immersive audience staging and a clearer conceptual UI diagram.\"\n    },\n    {\n      \"slide\": 12,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A achieves a more balanced editorial composition with superior typographic contrast and effective palette blocking.\"\n    },\n    {\n      \"slide\": 13,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A feels authentically like a conservation field journal, making the mapped corridor the clear emotional and informational focal point.\"\n    },\n    {\n      \"slide\": 14,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A showcases an enormous, impeccably annotated letterform that adheres strictly to Bauhaus instructional design principles.\"\n    },\n    {\n      \"slide\": 15,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A provides richer visual texture, superior typographic hierarchy, and a sophisticated audience data visualization.\"\n    }\n  ]\n}"
+}

@@ -1,0 +1,119 @@
+{
+  "id": "opus__claude_vs_claude-opus__ab",
+  "metadata": {
+    "judge_key": "opus",
+    "judge_label": "Opus 5 max",
+    "judge_model": "anthropic/claude-opus-5",
+    "reasoning_effort": "max",
+    "design_a": "claude",
+    "design_a_label": "Claude Code (Fable)",
+    "design_b": "claude-opus",
+    "design_b_label": "Claude Code (Opus 5)",
+    "position_swap": false,
+    "slide_count": 15,
+    "created_at": "2026-09-08T07:38:57.631180+00:00",
+    "elapsed_seconds": 44.67,
+    "usage": {
+      "prompt_tokens": 95109,
+      "completion_tokens": 1936,
+      "total_tokens": 97045,
+      "cost": 0.523945,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.523945,
+        "upstream_inference_prompt_cost": 0.475545,
+        "upstream_inference_completions_cost": 0.0484
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "openrouter_id": "gen-1788853099-GSxWt5CvV46Nzu52FwMg"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "winner": "Design A",
+      "reasoning": "Design A balances a huge lime ARR figure, a clean labeled metric stack, and a full-width rising chart with axis labels, whereas Design B leaves a large empty upper-right void, crowds its metric rows against the chart's left edge, and lets the footer chart caption float awkwardly beneath the axis."
+    },
+    {
+      "slide": 2,
+      "winner": "Design A",
+      "reasoning": "Design A delivers the illustrated journey the brief asks for with clay dominance, hand-drawn marks and a taped note, while Design B reverts to three text columns under the route, uses a soft gradient blush field that dilutes the clay palette, and shows uneven label placement around the path."
+    },
+    {
+      "slide": 3,
+      "winner": "Design A",
+      "reasoning": "Design A's tangled-lines vs. clean-graph contrast plus the dominant $780k ROI block reads instantly and fills the frame, while Design B's before/after boxes are text-heavy, its ROI band sits low with an awkward CTA overlap into the caption zone, and bottom whitespace feels unresolved."
+    },
+    {
+      "slide": 4,
+      "winner": "Design B",
+      "reasoning": "Design B's allocation ring is legible with clearly separated segments and a tidy portfolio-construction table, whereas Design A's dim double-ring reads muddy at thumbnail size and its '20%' label collides with the tick marks/ring edge."
+    },
+    {
+      "slide": 5,
+      "winner": "Design A",
+      "reasoning": "Design A's exploded driver stack with leader-line callouts is genuinely cinematic and keeps the product the hero, while Design B's flat headphone render, striped background, and spec table feel brochure-like with cramped labels near the ear-cup edge."
+    },
+    {
+      "slide": 6,
+      "winner": "Design A",
+      "reasoning": "Design A presents one coherent chart system with variance markers, a scorecard column, and an emphatically flagged activation gap in balanced whitespace; Design B is competent but leaves a large empty block under its regional bars and stacks the activation bar tightly against chart captions."
+    },
+    {
+      "slide": 7,
+      "winner": "Design B",
+      "reasoning": "Design B's four parallel transit lines, interchange bar, pillar sidebar, and dark north-star footer form a tighter civic-wayfinding system, while Design A's converging lines crowd labels between routes and its right side mixes measures with an explanatory paragraph unevenly."
+    },
+    {
+      "slide": 8,
+      "winner": "Design A",
+      "reasoning": "Design A's chevron roadmap with a real week ruler, diamond gates, and owner lines is more dynamic and information-dense without collision, while Design B relies on flat phase blocks plus gate boxes and leaves a wide empty gap between the gate row and the footer band."
+    },
+    {
+      "slide": 9,
+      "winner": "Design A",
+      "reasoning": "Design A pairs a bold 4C loop with an annotated worked example whose marker-style callouts map to each step, delivering the facilitation feel; Design B's loop has label lines drifting oddly, the '4C / repeat until agreed' mark sits half-hidden behind the ring, and the right column is sparse."
+    },
+    {
+      "slide": 10,
+      "winner": "Design A",
+      "reasoning": "Design A supplies the memorable 68% waffle plus a genuinely diagrammed three-app journey with confidence-break annotations, while Design B's dot array is disconnected from its numeral, the app chain is thin and floating, and the footer band lets sample text wrap raggedly to a lone word."
+    },
+    {
+      "slide": 11,
+      "winner": "Design A",
+      "reasoning": "Design A creates a true auditorium moment with the outlined dissolving headline, silhouetted crowd, and visible/hidden UI sketches, whereas Design B's stacked title overlaps 'THE' into 'DISAPPEARING' clumsily and its boxed lists read as a generic slide rather than a keynote."
+    },
+    {
+      "slide": 12,
+      "winner": "Design A",
+      "reasoning": "Design A's split orange/powder-blue composition with oversized editorial numerals gives strong hierarchy and integrates customer voice and priorities elegantly, while Design B's four-metric row with badge chips and two boxed panels is flatter and more conventional."
+    },
+    {
+      "slide": 13,
+      "winner": "Design A",
+      "reasoning": "Design A makes the corridor map the full-bleed emotional centerpiece with a field-ledger overlay, legend, and scale bar; Design B's map is cleaner but generic, and its left panel crams the ask into a narrow column with the CTA button pinned tightly to the lower edge."
+    },
+    {
+      "slide": 14,
+      "winner": "Design A",
+      "reasoning": "Design A's enormous 'a' with yellow counter, red callouts, and baseline/x-height rules is far more instructional and Bauhaus-precise, while Design B's letterform is smaller, its baseline rule cuts through the glyph awkwardly, and the counter label points into empty space below the letter."
+    },
+    {
+      "slide": 15,
+      "winner": "Design A",
+      "reasoning": "Design A's giant citrus macro, stacked audience bar, and dotted-leader partnership list form a confident editorial composition, whereas Design B's flat vector 'pizza' graphic reads as clipart, its metric row nearly touches the partnership list, and 'above' wraps into the divider."
+    }
+  ],
+  "raw_text": "{\n  \"slides\": [\n    {\n      \"slide\": 1,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A balances a huge lime ARR figure, a clean labeled metric stack, and a full-width rising chart with axis labels, whereas Design B leaves a large empty upper-right void, crowds its metric rows against the chart's left edge, and lets the footer chart caption float awkwardly beneath the axis.\"\n    },\n    {\n      \"slide\": 2,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A delivers the illustrated journey the brief asks for with clay dominance, hand-drawn marks and a taped note, while Design B reverts to three text columns under the route, uses a soft gradient blush field that dilutes the clay palette, and shows uneven label placement around the path.\"\n    },\n    {\n      \"slide\": 3,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A's tangled-lines vs. clean-graph contrast plus the dominant $780k ROI block reads instantly and fills the frame, while Design B's before/after boxes are text-heavy, its ROI band sits low with an awkward CTA overlap into the caption zone, and bottom whitespace feels unresolved.\"\n    },\n    {\n      \"slide\": 4,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B's allocation ring is legible with clearly separated segments and a tidy portfolio-construction table, whereas Design A's dim double-ring reads muddy at thumbnail size and its '20%' label collides with the tick marks/ring edge.\"\n    },\n    {\n      \"slide\": 5,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A's exploded driver stack with leader-line callouts is genuinely cinematic and keeps the product the hero, while Design B's flat headphone render, striped background, and spec table feel brochure-like with cramped labels near the ear-cup edge.\"\n    },\n    {\n      \"slide\": 6,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A presents one coherent chart system with variance markers, a scorecard column, and an emphatically flagged activation gap in balanced whitespace; Design B is competent but leaves a large empty block under its regional bars and stacks the activation bar tightly against chart captions.\"\n    },\n    {\n      \"slide\": 7,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B's four parallel transit lines, interchange bar, pillar sidebar, and dark north-star footer form a tighter civic-wayfinding system, while Design A's converging lines crowd labels between routes and its right side mixes measures with an explanatory paragraph unevenly.\"\n    },\n    {\n      \"slide\": 8,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A's chevron roadmap with a real week ruler, diamond gates, and owner lines is more dynamic and information-dense without collision, while Design B relies on flat phase blocks plus gate boxes and leaves a wide empty gap between the gate row and the footer band.\"\n    },\n    {\n      \"slide\": 9,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A pairs a bold 4C loop with an annotated worked example whose marker-style callouts map to each step, delivering the facilitation feel; Design B's loop has label lines drifting oddly, the '4C / repeat until agreed' mark sits half-hidden behind the ring, and the right column is sparse.\"\n    },\n    {\n      \"slide\": 10,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A supplies the memorable 68% waffle plus a genuinely diagrammed three-app journey with confidence-break annotations, while Design B's dot array is disconnected from its numeral, the app chain is thin and floating, and the footer band lets sample text wrap raggedly to a lone word.\"\n    },\n    {\n      \"slide\": 11,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A creates a true auditorium moment with the outlined dissolving headline, silhouetted crowd, and visible/hidden UI sketches, whereas Design B's stacked title overlaps 'THE' into 'DISAPPEARING' clumsily and its boxed lists read as a generic slide rather than a keynote.\"\n    },\n    {\n      \"slide\": 12,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A's split orange/powder-blue composition with oversized editorial numerals gives strong hierarchy and integrates customer voice and priorities elegantly, while Design B's four-metric row with badge chips and two boxed panels is flatter and more conventional.\"\n    },\n    {\n      \"slide\": 13,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A makes the corridor map the full-bleed emotional centerpiece with a field-ledger overlay, legend, and scale bar; Design B's map is cleaner but generic, and its left panel crams the ask into a narrow column with the CTA button pinned tightly to the lower edge.\"\n    },\n    {\n      \"slide\": 14,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A's enormous 'a' with yellow counter, red callouts, and baseline/x-height rules is far more instructional and Bauhaus-precise, while Design B's letterform is smaller, its baseline rule cuts through the glyph awkwardly, and the counter label points into empty space below the letter.\"\n    },\n    {\n      \"slide\": 15,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A's giant citrus macro, stacked audience bar, and dotted-leader partnership list form a confident editorial composition, whereas Design B's flat vector 'pizza' graphic reads as clipart, its metric row nearly touches the partnership list, and 'above' wraps into the divider.\"\n    }\n  ]\n}"
+}

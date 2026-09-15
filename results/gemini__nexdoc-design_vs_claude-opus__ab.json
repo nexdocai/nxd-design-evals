@@ -1,0 +1,119 @@
+{
+  "id": "gemini__nexdoc-design_vs_claude-opus__ab",
+  "metadata": {
+    "judge_key": "gemini",
+    "judge_label": "Gemini 3.8 Flash",
+    "judge_model": "google/gemini-3.8-flash",
+    "reasoning_effort": "high",
+    "design_a": "nexdoc-design",
+    "design_a_label": "NexDoc Design",
+    "design_b": "claude-opus",
+    "design_b_label": "Claude Code (Opus 5)",
+    "position_swap": false,
+    "slide_count": 15,
+    "created_at": "2026-09-08T07:38:41.538348+00:00",
+    "elapsed_seconds": 224.07,
+    "usage": {
+      "prompt_tokens": 37234,
+      "completion_tokens": 5321,
+      "total_tokens": 42555,
+      "cost": 0.04787925,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.04787925,
+        "upstream_inference_prompt_cost": 0.0279255,
+        "upstream_inference_completions_cost": 0.01995375
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 4622,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "openrouter_id": "gen-1788853070-wuTFR82Z0cuqHDLnngC4"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "winner": "Design A",
+      "reasoning": "Design A provides cleaner metric distribution, superior whitespace, and avoids cramped chart axis labels."
+    },
+    {
+      "slide": 2,
+      "winner": "Design B",
+      "reasoning": "Design B delivers a cohesive editorial journey with clear sequential steps and charming typographic character."
+    },
+    {
+      "slide": 3,
+      "winner": "Design B",
+      "reasoning": "Design B presents a sophisticated identity graph and a more polished enterprise before-and-after narrative."
+    },
+    {
+      "slide": 4,
+      "winner": "Design B",
+      "reasoning": "Design B follows the restrained serif brief and implements an elegant, thematic orbital portfolio allocation wheel."
+    },
+    {
+      "slide": 5,
+      "winner": "Design B",
+      "reasoning": "Design B delivers a cinematic keynote scale and seamless canvas integration rather than a boxed product crop."
+    },
+    {
+      "slide": 6,
+      "winner": "Design B",
+      "reasoning": "Design B features superior data density, balanced grid alignment, and a clearer activation gap visualization."
+    },
+    {
+      "slide": 7,
+      "winner": "Design B",
+      "reasoning": "Design B constructs a genuine transit-network schematic rather than simple, disjointed parallel bars."
+    },
+    {
+      "slide": 8,
+      "winner": "Design B",
+      "reasoning": "Design B uses an organized horizontal roadmap with legible, anchored decision gates and balanced spacing."
+    },
+    {
+      "slide": 9,
+      "winner": "Design A",
+      "reasoning": "Design A maintains clean structural integrity, avoiding the severe overlapping text collision in Design B's title."
+    },
+    {
+      "slide": 10,
+      "winner": "Design B",
+      "reasoning": "Design B provides a refined editorial layout, sophisticated typographic contrast, and a clear journey narrative."
+    },
+    {
+      "slide": 11,
+      "winner": "Design B",
+      "reasoning": "Design B uses bold, auditorium-scale typography and an effective conceptual architecture diagram."
+    },
+    {
+      "slide": 12,
+      "winner": "Design B",
+      "reasoning": "Design B achieves a well-distributed editorial composition that avoids awkward empty spatial voids."
+    },
+    {
+      "slide": 13,
+      "winner": "Design B",
+      "reasoning": "Design B integrates a detailed cartographic corridor map that serves as a compelling centerpiece."
+    },
+    {
+      "slide": 14,
+      "winner": "Design B",
+      "reasoning": "Design B executes a pedagogically precise, beautifully annotated letterform within a disciplined grid system."
+    },
+    {
+      "slide": 15,
+      "winner": "Design B",
+      "reasoning": "Design B displays stronger overall hierarchy and avoids awkward text breaks within content tags."
+    }
+  ],
+  "raw_text": "{\n  \"slides\": [\n    {\n      \"slide\": 1,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A provides cleaner metric distribution, superior whitespace, and avoids cramped chart axis labels.\"\n    },\n    {\n      \"slide\": 2,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B delivers a cohesive editorial journey with clear sequential steps and charming typographic character.\"\n    },\n    {\n      \"slide\": 3,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B presents a sophisticated identity graph and a more polished enterprise before-and-after narrative.\"\n    },\n    {\n      \"slide\": 4,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B follows the restrained serif brief and implements an elegant, thematic orbital portfolio allocation wheel.\"\n    },\n    {\n      \"slide\": 5,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B delivers a cinematic keynote scale and seamless canvas integration rather than a boxed product crop.\"\n    },\n    {\n      \"slide\": 6,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B features superior data density, balanced grid alignment, and a clearer activation gap visualization.\"\n    },\n    {\n      \"slide\": 7,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B constructs a genuine transit-network schematic rather than simple, disjointed parallel bars.\"\n    },\n    {\n      \"slide\": 8,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B uses an organized horizontal roadmap with legible, anchored decision gates and balanced spacing.\"\n    },\n    {\n      \"slide\": 9,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Design A maintains clean structural integrity, avoiding the severe overlapping text collision in Design B's title.\"\n    },\n    {\n      \"slide\": 10,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B provides a refined editorial layout, sophisticated typographic contrast, and a clear journey narrative.\"\n    },\n    {\n      \"slide\": 11,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B uses bold, auditorium-scale typography and an effective conceptual architecture diagram.\"\n    },\n    {\n      \"slide\": 12,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B achieves a well-distributed editorial composition that avoids awkward empty spatial voids.\"\n    },\n    {\n      \"slide\": 13,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B integrates a detailed cartographic corridor map that serves as a compelling centerpiece.\"\n    },\n    {\n      \"slide\": 14,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B executes a pedagogically precise, beautifully annotated letterform within a disciplined grid system.\"\n    },\n    {\n      \"slide\": 15,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Design B displays stronger overall hierarchy and avoids awkward text breaks within content tags.\"\n    }\n  ]\n}"
+}

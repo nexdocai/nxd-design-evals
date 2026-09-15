@@ -45,13 +45,18 @@ DESIGNERS: dict[str, dict[str, str]] = {
     },
     "claude": {
         "id": "claude",
-        "label": "Claude (Fable)",
-        "folder": "claude",
+        "label": "Claude Code (Fable)",
+        "folder": "claude-fable",
     },
     "GPT": {
         "id": "GPT",
         "label": "ChatGPT 5.6 Sol High (Codex)",
         "folder": "GPT",
+    },
+    "claude-opus": {
+        "id": "claude-opus",
+        "label": "Claude Code (Opus 5)",
+        "folder": "claude-opus",
     },
 }
 
@@ -132,9 +137,10 @@ def encode_image(path: Path) -> str:
                 Image.Resampling.LANCZOS,
             )
         buffer = BytesIO()
-        image.save(buffer, format="PNG", optimize=True)
+        # JPEG keeps 30-image judge payloads under Gemini's 20MB body limit.
+        image.save(buffer, format="JPEG", quality=80, optimize=True)
         data = buffer.getvalue()
-    return f"data:image/png;base64,{base64.b64encode(data).decode('ascii')}"
+    return f"data:image/jpeg;base64,{base64.b64encode(data).decode('ascii')}"
 
 
 def encode_slide(designer_id: str, slide: int) -> str:
@@ -288,7 +294,7 @@ def openrouter_chat(
         "messages": [{"role": "user", "content": content}],
         "temperature": 0,
         # Max effort can consume most of this budget; keep headroom for the JSON.
-        "max_tokens": 64000,
+        "max_tokens": 16000,
         "reasoning": {"effort": effort, "exclude": True},
         "usage": {"include": True},
         "response_format": {"type": "json_object"},
@@ -330,7 +336,11 @@ def openrouter_chat(
             last_error = exc
             if attempt == MAX_RETRIES:
                 raise
-        sleep_for = min(60, 2 ** attempt) + random.random()
+        err_text = str(last_error)
+        if "in_flight" in err_text.lower() or "Retry-After" in err_text:
+            sleep_for = 125.0
+        else:
+            sleep_for = min(60, 2 ** attempt) + random.random()
         print(f"    retry {attempt}/{MAX_RETRIES} after {sleep_for:.1f}s: {last_error}", flush=True)
         time.sleep(sleep_for)
 
@@ -524,9 +534,9 @@ def planned_jobs(
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Run NexDoc DesignEval pairwise battles via OpenRouter")
     parser.add_argument("--smoke", action="store_true", help="Run two battles to verify the pipeline")
-    parser.add_argument("--all", action="store_true", help="Run the full 3-designer x 4-judge x position-swap matrix")
+    parser.add_argument("--all", action="store_true", help="Run the full designer x judge x position-swap matrix")
     parser.add_argument("--judges", help="Comma-separated judge keys: muse,grok,gemini,opus")
-    parser.add_argument("--designers", help="Comma-separated designer ids: nexdoc-design,claude,GPT")
+    parser.add_argument("--designers", help="Comma-separated designer ids: nexdoc-design,claude,GPT,claude-opus")
     parser.add_argument("--no-swap", action="store_true", help="Skip position-swapped rematches")
     parser.add_argument("--force", action="store_true", help="Re-run battles even if result JSON exists")
     parser.add_argument("--dry-run", action="store_true", help="Print planned battles without calling the API")

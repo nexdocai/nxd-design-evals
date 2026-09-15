@@ -1,0 +1,119 @@
+{
+  "id": "grok__claude-opus_vs_GPT__swap",
+  "metadata": {
+    "judge_key": "grok",
+    "judge_label": "Grok 4.6 high",
+    "judge_model": "x-ai/grok-4.6",
+    "reasoning_effort": "high",
+    "design_a": "claude-opus",
+    "design_a_label": "Claude Code (Opus 5)",
+    "design_b": "GPT",
+    "design_b_label": "ChatGPT 5.6 Sol High (Codex)",
+    "position_swap": true,
+    "slide_count": 15,
+    "created_at": "2026-09-08T07:56:39.891289+00:00",
+    "elapsed_seconds": 170.22,
+    "usage": {
+      "prompt_tokens": 72302,
+      "completion_tokens": 9149,
+      "total_tokens": 81451,
+      "cost": 0.199306,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 128,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.199306,
+        "upstream_inference_prompt_cost": 0.144412,
+        "upstream_inference_completions_cost": 0.054894
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 8240,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "openrouter_id": "gen-1788854030-rdmaagN5qspShubRW0oK"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "winner": "Design A",
+      "reasoning": "A sticks to the lime/black/steel palette with condensed numerals and a single dramatic chart, while B introduces off-palette chart dots and weaker metric hierarchy."
+    },
+    {
+      "slide": 2,
+      "winner": "Design A",
+      "reasoning": "A delivers the editorial clay/blush/aubergine system as a hand-drawn journey with balanced sections, whereas B reads as a generic three-stop timeline with emptier spacing."
+    },
+    {
+      "slide": 3,
+      "winner": "Design A",
+      "reasoning": "A has sharper enterprise rules, a clearer left-to-right before/after, and a dominant $780k without the scattered nodes that weaken B\u2019s structure."
+    },
+    {
+      "slide": 4,
+      "winner": "Design A",
+      "reasoning": "A\u2019s restrained serif, gold/coral accents, and orbital allocation wheel are more institutionally compliant and better spaced than B\u2019s simpler donut and boxed KPIs."
+    },
+    {
+      "slide": 5,
+      "winner": "Design B",
+      "reasoning": "B\u2019s cinematic close-up creates stronger product hierarchy and contrast, while A\u2019s flat illustration and duplicated spec callouts feel brochure-like despite better silver dominance."
+    },
+    {
+      "slide": 6,
+      "winner": "Design A",
+      "reasoning": "A uses a coherent performance curve, variance markers, and a clear activation-gap bar; B mixes unrelated regional and activation data into one structurally confusing line."
+    },
+    {
+      "slide": 7,
+      "winner": "Design A",
+      "reasoning": "A\u2019s custom intersecting transit-line diagram matches civic wayfinding tone and hierarchy; B collapses into four equal bars plus an isolated north-star circle."
+    },
+    {
+      "slide": 8,
+      "winner": "Design A",
+      "reasoning": "A\u2019s proportional swimlanes, separate gate cards, and team/rollout footer stay collision-free, while B\u2019s gate markers overlap the phase blocks."
+    },
+    {
+      "slide": 9,
+      "winner": "Design A",
+      "reasoning": "A visualizes a true circular 4C loop with generous workshop type and a contained example; B\u2019s diamond of circles is less loop-like and leaves a hollow footer."
+    },
+    {
+      "slide": 10,
+      "winner": "Design A",
+      "reasoning": "A\u2019s huge 68%, editorial quote, and three-app journey sit in a tighter blush/cobalt/pink system; B is cleaner but flatter and less hierarchically distinct."
+    },
+    {
+      "slide": 11,
+      "winner": "Design B",
+      "reasoning": "B\u2019s auditorium-scale type over a theatrical audience field creates stronger keynote hierarchy, while A is cleaner but more like a standard content diagram."
+    },
+    {
+      "slide": 12,
+      "winner": "Design A",
+      "reasoning": "A balances oversized metrics, customer voice, and three priorities in one confident orange/ink composition; B\u2019s spacing is airier but the health/voice/focus mix is less unified."
+    },
+    {
+      "slide": 13,
+      "winner": "Design A",
+      "reasoning": "A\u2019s continuous mapped corridor, paper/moss/ochre system, and uncluttered ask column beat B\u2019s striking photo whose overlay bars fragment the geography."
+    },
+    {
+      "slide": 14,
+      "winner": "Design A",
+      "reasoning": "A\u2019s enormous annotated \u2018a\u2019, baseline grid, and precise leader lines are more instructional and Bauhaus-compliant than B\u2019s loosely aimed labels and heavy black panel."
+    },
+    {
+      "slide": 15,
+      "winner": "Design B",
+      "reasoning": "B pairs plum/peach/aqua data with a striking culinary photograph and clear audience bar, while A\u2019s illustration collage is energetic but weaker as an event-image hierarchy."
+    }
+  ],
+  "raw_text": "{\n  \"slides\": [\n    {\n      \"slide\": 1,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A sticks to the lime/black/steel palette with condensed numerals and a single dramatic chart, while B introduces off-palette chart dots and weaker metric hierarchy.\"\n    },\n    {\n      \"slide\": 2,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A delivers the editorial clay/blush/aubergine system as a hand-drawn journey with balanced sections, whereas B reads as a generic three-stop timeline with emptier spacing.\"\n    },\n    {\n      \"slide\": 3,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A has sharper enterprise rules, a clearer left-to-right before/after, and a dominant $780k without the scattered nodes that weaken B\u2019s structure.\"\n    },\n    {\n      \"slide\": 4,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A\u2019s restrained serif, gold/coral accents, and orbital allocation wheel are more institutionally compliant and better spaced than B\u2019s simpler donut and boxed KPIs.\"\n    },\n    {\n      \"slide\": 5,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B\u2019s cinematic close-up creates stronger product hierarchy and contrast, while A\u2019s flat illustration and duplicated spec callouts feel brochure-like despite better silver dominance.\"\n    },\n    {\n      \"slide\": 6,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A uses a coherent performance curve, variance markers, and a clear activation-gap bar; B mixes unrelated regional and activation data into one structurally confusing line.\"\n    },\n    {\n      \"slide\": 7,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A\u2019s custom intersecting transit-line diagram matches civic wayfinding tone and hierarchy; B collapses into four equal bars plus an isolated north-star circle.\"\n    },\n    {\n      \"slide\": 8,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A\u2019s proportional swimlanes, separate gate cards, and team/rollout footer stay collision-free, while B\u2019s gate markers overlap the phase blocks.\"\n    },\n    {\n      \"slide\": 9,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A visualizes a true circular 4C loop with generous workshop type and a contained example; B\u2019s diamond of circles is less loop-like and leaves a hollow footer.\"\n    },\n    {\n      \"slide\": 10,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A\u2019s huge 68%, editorial quote, and three-app journey sit in a tighter blush/cobalt/pink system; B is cleaner but flatter and less hierarchically distinct.\"\n    },\n    {\n      \"slide\": 11,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B\u2019s auditorium-scale type over a theatrical audience field creates stronger keynote hierarchy, while A is cleaner but more like a standard content diagram.\"\n    },\n    {\n      \"slide\": 12,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A balances oversized metrics, customer voice, and three priorities in one confident orange/ink composition; B\u2019s spacing is airier but the health/voice/focus mix is less unified.\"\n    },\n    {\n      \"slide\": 13,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A\u2019s continuous mapped corridor, paper/moss/ochre system, and uncluttered ask column beat B\u2019s striking photo whose overlay bars fragment the geography.\"\n    },\n    {\n      \"slide\": 14,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"A\u2019s enormous annotated \u2018a\u2019, baseline grid, and precise leader lines are more instructional and Bauhaus-compliant than B\u2019s loosely aimed labels and heavy black panel.\"\n    },\n    {\n      \"slide\": 15,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"B pairs plum/peach/aqua data with a striking culinary photograph and clear audience bar, while A\u2019s illustration collage is energetic but weaker as an event-image hierarchy.\"\n    }\n  ]\n}"
+}

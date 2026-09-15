@@ -1,0 +1,119 @@
+{
+  "id": "grok__claude-opus_vs_claude__swap",
+  "metadata": {
+    "judge_key": "grok",
+    "judge_label": "Grok 4.6 high",
+    "judge_model": "x-ai/grok-4.6",
+    "reasoning_effort": "high",
+    "design_a": "claude-opus",
+    "design_a_label": "Claude Code (Opus 5)",
+    "design_b": "claude",
+    "design_b_label": "Claude Code (Fable)",
+    "position_swap": true,
+    "slide_count": 15,
+    "created_at": "2026-09-08T07:34:57.465399+00:00",
+    "elapsed_seconds": 220.63,
+    "usage": {
+      "prompt_tokens": 72302,
+      "completion_tokens": 11457,
+      "total_tokens": 83759,
+      "cost": 0.213154,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 128,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.213154,
+        "upstream_inference_prompt_cost": 0.144412,
+        "upstream_inference_completions_cost": 0.068742
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 10651,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "openrouter_id": "gen-1788852678-r1jczhQoso7a6CtzVu6p"
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "winner": "Design B",
+      "reasoning": "Stronger hierarchy with an isolated hero $4.8M, fully labeled axis and dollar points, and evenly stacked metrics without faint steel labels."
+    },
+    {
+      "slide": 2,
+      "winner": "Design B",
+      "reasoning": "Clay-dominant field, hand-drawn route marks, and tactile annotations match the specified brand system and studio tone without collisions."
+    },
+    {
+      "slide": 3,
+      "winner": "Design B",
+      "reasoning": "Clearer left-to-right before/after diagrams, a more prominent $780k, and sharper rules without the CTA crowding the metrics row."
+    },
+    {
+      "slide": 4,
+      "winner": "Design A",
+      "reasoning": "More readable allocation wheel, tighter serif hierarchy for thesis/construction/returns, and coral used as a true data accent with no overlap."
+    },
+    {
+      "slide": 5,
+      "winner": "Design B",
+      "reasoning": "Exploded product as the cinematic hero, stricter minimal copy, and cleaner spec callouts without a duplicated left-hand table."
+    },
+    {
+      "slide": 6,
+      "winner": "Design B",
+      "reasoning": "Calmer scorecard spacing, a coherent curve with explicit variance markers, and the activation gap sharply isolated in tangerine."
+    },
+    {
+      "slide": 7,
+      "winner": "Design A",
+      "reasoning": "Stronger wayfinding contrast and hierarchy: four solid transit lines plus a high-contrast measures bar, versus a low-contrast hollow resilient line."
+    },
+    {
+      "slide": 8,
+      "winner": "Design B",
+      "reasoning": "More precise week-axis roadmap with citron gates, named ownership on each phase, and dynamic staggered bars that stay collision-free."
+    },
+    {
+      "slide": 9,
+      "winner": "Design B",
+      "reasoning": "Bolder loop diagram, genuine marker-style berry annotations, and generous type that better hit the tactile workshop brand."
+    },
+    {
+      "slide": 10,
+      "winner": "Design B",
+      "reasoning": "More memorable 68% unit grid, a richer fragmented three-app journey, and cleaner editorial spacing with no collisions."
+    },
+    {
+      "slide": 11,
+      "winner": "Design B",
+      "reasoning": "Theatrical oversized type, an elegant visible/hidden UI diagram, and the auditorium silhouette locking hierarchy to the cobalt keynote brand."
+    },
+    {
+      "slide": 12,
+      "winner": "Design B",
+      "reasoning": "More oversized editorial number stack and a confident orange/powder-blue split that mixes health, quote, and priorities without clutter."
+    },
+    {
+      "slide": 13,
+      "winner": "Design B",
+      "reasoning": "Full-bleed corridor map as centerpiece, authentic field-journal ledger, and stronger sage/moss/ochre compliance with clean structure."
+    },
+    {
+      "slide": 14,
+      "winner": "Design B",
+      "reasoning": "Enormous annotated letterform on a true baseline grid, yellow counter as a teaching device, and aligned comparisons that stay fully instructional."
+    },
+    {
+      "slide": 15,
+      "winner": "Design B",
+      "reasoning": "Stronger plum/peach/aqua system, a striking macro citrus hero, and no crowding between the stat row and partnership copy."
+    }
+  ],
+  "raw_text": "{\n  \"slides\": [\n    {\n      \"slide\": 1,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Stronger hierarchy with an isolated hero $4.8M, fully labeled axis and dollar points, and evenly stacked metrics without faint steel labels.\"\n    },\n    {\n      \"slide\": 2,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Clay-dominant field, hand-drawn route marks, and tactile annotations match the specified brand system and studio tone without collisions.\"\n    },\n    {\n      \"slide\": 3,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Clearer left-to-right before/after diagrams, a more prominent $780k, and sharper rules without the CTA crowding the metrics row.\"\n    },\n    {\n      \"slide\": 4,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"More readable allocation wheel, tighter serif hierarchy for thesis/construction/returns, and coral used as a true data accent with no overlap.\"\n    },\n    {\n      \"slide\": 5,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Exploded product as the cinematic hero, stricter minimal copy, and cleaner spec callouts without a duplicated left-hand table.\"\n    },\n    {\n      \"slide\": 6,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Calmer scorecard spacing, a coherent curve with explicit variance markers, and the activation gap sharply isolated in tangerine.\"\n    },\n    {\n      \"slide\": 7,\n      \"winner\": \"Design A\",\n      \"reasoning\": \"Stronger wayfinding contrast and hierarchy: four solid transit lines plus a high-contrast measures bar, versus a low-contrast hollow resilient line.\"\n    },\n    {\n      \"slide\": 8,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"More precise week-axis roadmap with citron gates, named ownership on each phase, and dynamic staggered bars that stay collision-free.\"\n    },\n    {\n      \"slide\": 9,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Bolder loop diagram, genuine marker-style berry annotations, and generous type that better hit the tactile workshop brand.\"\n    },\n    {\n      \"slide\": 10,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"More memorable 68% unit grid, a richer fragmented three-app journey, and cleaner editorial spacing with no collisions.\"\n    },\n    {\n      \"slide\": 11,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Theatrical oversized type, an elegant visible/hidden UI diagram, and the auditorium silhouette locking hierarchy to the cobalt keynote brand.\"\n    },\n    {\n      \"slide\": 12,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"More oversized editorial number stack and a confident orange/powder-blue split that mixes health, quote, and priorities without clutter.\"\n    },\n    {\n      \"slide\": 13,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Full-bleed corridor map as centerpiece, authentic field-journal ledger, and stronger sage/moss/ochre compliance with clean structure.\"\n    },\n    {\n      \"slide\": 14,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Enormous annotated letterform on a true baseline grid, yellow counter as a teaching device, and aligned comparisons that stay fully instructional.\"\n    },\n    {\n      \"slide\": 15,\n      \"winner\": \"Design B\",\n      \"reasoning\": \"Stronger plum/peach/aqua system, a striking macro citrus hero, and no crowding between the stat row and partnership copy.\"\n    }\n  ]\n}"
+}
